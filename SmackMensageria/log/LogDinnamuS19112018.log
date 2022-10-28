@@ -1,0 +1,471 @@
+0 [AWT-EventQueue-0] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Wed Dec 19 10:47:48 GMT-03:00 2018
+1 [AWT-EventQueue-0] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Wed Dec 19 10:50:20 GMT-03:00 2018
+0 [AWT-EventQueue-0] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Wed Dec 19 10:52:33 GMT-03:00 2018
+0 [AWT-EventQueue-0] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Wed Dec 19 11:12:46 GMT-03:00 2018
+0 [AWT-EventQueue-0] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Wed Dec 19 11:21:51 GMT-03:00 2018
+0 [AWT-EventQueue-0] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Wed Dec 19 11:23:24 GMT-03:00 2018
+0 [AWT-EventQueue-0] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Wed Dec 19 13:04:36 GMT-03:00 2018
+0 [AWT-EventQueue-0] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Wed Dec 19 13:21:29 GMT-03:00 2018
+5511 [AWT-EventQueue-0] ERROR br.com.log.LogDinnamus  - Registro de Exceção detectada : Wed Dec 19 13:21:34 GMT-03:00 2018
+org.jivesoftware.smack.XMPPException$XMPPErrorException: XMPPError: jid-malformed - modify
+	at org.jivesoftware.smack.XMPPException$XMPPErrorException.ifHasErrorThenThrow(XMPPException.java:135)
+	at org.jivesoftware.smack.PacketCollector.nextResultOrThrow(PacketCollector.java:232)
+	at org.jivesoftware.smack.PacketCollector.nextResultOrThrow(PacketCollector.java:213)
+	at org.jivesoftware.smackx.vcardtemp.VCardManager.loadVCard(VCardManager.java:125)
+	at smack.config.SmackMensageria.getVCard(SmackMensageria.java:150)
+	at smack.config.frmChat.atualizarJlUsuarios(frmChat.java:714)
+	at smack.config.frmChat.listarUsuario(frmChat.java:760)
+	at smack.config.frmChat.btConectarActionPerformed(frmChat.java:449)
+	at smack.config.frmChat.iniciarUI(frmChat.java:920)
+	at smack.config.frmChat.<init>(frmChat.java:72)
+	at smack.config.frmChat$13.run(frmChat.java:1012)
+	at java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:311)
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:758)
+	at java.awt.EventQueue.access$500(EventQueue.java:97)
+	at java.awt.EventQueue$3.run(EventQueue.java:709)
+	at java.awt.EventQueue$3.run(EventQueue.java:703)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:74)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:728)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:205)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:116)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:105)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:93)
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:82)
+11177 [AWT-EventQueue-0] ERROR br.com.log.LogDinnamus  - Registro de Exceção detectada : Wed Dec 19 13:21:40 GMT-03:00 2018
+java.lang.NullPointerException
+	at smack.config.frmChat.atualizarJlUsuarios(frmChat.java:715)
+	at smack.config.frmChat.listarUsuario(frmChat.java:760)
+	at smack.config.frmChat.btConectarActionPerformed(frmChat.java:449)
+	at smack.config.frmChat.iniciarUI(frmChat.java:920)
+	at smack.config.frmChat.<init>(frmChat.java:72)
+	at smack.config.frmChat$13.run(frmChat.java:1012)
+	at java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:311)
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:758)
+	at java.awt.EventQueue.access$500(EventQueue.java:97)
+	at java.awt.EventQueue$3.run(EventQueue.java:709)
+	at java.awt.EventQueue$3.run(EventQueue.java:703)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:74)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:728)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:205)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:116)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:105)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:93)
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:82)
+0 [AWT-EventQueue-0] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Wed Dec 19 13:22:01 GMT-03:00 2018
+0 [AWT-EventQueue-0] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Wed Dec 19 13:22:22 GMT-03:00 2018
+21569 [AWT-EventQueue-0] ERROR br.com.log.LogDinnamus  - Registro de Exceção detectada : Wed Dec 19 13:22:44 GMT-03:00 2018
+java.lang.NullPointerException
+	at java.awt.Toolkit.createImage(Toolkit.java:1111)
+	at javax.swing.ImageIcon.<init>(ImageIcon.java:286)
+	at smack.config.frmChat.atualizarJlUsuarios(frmChat.java:716)
+	at smack.config.frmChat.listarUsuario(frmChat.java:760)
+	at smack.config.frmChat.btConectarActionPerformed(frmChat.java:449)
+	at smack.config.frmChat.iniciarUI(frmChat.java:920)
+	at smack.config.frmChat.<init>(frmChat.java:72)
+	at smack.config.frmChat$13.run(frmChat.java:1012)
+	at java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:311)
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:758)
+	at java.awt.EventQueue.access$500(EventQueue.java:97)
+	at java.awt.EventQueue$3.run(EventQueue.java:709)
+	at java.awt.EventQueue$3.run(EventQueue.java:703)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:74)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:728)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:205)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:116)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:105)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:93)
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:82)
+0 [AWT-EventQueue-0] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Wed Dec 19 13:23:09 GMT-03:00 2018
+0 [AWT-EventQueue-0] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Wed Dec 19 13:24:54 GMT-03:00 2018
+0 [AWT-EventQueue-0] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Wed Dec 19 16:03:16 GMT-03:00 2018
+0 [AWT-EventQueue-0] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Wed Dec 19 16:10:22 GMT-03:00 2018
+0 [AWT-EventQueue-0] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Wed Dec 19 16:13:26 GMT-03:00 2018
+0 [AWT-EventQueue-0] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Wed Dec 19 16:18:36 GMT-03:00 2018
+0 [AWT-EventQueue-0] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Wed Dec 19 16:21:29 GMT-03:00 2018
+0 [AWT-EventQueue-0] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Wed Dec 19 16:25:41 GMT-03:00 2018
+0 [AWT-EventQueue-0] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Wed Dec 19 17:31:56 GMT-03:00 2018
+0 [AWT-EventQueue-0] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Wed Dec 19 17:33:15 GMT-03:00 2018
+0 [AWT-EventQueue-0] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Wed Dec 19 17:34:23 GMT-03:00 2018
+0 [AWT-EventQueue-0] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Wed Dec 19 17:59:52 GMT-03:00 2018
+0 [AWT-EventQueue-0] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Wed Dec 19 18:00:29 GMT-03:00 2018
+0 [AWT-EventQueue-0] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Wed Dec 19 18:00:52 GMT-03:00 2018
+1 [AWT-EventQueue-0] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Wed Dec 19 18:01:10 GMT-03:00 2018
+0 [AWT-EventQueue-0] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Wed Dec 19 18:02:29 GMT-03:00 2018
+0 [AWT-EventQueue-0] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Wed Dec 19 18:04:18 GMT-03:00 2018
+0 [AWT-EventQueue-0] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Wed Dec 19 18:05:40 GMT-03:00 2018
+0 [AWT-EventQueue-0] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Wed Dec 19 18:06:37 GMT-03:00 2018
+0 [AWT-EventQueue-0] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Wed Dec 19 18:07:41 GMT-03:00 2018
+0 [AWT-EventQueue-0] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Wed Dec 19 18:08:48 GMT-03:00 2018
+0 [AWT-EventQueue-0] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Wed Dec 19 18:11:23 GMT-03:00 2018
+33765 [AWT-EventQueue-0] ERROR br.com.log.LogDinnamus  - Registro de Exceção detectada : Wed Dec 19 18:11:57 GMT-03:00 2018
+java.lang.NullPointerException
+	at smack.config.frmChat.atualizarJlMensagens(frmChat.java:828)
+	at smack.config.frmChat.jlContatosMouseClicked(frmChat.java:669)
+	at smack.config.frmChat.access$500(frmChat.java:46)
+	at smack.config.frmChat$6.mouseClicked(frmChat.java:318)
+	at java.awt.AWTEventMulticaster.mouseClicked(AWTEventMulticaster.java:270)
+	at java.awt.Component.processMouseEvent(Component.java:6542)
+	at javax.swing.JComponent.processMouseEvent(JComponent.java:3324)
+	at java.awt.Component.processEvent(Component.java:6304)
+	at java.awt.Container.processEvent(Container.java:2239)
+	at java.awt.Component.dispatchEventImpl(Component.java:4889)
+	at java.awt.Container.dispatchEventImpl(Container.java:2297)
+	at java.awt.Component.dispatchEvent(Component.java:4711)
+	at java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4904)
+	at java.awt.LightweightDispatcher.processMouseEvent(Container.java:4544)
+	at java.awt.LightweightDispatcher.dispatchEvent(Container.java:4476)
+	at java.awt.Container.dispatchEventImpl(Container.java:2283)
+	at java.awt.Window.dispatchEventImpl(Window.java:2746)
+	at java.awt.Component.dispatchEvent(Component.java:4711)
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:760)
+	at java.awt.EventQueue.access$500(EventQueue.java:97)
+	at java.awt.EventQueue$3.run(EventQueue.java:709)
+	at java.awt.EventQueue$3.run(EventQueue.java:703)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:74)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:84)
+	at java.awt.EventQueue$4.run(EventQueue.java:733)
+	at java.awt.EventQueue$4.run(EventQueue.java:731)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:74)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:730)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:205)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:116)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:109)
+	at java.awt.WaitDispatchSupport$2.run(WaitDispatchSupport.java:190)
+	at java.awt.WaitDispatchSupport$4.run(WaitDispatchSupport.java:235)
+	at java.awt.WaitDispatchSupport$4.run(WaitDispatchSupport.java:233)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.awt.WaitDispatchSupport.enter(WaitDispatchSupport.java:233)
+	at java.awt.Dialog.show(Dialog.java:1084)
+	at java.awt.Component.show(Component.java:1671)
+	at java.awt.Component.setVisible(Component.java:1623)
+	at java.awt.Window.setVisible(Window.java:1014)
+	at java.awt.Dialog.setVisible(Dialog.java:1005)
+	at smack.config.frmChat$13.run(frmChat.java:1071)
+	at java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:311)
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:758)
+	at java.awt.EventQueue.access$500(EventQueue.java:97)
+	at java.awt.EventQueue$3.run(EventQueue.java:709)
+	at java.awt.EventQueue$3.run(EventQueue.java:703)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:74)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:728)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:205)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:116)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:105)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:93)
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:82)
+42223 [AWT-EventQueue-0] ERROR br.com.log.LogDinnamus  - Registro de Exceção detectada : Wed Dec 19 18:12:05 GMT-03:00 2018
+java.lang.NullPointerException
+	at smack.config.frmChat.atualizarJlMensagens(frmChat.java:828)
+	at smack.config.frmChat.jlContatosMouseClicked(frmChat.java:669)
+	at smack.config.frmChat.access$500(frmChat.java:46)
+	at smack.config.frmChat$6.mouseClicked(frmChat.java:318)
+	at java.awt.AWTEventMulticaster.mouseClicked(AWTEventMulticaster.java:270)
+	at java.awt.Component.processMouseEvent(Component.java:6542)
+	at javax.swing.JComponent.processMouseEvent(JComponent.java:3324)
+	at java.awt.Component.processEvent(Component.java:6304)
+	at java.awt.Container.processEvent(Container.java:2239)
+	at java.awt.Component.dispatchEventImpl(Component.java:4889)
+	at java.awt.Container.dispatchEventImpl(Container.java:2297)
+	at java.awt.Component.dispatchEvent(Component.java:4711)
+	at java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4904)
+	at java.awt.LightweightDispatcher.processMouseEvent(Container.java:4544)
+	at java.awt.LightweightDispatcher.dispatchEvent(Container.java:4476)
+	at java.awt.Container.dispatchEventImpl(Container.java:2283)
+	at java.awt.Window.dispatchEventImpl(Window.java:2746)
+	at java.awt.Component.dispatchEvent(Component.java:4711)
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:760)
+	at java.awt.EventQueue.access$500(EventQueue.java:97)
+	at java.awt.EventQueue$3.run(EventQueue.java:709)
+	at java.awt.EventQueue$3.run(EventQueue.java:703)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:74)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:84)
+	at java.awt.EventQueue$4.run(EventQueue.java:733)
+	at java.awt.EventQueue$4.run(EventQueue.java:731)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:74)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:730)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:205)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:116)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:109)
+	at java.awt.WaitDispatchSupport$2.run(WaitDispatchSupport.java:190)
+	at java.awt.WaitDispatchSupport$4.run(WaitDispatchSupport.java:235)
+	at java.awt.WaitDispatchSupport$4.run(WaitDispatchSupport.java:233)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.awt.WaitDispatchSupport.enter(WaitDispatchSupport.java:233)
+	at java.awt.Dialog.show(Dialog.java:1084)
+	at java.awt.Component.show(Component.java:1671)
+	at java.awt.Component.setVisible(Component.java:1623)
+	at java.awt.Window.setVisible(Window.java:1014)
+	at java.awt.Dialog.setVisible(Dialog.java:1005)
+	at smack.config.frmChat$13.run(frmChat.java:1071)
+	at java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:311)
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:758)
+	at java.awt.EventQueue.access$500(EventQueue.java:97)
+	at java.awt.EventQueue$3.run(EventQueue.java:709)
+	at java.awt.EventQueue$3.run(EventQueue.java:703)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:74)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:728)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:205)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:116)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:105)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:93)
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:82)
+0 [AWT-EventQueue-0] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Wed Dec 19 18:13:35 GMT-03:00 2018
+54781 [AWT-EventQueue-0] ERROR br.com.log.LogDinnamus  - Registro de Exceção detectada : Wed Dec 19 18:14:30 GMT-03:00 2018
+java.lang.IllegalArgumentException: model must be non null
+	at javax.swing.JList.setModel(JList.java:1678)
+	at smack.config.frmChat.atualizarJlMensagens(frmChat.java:840)
+	at smack.config.frmChat.jlContatosMouseClicked(frmChat.java:669)
+	at smack.config.frmChat.access$500(frmChat.java:46)
+	at smack.config.frmChat$6.mouseClicked(frmChat.java:318)
+	at java.awt.AWTEventMulticaster.mouseClicked(AWTEventMulticaster.java:270)
+	at java.awt.Component.processMouseEvent(Component.java:6542)
+	at javax.swing.JComponent.processMouseEvent(JComponent.java:3324)
+	at java.awt.Component.processEvent(Component.java:6304)
+	at java.awt.Container.processEvent(Container.java:2239)
+	at java.awt.Component.dispatchEventImpl(Component.java:4889)
+	at java.awt.Container.dispatchEventImpl(Container.java:2297)
+	at java.awt.Component.dispatchEvent(Component.java:4711)
+	at java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4904)
+	at java.awt.LightweightDispatcher.processMouseEvent(Container.java:4544)
+	at java.awt.LightweightDispatcher.dispatchEvent(Container.java:4476)
+	at java.awt.Container.dispatchEventImpl(Container.java:2283)
+	at java.awt.Window.dispatchEventImpl(Window.java:2746)
+	at java.awt.Component.dispatchEvent(Component.java:4711)
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:760)
+	at java.awt.EventQueue.access$500(EventQueue.java:97)
+	at java.awt.EventQueue$3.run(EventQueue.java:709)
+	at java.awt.EventQueue$3.run(EventQueue.java:703)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:74)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:84)
+	at java.awt.EventQueue$4.run(EventQueue.java:733)
+	at java.awt.EventQueue$4.run(EventQueue.java:731)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:74)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:730)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:205)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:116)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:109)
+	at java.awt.WaitDispatchSupport$2.run(WaitDispatchSupport.java:190)
+	at java.awt.WaitDispatchSupport$4.run(WaitDispatchSupport.java:235)
+	at java.awt.WaitDispatchSupport$4.run(WaitDispatchSupport.java:233)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.awt.WaitDispatchSupport.enter(WaitDispatchSupport.java:233)
+	at java.awt.Dialog.show(Dialog.java:1084)
+	at java.awt.Component.show(Component.java:1671)
+	at java.awt.Component.setVisible(Component.java:1623)
+	at java.awt.Window.setVisible(Window.java:1014)
+	at java.awt.Dialog.setVisible(Dialog.java:1005)
+	at smack.config.frmChat$13.run(frmChat.java:1071)
+	at java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:311)
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:758)
+	at java.awt.EventQueue.access$500(EventQueue.java:97)
+	at java.awt.EventQueue$3.run(EventQueue.java:709)
+	at java.awt.EventQueue$3.run(EventQueue.java:703)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:74)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:728)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:205)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:116)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:105)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:93)
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:82)
+0 [AWT-EventQueue-0] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Wed Dec 19 18:18:24 GMT-03:00 2018
+0 [AWT-EventQueue-0] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Wed Dec 19 18:21:32 GMT-03:00 2018
+0 [AWT-EventQueue-0] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Wed Dec 19 18:29:00 GMT-03:00 2018
+0 [AWT-EventQueue-0] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Wed Dec 19 18:32:08 GMT-03:00 2018
+0 [AWT-EventQueue-0] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Wed Dec 19 18:36:56 GMT-03:00 2018
+0 [AWT-EventQueue-0] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Wed Dec 19 18:38:36 GMT-03:00 2018
+0 [AWT-EventQueue-0] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Wed Dec 19 18:40:37 GMT-03:00 2018
+0 [AWT-EventQueue-0] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Wed Dec 19 18:44:57 GMT-03:00 2018
+0 [AWT-EventQueue-0] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Wed Dec 19 18:47:21 GMT-03:00 2018
+0 [AWT-EventQueue-0] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Wed Dec 19 19:26:19 GMT-03:00 2018
+0 [AWT-EventQueue-0] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Wed Dec 19 19:48:30 GMT-03:00 2018
+68961 [AWT-EventQueue-0] ERROR br.com.log.LogDinnamus  - Registro de Exceção detectada : Wed Dec 19 19:49:39 GMT-03:00 2018
+java.lang.IllegalArgumentException: adding container's parent to itself
+	at java.awt.Container.checkAddToSelf(Container.java:481)
+	at java.awt.Container.addImpl(Container.java:1092)
+	at java.awt.Container.add(Container.java:419)
+	at smack.br.ui.SmackListRender.getListCellRendererComponent(SmackListRender.java:40)
+	at javax.swing.plaf.basic.BasicListUI.updateLayoutState(BasicListUI.java:1361)
+	at javax.swing.plaf.basic.BasicListUI.maybeUpdateLayoutState(BasicListUI.java:1311)
+	at javax.swing.plaf.basic.BasicListUI.getPreferredSize(BasicListUI.java:578)
+	at javax.swing.JComponent.getPreferredSize(JComponent.java:1662)
+	at javax.swing.JList.getPreferredScrollableViewportSize(JList.java:2453)
+	at javax.swing.ViewportLayout.preferredLayoutSize(ViewportLayout.java:93)
+	at java.awt.Container.preferredSize(Container.java:1799)
+	at java.awt.Container.getPreferredSize(Container.java:1783)
+	at javax.swing.JComponent.getPreferredSize(JComponent.java:1664)
+	at javax.swing.ScrollPaneLayout.preferredLayoutSize(ScrollPaneLayout.java:492)
+	at java.awt.Container.preferredSize(Container.java:1799)
+	at java.awt.Container.getPreferredSize(Container.java:1783)
+	at javax.swing.JComponent.getPreferredSize(JComponent.java:1664)
+	at java.awt.GridBagLayout.GetLayoutInfo(GridBagLayout.java:1115)
+	at java.awt.GridBagLayout.getLayoutInfo(GridBagLayout.java:916)
+	at java.awt.GridBagLayout.preferredLayoutSize(GridBagLayout.java:736)
+	at java.awt.Container.preferredSize(Container.java:1799)
+	at java.awt.Container.getPreferredSize(Container.java:1783)
+	at javax.swing.JComponent.getPreferredSize(JComponent.java:1664)
+	at java.awt.CardLayout.preferredLayoutSize(CardLayout.java:281)
+	at java.awt.Container.preferredSize(Container.java:1799)
+	at java.awt.Container.getPreferredSize(Container.java:1783)
+	at javax.swing.JComponent.getPreferredSize(JComponent.java:1664)
+	at java.awt.GridBagLayout.GetLayoutInfo(GridBagLayout.java:1115)
+	at java.awt.GridBagLayout.getLayoutInfo(GridBagLayout.java:916)
+	at java.awt.GridBagLayout.preferredLayoutSize(GridBagLayout.java:736)
+	at java.awt.Container.preferredSize(Container.java:1799)
+	at java.awt.Container.getPreferredSize(Container.java:1783)
+	at javax.swing.JComponent.getPreferredSize(JComponent.java:1664)
+	at java.awt.GridBagLayout.GetLayoutInfo(GridBagLayout.java:1115)
+	at java.awt.GridBagLayout.getLayoutInfo(GridBagLayout.java:916)
+	at java.awt.GridBagLayout.ArrangeGrid(GridBagLayout.java:2071)
+	at java.awt.GridBagLayout.arrangeGrid(GridBagLayout.java:2031)
+	at java.awt.GridBagLayout.layoutContainer(GridBagLayout.java:812)
+	at java.awt.Container.layout(Container.java:1513)
+	at java.awt.Container.doLayout(Container.java:1502)
+	at java.awt.Container.validateTree(Container.java:1698)
+	at java.awt.Container.validateTree(Container.java:1707)
+	at java.awt.Container.validateTree(Container.java:1707)
+	at java.awt.Container.validateTree(Container.java:1707)
+	at java.awt.Container.validate(Container.java:1633)
+	at java.awt.Container.validateUnconditionally(Container.java:1670)
+	at java.awt.Dialog.conditionalShow(Dialog.java:908)
+	at java.awt.Dialog.show(Dialog.java:1045)
+	at java.awt.Component.show(Component.java:1671)
+	at java.awt.Component.setVisible(Component.java:1623)
+	at java.awt.Window.setVisible(Window.java:1014)
+	at java.awt.Dialog.setVisible(Dialog.java:1005)
+	at smack.config.frmChat$13.run(frmChat.java:1086)
+	at java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:311)
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:758)
+	at java.awt.EventQueue.access$500(EventQueue.java:97)
+	at java.awt.EventQueue$3.run(EventQueue.java:709)
+	at java.awt.EventQueue$3.run(EventQueue.java:703)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:74)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:728)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:205)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:116)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:105)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:93)
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:82)
+122006 [AWT-EventQueue-0] ERROR br.com.log.LogDinnamus  - Registro de Exceção detectada : Wed Dec 19 19:50:32 GMT-03:00 2018
+java.lang.IllegalArgumentException: adding container's parent to itself
+	at java.awt.Container.checkAddToSelf(Container.java:481)
+	at java.awt.Container.addImpl(Container.java:1092)
+	at java.awt.Container.add(Container.java:419)
+	at smack.br.ui.SmackListRender.getListCellRendererComponent(SmackListRender.java:40)
+	at javax.swing.plaf.basic.BasicListUI.updateLayoutState(BasicListUI.java:1361)
+	at javax.swing.plaf.basic.BasicListUI.maybeUpdateLayoutState(BasicListUI.java:1311)
+	at javax.swing.plaf.basic.BasicListUI.getPreferredSize(BasicListUI.java:578)
+	at javax.swing.JComponent.getPreferredSize(JComponent.java:1662)
+	at javax.swing.JList.getPreferredScrollableViewportSize(JList.java:2453)
+	at javax.swing.ViewportLayout.preferredLayoutSize(ViewportLayout.java:93)
+	at java.awt.Container.preferredSize(Container.java:1799)
+	at java.awt.Container.getPreferredSize(Container.java:1783)
+	at javax.swing.JComponent.getPreferredSize(JComponent.java:1664)
+	at javax.swing.ScrollPaneLayout.preferredLayoutSize(ScrollPaneLayout.java:492)
+	at java.awt.Container.preferredSize(Container.java:1799)
+	at java.awt.Container.getPreferredSize(Container.java:1783)
+	at javax.swing.JComponent.getPreferredSize(JComponent.java:1664)
+	at java.awt.GridBagLayout.GetLayoutInfo(GridBagLayout.java:1115)
+	at java.awt.GridBagLayout.getLayoutInfo(GridBagLayout.java:916)
+	at java.awt.GridBagLayout.preferredLayoutSize(GridBagLayout.java:736)
+	at java.awt.Container.preferredSize(Container.java:1799)
+	at java.awt.Container.getPreferredSize(Container.java:1783)
+	at javax.swing.JComponent.getPreferredSize(JComponent.java:1664)
+	at java.awt.CardLayout.preferredLayoutSize(CardLayout.java:281)
+	at java.awt.Container.preferredSize(Container.java:1799)
+	at java.awt.Container.getPreferredSize(Container.java:1783)
+	at javax.swing.JComponent.getPreferredSize(JComponent.java:1664)
+	at java.awt.GridBagLayout.GetLayoutInfo(GridBagLayout.java:1115)
+	at java.awt.GridBagLayout.getLayoutInfo(GridBagLayout.java:916)
+	at java.awt.GridBagLayout.preferredLayoutSize(GridBagLayout.java:736)
+	at java.awt.Container.preferredSize(Container.java:1799)
+	at java.awt.Container.getPreferredSize(Container.java:1783)
+	at javax.swing.JComponent.getPreferredSize(JComponent.java:1664)
+	at java.awt.GridBagLayout.GetLayoutInfo(GridBagLayout.java:1115)
+	at java.awt.GridBagLayout.getLayoutInfo(GridBagLayout.java:916)
+	at java.awt.GridBagLayout.ArrangeGrid(GridBagLayout.java:2071)
+	at java.awt.GridBagLayout.arrangeGrid(GridBagLayout.java:2031)
+	at java.awt.GridBagLayout.layoutContainer(GridBagLayout.java:812)
+	at java.awt.Container.layout(Container.java:1513)
+	at java.awt.Container.doLayout(Container.java:1502)
+	at java.awt.Container.validateTree(Container.java:1698)
+	at java.awt.Container.validateTree(Container.java:1707)
+	at java.awt.Container.validateTree(Container.java:1707)
+	at java.awt.Container.validateTree(Container.java:1707)
+	at java.awt.Container.validate(Container.java:1633)
+	at java.awt.Container.validateUnconditionally(Container.java:1670)
+	at java.awt.Dialog.conditionalShow(Dialog.java:908)
+	at java.awt.Dialog.show(Dialog.java:1045)
+	at java.awt.Component.show(Component.java:1671)
+	at java.awt.Component.setVisible(Component.java:1623)
+	at java.awt.Window.setVisible(Window.java:1014)
+	at java.awt.Dialog.setVisible(Dialog.java:1005)
+	at smack.config.frmChat$13.run(frmChat.java:1086)
+	at java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:311)
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:758)
+	at java.awt.EventQueue.access$500(EventQueue.java:97)
+	at java.awt.EventQueue$3.run(EventQueue.java:709)
+	at java.awt.EventQueue$3.run(EventQueue.java:703)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:74)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:728)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:205)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:116)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:105)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:93)
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:82)
+0 [AWT-EventQueue-0] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Wed Dec 19 19:51:51 GMT-03:00 2018
+0 [AWT-EventQueue-0] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Wed Dec 19 19:52:50 GMT-03:00 2018
+0 [AWT-EventQueue-0] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Wed Dec 19 19:53:39 GMT-03:00 2018
+0 [AWT-EventQueue-0] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Wed Dec 19 19:54:13 GMT-03:00 2018
+0 [AWT-EventQueue-0] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Wed Dec 19 19:56:05 GMT-03:00 2018
+1 [AWT-EventQueue-0] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Wed Dec 19 19:58:27 GMT-03:00 2018
+0 [AWT-EventQueue-0] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Wed Dec 19 19:59:23 GMT-03:00 2018
+1 [AWT-EventQueue-0] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Wed Dec 19 20:00:26 GMT-03:00 2018
+0 [AWT-EventQueue-0] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Wed Dec 19 20:00:58 GMT-03:00 2018
+0 [AWT-EventQueue-0] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Wed Dec 19 20:01:41 GMT-03:00 2018
+0 [AWT-EventQueue-0] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Wed Dec 19 20:02:22 GMT-03:00 2018
+0 [AWT-EventQueue-0] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Wed Dec 19 20:05:42 GMT-03:00 2018
+0 [AWT-EventQueue-0] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Wed Dec 19 20:08:23 GMT-03:00 2018
+0 [AWT-EventQueue-0] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Wed Dec 19 20:09:54 GMT-03:00 2018
+0 [AWT-EventQueue-0] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Wed Dec 19 20:13:21 GMT-03:00 2018
+0 [AWT-EventQueue-0] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Wed Dec 19 20:30:31 GMT-03:00 2018
+1 [AWT-EventQueue-0] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Wed Dec 19 20:31:34 GMT-03:00 2018
+0 [AWT-EventQueue-0] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Wed Dec 19 20:32:52 GMT-03:00 2018
+0 [AWT-EventQueue-0] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Wed Dec 19 20:43:24 GMT-03:00 2018
+0 [AWT-EventQueue-0] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Wed Dec 19 20:44:49 GMT-03:00 2018
+0 [AWT-EventQueue-0] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Wed Dec 19 21:00:57 GMT-03:00 2018
+0 [AWT-EventQueue-0] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Wed Dec 19 21:02:13 GMT-03:00 2018
+0 [AWT-EventQueue-0] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Wed Dec 19 22:09:32 GMT-03:00 2018
+1 [AWT-EventQueue-0] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Wed Dec 19 23:07:26 GMT-03:00 2018
+0 [AWT-EventQueue-0] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Wed Dec 19 23:09:05 GMT-03:00 2018
+0 [AWT-EventQueue-0] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Wed Dec 19 23:17:03 GMT-03:00 2018
+0 [AWT-EventQueue-0] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Wed Dec 19 23:18:37 GMT-03:00 2018
+0 [AWT-EventQueue-0] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Wed Dec 19 23:19:20 GMT-03:00 2018
+0 [AWT-EventQueue-0] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Wed Dec 19 23:19:52 GMT-03:00 2018
+0 [AWT-EventQueue-0] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Wed Dec 19 23:22:19 GMT-03:00 2018
+0 [AWT-EventQueue-0] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Wed Dec 19 23:26:43 GMT-03:00 2018
+0 [AWT-EventQueue-0] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Wed Dec 19 23:29:21 GMT-03:00 2018
+0 [AWT-EventQueue-0] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Wed Dec 19 23:42:18 GMT-03:00 2018
+0 [AWT-EventQueue-0] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Wed Dec 19 23:46:02 GMT-03:00 2018
+0 [AWT-EventQueue-0] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Wed Dec 19 23:50:59 GMT-03:00 2018

@@ -1,0 +1,5 @@
+0 [main] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Wed Aug 05 17:10:03 BRT 2015
+11135 [main] INFO br.com.log.LogDinnamus  - Carregando Dll ECF [ BemaFI32.dll] - Wed Aug 05 17:10:14 BRT 2015
+0 [main] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Wed Aug 05 17:11:52 BRT 2015
+38995 [main] INFO br.com.log.LogDinnamus  - Carregando Dll ECF [ C:\DTI\DinnamuS_2\app\DinnamuS\BemaFI32.dll] - Wed Aug 05 17:12:31 BRT 2015
+96084 [main] INFO br.com.log.LogDinnamus  - Dll ECF[ C:\DTI\DinnamuS_2\app\DinnamuS\BemaFI32.dll ] carregada com sucesso - Wed Aug 05 17:13:29 BRT 2015

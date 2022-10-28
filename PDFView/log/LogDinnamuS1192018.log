@@ -1,0 +1,255 @@
+0 [main] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Thu Oct 11 11:27:29 GMT-03:00 2018
+4234 [main] ERROR br.com.log.LogDinnamus  - Registro de Exceção detectada : Thu Oct 11 11:27:33 GMT-03:00 2018
+java.lang.NullPointerException
+	at java.io.File.<init>(File.java:277)
+	at com.pdf.PDFDialogo.iniciarUI(PDFDialogo.java:41)
+	at com.pdf.PDFDialogo.<init>(PDFDialogo.java:31)
+	at com.pdf.PDFUtil.Exibir(PDFUtil.java:19)
+	at com.pdf.PDFUtilTest.testExibir(PDFUtilTest.java:51)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at junit.framework.JUnit4TestAdapter.run(JUnit4TestAdapter.java:38)
+	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner.run(JUnitTestRunner.java:532)
+	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner.launch(JUnitTestRunner.java:1179)
+	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner.main(JUnitTestRunner.java:1030)
+0 [main] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Thu Oct 11 11:28:20 GMT-03:00 2018
+0 [main] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Thu Oct 11 11:31:17 GMT-03:00 2018
+2387 [main] ERROR br.com.log.LogDinnamus  - Registro de Exceção detectada : Thu Oct 11 11:31:19 GMT-03:00 2018
+java.lang.Exception: This file appears to be damaged and cannot be repaired.  This may not actually be a PDF file.
+	at com.adobe.acrobat.gui.AcroViewContext.setPDFObjStore(AcroViewContext.java:530)
+	at com.adobe.acrobat.gui.AcroViewContext.setByteArraySource(AcroViewContext.java:605)
+	at com.adobe.acrobat.Viewer$3.buildChanges(Viewer.java:907)
+	at com.adobe.pe.notify.Transactor.commit(Transactor.java:70)
+	at com.adobe.acrobat.Viewer.setByteArraySource(Viewer.java:911)
+	at com.adobe.acrobat.Viewer.setDocumentByteArray(Viewer.java:948)
+	at com.adobe.acrobat.Viewer.setDocumentInputStream(Viewer.java:971)
+	at com.pdf.PDFDialogo.exibirPDF(PDFDialogo.java:55)
+	at com.pdf.PDFUtil.Exibir(PDFUtil.java:20)
+	at com.pdf.PDFUtilTest.testExibir(PDFUtilTest.java:51)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at junit.framework.JUnit4TestAdapter.run(JUnit4TestAdapter.java:38)
+	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner.run(JUnitTestRunner.java:532)
+	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner.launch(JUnitTestRunner.java:1179)
+	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner.main(JUnitTestRunner.java:1030)
+0 [main] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Thu Oct 11 11:31:35 GMT-03:00 2018
+52769 [main] ERROR br.com.log.LogDinnamus  - Registro de Exceção detectada : Thu Oct 11 11:32:28 GMT-03:00 2018
+java.lang.Exception: This file appears to be damaged and cannot be repaired.  This may not actually be a PDF file.
+	at com.adobe.acrobat.gui.AcroViewContext.setPDFObjStore(AcroViewContext.java:530)
+	at com.adobe.acrobat.gui.AcroViewContext.setByteArraySource(AcroViewContext.java:605)
+	at com.adobe.acrobat.Viewer$3.buildChanges(Viewer.java:907)
+	at com.adobe.pe.notify.Transactor.commit(Transactor.java:70)
+	at com.adobe.acrobat.Viewer.setByteArraySource(Viewer.java:911)
+	at com.adobe.acrobat.Viewer.setDocumentByteArray(Viewer.java:948)
+	at com.adobe.acrobat.Viewer.setDocumentInputStream(Viewer.java:971)
+	at com.pdf.PDFDialogo.exibirPDF(PDFDialogo.java:55)
+	at com.pdf.PDFUtil.Exibir(PDFUtil.java:20)
+	at com.pdf.PDFUtilTest.testExibir(PDFUtilTest.java:51)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at junit.framework.JUnit4TestAdapter.run(JUnit4TestAdapter.java:38)
+	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner.run(JUnitTestRunner.java:532)
+	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner.launch(JUnitTestRunner.java:1179)
+	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner.main(JUnitTestRunner.java:1030)
+0 [main] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Thu Oct 11 11:35:48 GMT-03:00 2018
+63040 [main] ERROR br.com.log.LogDinnamus  - Registro de Exceção detectada : Thu Oct 11 11:36:51 GMT-03:00 2018
+java.lang.Exception: This file appears to be damaged and cannot be repaired.  This may not actually be a PDF file.
+	at com.adobe.acrobat.gui.AcroViewContext.setPDFObjStore(AcroViewContext.java:530)
+	at com.adobe.acrobat.gui.AcroViewContext.setByteArraySource(AcroViewContext.java:605)
+	at com.adobe.acrobat.Viewer$3.buildChanges(Viewer.java:907)
+	at com.adobe.pe.notify.Transactor.commit(Transactor.java:70)
+	at com.adobe.acrobat.Viewer.setByteArraySource(Viewer.java:911)
+	at com.adobe.acrobat.Viewer.setDocumentByteArray(Viewer.java:948)
+	at com.adobe.acrobat.Viewer.setDocumentInputStream(Viewer.java:971)
+	at com.pdf.PDFDialogo.exibirPDF(PDFDialogo.java:56)
+	at com.pdf.PDFUtil.Exibir(PDFUtil.java:20)
+	at com.pdf.PDFUtilTest.testExibir(PDFUtilTest.java:51)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at junit.framework.JUnit4TestAdapter.run(JUnit4TestAdapter.java:38)
+	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner.run(JUnitTestRunner.java:532)
+	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner.launch(JUnitTestRunner.java:1179)
+	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner.main(JUnitTestRunner.java:1030)
+0 [main] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Thu Oct 11 11:45:49 GMT-03:00 2018
+2531 [main] ERROR br.com.log.LogDinnamus  - Registro de Exceção detectada : Thu Oct 11 11:45:52 GMT-03:00 2018
+java.lang.Exception: This file appears to be damaged and cannot be repaired.  This may not actually be a PDF file.
+	at com.adobe.acrobat.gui.AcroViewContext.setPDFObjStore(AcroViewContext.java:530)
+	at com.adobe.acrobat.gui.AcroViewContext.setByteArraySource(AcroViewContext.java:605)
+	at com.adobe.acrobat.Viewer$3.buildChanges(Viewer.java:907)
+	at com.adobe.pe.notify.Transactor.commit(Transactor.java:70)
+	at com.adobe.acrobat.Viewer.setByteArraySource(Viewer.java:911)
+	at com.adobe.acrobat.Viewer.setDocumentByteArray(Viewer.java:948)
+	at com.adobe.acrobat.Viewer.setDocumentInputStream(Viewer.java:971)
+	at com.pdf.PDFDialogo.exibirPDF(PDFDialogo.java:56)
+	at com.pdf.PDFUtil.Exibir(PDFUtil.java:20)
+	at com.pdf.PDFUtilTest.testExibir(PDFUtilTest.java:51)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at junit.framework.JUnit4TestAdapter.run(JUnit4TestAdapter.java:38)
+	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner.run(JUnitTestRunner.java:532)
+	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner.launch(JUnitTestRunner.java:1179)
+	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner.main(JUnitTestRunner.java:1030)
+0 [main] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Thu Oct 11 11:46:16 GMT-03:00 2018
+2362 [main] ERROR br.com.log.LogDinnamus  - Registro de Exceção detectada : Thu Oct 11 11:46:18 GMT-03:00 2018
+java.lang.Exception: This file appears to be damaged and cannot be repaired.  This may not actually be a PDF file.
+	at com.adobe.acrobat.gui.AcroViewContext.setPDFObjStore(AcroViewContext.java:530)
+	at com.adobe.acrobat.gui.AcroViewContext.setByteArraySource(AcroViewContext.java:605)
+	at com.adobe.acrobat.Viewer$3.buildChanges(Viewer.java:907)
+	at com.adobe.pe.notify.Transactor.commit(Transactor.java:70)
+	at com.adobe.acrobat.Viewer.setByteArraySource(Viewer.java:911)
+	at com.adobe.acrobat.Viewer.setDocumentByteArray(Viewer.java:948)
+	at com.adobe.acrobat.Viewer.setDocumentInputStream(Viewer.java:971)
+	at com.pdf.PDFDialogo.exibirPDF(PDFDialogo.java:56)
+	at com.pdf.PDFUtil.Exibir(PDFUtil.java:20)
+	at com.pdf.PDFUtilTest.testExibir(PDFUtilTest.java:51)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at junit.framework.JUnit4TestAdapter.run(JUnit4TestAdapter.java:38)
+	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner.run(JUnitTestRunner.java:532)
+	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner.launch(JUnitTestRunner.java:1179)
+	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner.main(JUnitTestRunner.java:1030)
+0 [main] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Thu Oct 11 12:03:45 GMT-03:00 2018
+0 [main] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Thu Oct 11 12:04:15 GMT-03:00 2018
+0 [main] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Thu Oct 11 12:04:49 GMT-03:00 2018
+0 [main] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Thu Oct 11 12:05:24 GMT-03:00 2018
+0 [main] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Thu Oct 11 12:12:37 GMT-03:00 2018
+0 [main] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Thu Oct 11 12:13:04 GMT-03:00 2018
+0 [main] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Thu Oct 11 12:13:36 GMT-03:00 2018
+0 [main] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Thu Oct 11 12:16:53 GMT-03:00 2018
+0 [main] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Thu Oct 11 12:17:03 GMT-03:00 2018
+0 [main] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Thu Oct 11 12:17:40 GMT-03:00 2018
+0 [main] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Thu Oct 11 12:44:10 GMT-03:00 2018
+0 [main] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Thu Oct 11 12:45:34 GMT-03:00 2018
+0 [main] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Thu Oct 11 12:46:03 GMT-03:00 2018
+0 [main] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Thu Oct 11 12:46:38 GMT-03:00 2018
+0 [main] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Thu Oct 11 12:47:28 GMT-03:00 2018
+0 [main] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Thu Oct 11 12:52:15 GMT-03:00 2018
+0 [main] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Thu Oct 11 12:54:25 GMT-03:00 2018
+0 [main] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Thu Oct 11 13:16:01 GMT-03:00 2018
+0 [main] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Thu Oct 11 13:16:12 GMT-03:00 2018
+0 [main] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Thu Oct 11 13:16:22 GMT-03:00 2018
+0 [main] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Thu Oct 11 13:16:36 GMT-03:00 2018
+0 [main] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Thu Oct 11 18:14:38 GMT-03:00 2018
+0 [main] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Thu Oct 11 18:15:18 GMT-03:00 2018
+0 [main] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Thu Oct 11 18:22:41 GMT-03:00 2018
+0 [main] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Thu Oct 11 18:51:17 GMT-03:00 2018
+0 [main] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Thu Oct 11 18:53:37 GMT-03:00 2018
+0 [main] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Thu Oct 11 18:55:15 GMT-03:00 2018
+0 [main] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Thu Oct 11 18:56:22 GMT-03:00 2018
+0 [main] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Thu Oct 11 19:02:15 GMT-03:00 2018
+0 [main] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Thu Oct 11 19:02:45 GMT-03:00 2018
+1 [main] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Thu Oct 11 19:03:33 GMT-03:00 2018

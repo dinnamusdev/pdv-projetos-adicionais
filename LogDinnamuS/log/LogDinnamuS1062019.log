@@ -1,0 +1,80 @@
+0 [main] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Wed Jul 10 13:05:16 GMT-03:00 2019
+5 [main] ERROR br.com.log.LogDinnamus  - Registro de Exceção detectada : Wed Jul 10 13:05:16 GMT-03:00 2019
+java.lang.Exception: Testando log
+	at br.com.log.LogDinnamus.main(LogDinnamus.java:163)
+0 [main] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Wed Jul 10 13:06:15 GMT-03:00 2019
+14391 [main] ERROR br.com.log.LogDinnamus  - Registro de Exceção detectada : Wed Jul 10 13:06:30 GMT-03:00 2019
+java.lang.Exception: Testando log
+	at br.com.log.LogDinnamus.main(LogDinnamus.java:163)
+0 [main] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Wed Jul 10 13:07:11 GMT-03:00 2019
+3 [main] ERROR br.com.log.LogDinnamus  - Registro de Exceção detectada : Wed Jul 10 13:07:11 GMT-03:00 2019
+java.lang.Exception: Testando log
+	at br.com.log.LogDinnamus.main(LogDinnamus.java:163)
+0 [main] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Wed Jul 10 13:08:18 GMT-03:00 2019
+4 [main] ERROR br.com.log.LogDinnamus  - Registro de Exceção detectada : Wed Jul 10 13:08:18 GMT-03:00 2019
+java.lang.Exception: Testando log
+	at br.com.log.LogDinnamus.main(LogDinnamus.java:165)
+1 [main] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Wed Jul 10 13:08:54 GMT-03:00 2019
+8 [main] ERROR br.com.log.LogDinnamus  - Registro de Exceção detectada : Wed Jul 10 13:08:54 GMT-03:00 2019
+java.lang.Exception: Testando log
+	at br.com.log.LogDinnamus.main(LogDinnamus.java:165)
+0 [main] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Wed Jul 10 13:09:19 GMT-03:00 2019
+3 [main] ERROR br.com.log.LogDinnamus  - Registro de Exceção detectada : Wed Jul 10 13:09:19 GMT-03:00 2019
+java.lang.Exception: Testando log
+	at br.com.log.LogDinnamus.main(LogDinnamus.java:165)
+0 [main] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Wed Jul 10 13:15:45 GMT-03:00 2019
+4 [main] ERROR br.com.log.LogDinnamus  - Registro de Exceção detectada : Wed Jul 10 13:15:45 GMT-03:00 2019
+java.lang.Exception: Testando log
+	at br.com.log.LogDinnamus.main(LogDinnamus.java:170)
+0 [main] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Wed Jul 10 13:16:30 GMT-03:00 2019
+7 [main] ERROR br.com.log.LogDinnamus  - Registro de Exceção detectada : Wed Jul 10 13:16:30 GMT-03:00 2019
+java.lang.Exception: Testando log
+	at br.com.log.LogDinnamus.main(LogDinnamus.java:170)
+1 [main] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Wed Jul 10 13:17:04 GMT-03:00 2019
+5 [main] ERROR br.com.log.LogDinnamus  - Registro de Exceção detectada : Wed Jul 10 13:17:04 GMT-03:00 2019
+java.lang.Exception: Testando log
+	at br.com.log.LogDinnamus.main(LogDinnamus.java:170)
+1 [main] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Wed Jul 10 13:18:04 GMT-03:00 2019
+7 [main] ERROR br.com.log.LogDinnamus  - Registro de Exceção detectada : Wed Jul 10 13:18:04 GMT-03:00 2019
+java.lang.Exception: Testando log
+	at br.com.log.LogDinnamus.main(LogDinnamus.java:172)
+0 [main] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Wed Jul 10 13:48:05 GMT-03:00 2019
+5 [main] ERROR br.com.log.LogDinnamus  - Registro de Exceção detectada : Wed Jul 10 13:48:05 GMT-03:00 2019
+java.lang.Exception: Testando log
+	at br.com.log.LogDinnamus.main(LogDinnamus.java:163)
+0 [main] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Wed Jul 10 13:49:07 GMT-03:00 2019
+5 [main] ERROR br.com.log.LogDinnamus  - Registro de Exceção detectada : Wed Jul 10 13:49:07 GMT-03:00 2019
+java.lang.Exception: Testando log
+	at br.com.log.LogDinnamus.main(LogDinnamus.java:163)
+0 [main] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Wed Jul 10 14:03:06 GMT-03:00 2019
+3 [main] ERROR br.com.log.LogDinnamus  - Registro de Exceção detectada : Wed Jul 10 14:03:06 GMT-03:00 2019
+java.lang.Exception: Testando log
+	at br.com.log.LogDinnamus.main(LogDinnamus.java:163)
+0 [main] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Wed Jul 10 14:03:27 GMT-03:00 2019
+4 [main] ERROR br.com.log.LogDinnamus  - Registro de Exceção detectada : Wed Jul 10 14:03:27 GMT-03:00 2019
+java.lang.Exception: Testando log
+	at br.com.log.LogDinnamus.main(LogDinnamus.java:163)
+0 [main] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Wed Jul 10 14:04:00 GMT-03:00 2019
+4 [main] ERROR br.com.log.LogDinnamus  - Registro de Exceção detectada : Wed Jul 10 14:04:00 GMT-03:00 2019
+java.lang.Exception: Testando log
+	at br.com.log.LogDinnamus.main(LogDinnamus.java:163)
+0 [main] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Wed Jul 10 14:04:42 GMT-03:00 2019
+5 [main] ERROR br.com.log.LogDinnamus  - Registro de Exceção detectada : Wed Jul 10 14:04:42 GMT-03:00 2019
+java.lang.Exception: Testando log
+	at br.com.log.LogDinnamus.main(LogDinnamus.java:163)
+0 [main] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Wed Jul 10 14:55:10 GMT-03:00 2019
+56 [main] ERROR br.com.log.LogDinnamus  - Registro de Exceção detectada : Wed Jul 10 14:55:10 GMT-03:00 2019
+java.lang.Exception: Testando log
+	at br.com.log.LogDinnamus.main(LogDinnamus.java:167)
+0 [main] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Wed Jul 10 14:55:25 GMT-03:00 2019
+3 [main] ERROR br.com.log.LogDinnamus  - Registro de Exceção detectada : Wed Jul 10 14:55:25 GMT-03:00 2019
+java.lang.Exception: Testando log
+	at br.com.log.LogDinnamus.main(LogDinnamus.java:167)
+0 [main] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Wed Jul 10 14:55:44 GMT-03:00 2019
+4 [main] ERROR br.com.log.LogDinnamus  - Registro de Exceção detectada : Wed Jul 10 14:55:44 GMT-03:00 2019
+java.lang.Exception: Testando log
+	at br.com.log.LogDinnamus.main(LogDinnamus.java:167)
+0 [main] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Wed Jul 10 14:58:32 GMT-03:00 2019
+102 [main] ERROR br.com.log.LogDinnamus  - Registro de Exceção detectada : Wed Jul 10 14:58:32 GMT-03:00 2019
+java.lang.Exception: Testando log
+	at br.com.log.LogDinnamus.main(LogDinnamus.java:167)

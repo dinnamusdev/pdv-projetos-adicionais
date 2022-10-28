@@ -1,0 +1,177 @@
+/*
+ * To change this template, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package br.relatorios;
+
+import br.com.log.LogDinnamus;
+import br.com.ui.MetodosUI_Auxiliares;
+import static br.relatorios.ReportUtils.viewer;
+import java.awt.BorderLayout;
+import java.awt.Toolkit;
+import java.io.InputStream;
+import java.sql.Connection;
+import java.util.Map;
+import javax.swing.JDialog;
+import javax.swing.JFrame;
+import net.sf.jasperreports.engine.JRDataSource;
+import net.sf.jasperreports.engine.JRException;
+import net.sf.jasperreports.engine.JasperFillManager;
+import net.sf.jasperreports.engine.JasperPrint;
+import net.sf.jasperreports.swing.JRViewer;
+
+/**
+ *
+ * @author Fernando
+ */
+public class Relatorio {
+    /**
+     * Abre um relatório usando uma conexão como datasource.
+     *
+     * @param titulo Título usado na janela do relatório.
+     * @param inputStream InputStream que contém o relatório.
+     * @param parametros Parâmetros utilizados pelo relatório.
+     * @param conexao Conexão utilizada para a execução da query.
+     * @throws JRException Caso ocorra algum problema na execução do relatório
+     */
+    
+    public static JRViewer viewer  = null;
+    public static String titulo="";
+    public static boolean openReport(
+            String titulo,
+            InputStream inputStream,
+            Map parametros,
+            Connection conexao ) throws JRException {
+        /*
+         * Cria um JasperPrint, que é a versão preenchida do relatório,
+         * usando uma conexão.
+         */
+        try {
+            JasperPrint print = JasperFillManager.fillReport(
+                inputStream, parametros, conexao );
+ 
+        // abre o JasperPrint em um JFrame
+            ReportUtils.titulo = titulo;
+            
+        viewReportFrame( titulo, print );
+            
+            return true;
+        } catch (Exception e) {
+            LogDinnamus.Log(e, true);
+            return false;
+        }
+        
+ 
+    }
+ 
+    /**
+     * Abre um relatório usando um datasource genérico.
+     *
+     * @param titulo Título usado na janela do relatório.
+     * @param inputStream InputStream que contém o relatório.
+     * @param parametros Parâmetros utilizados pelo relatório.
+     * @param dataSource Datasource a ser utilizado pelo relatório.
+     * @throws JRException Caso ocorra algum problema na execução do relatório
+     */
+    public static boolean openReport(
+            String titulo,
+            InputStream inputStream,
+            Map parametros,
+            JRDataSource dataSource ) throws JRException {
+ 
+        /*
+         * Cria um JasperPrint, que é a versão preenchida do relatório,
+         * usando um datasource genérico.
+         */
+        try {
+            ReportUtils.titulo = titulo;
+            JasperPrint print = JasperFillManager.fillReport(
+                inputStream, parametros, dataSource );
+ 
+        // abre o JasperPrint em um JFrame
+            viewReportFrame( titulo, print );
+            return true;
+        } catch (Exception e) {
+            LogDinnamus.Log(e, true);
+            return false;
+        }
+        
+ 
+    }
+ 
+    /**
+     * Cria um JFrame para exibir o relatório representado pelo JasperPrint.
+     *
+     * @param titulo Título do JFrame.
+     * @param print JasperPrint do relatório.
+     */
+    public static JDialog visualizarRelatorio(JDialog pai){
+        try {
+            
+                //JFrame frameRelatorio = new JFrame(titulo);
+                
+                 javax.swing.JDialog  frameRelatorio = new JDialog(pai);
+                 
+                // adiciona o JRViewer no JFrame
+                frameRelatorio.add( viewer, BorderLayout.CENTER );
+
+                // configura o tamanho padrão do JFrame
+                MetodosUI_Auxiliares.MaximizarJDialog(frameRelatorio, Toolkit.getDefaultToolkit());
+                //frameRelatorio.setSize( 500, 500 );
+
+                // maximiza o JFrame para ocupar a tela toda.
+                //frameRelatorio.
+
+                // configura a operação padrão quando o JFrame for fechado.
+                frameRelatorio.setDefaultCloseOperation( JFrame.DISPOSE_ON_CLOSE );
+
+                // exibe o JFrame
+                frameRelatorio.setVisible( true );   
+                        
+                return frameRelatorio;
+        } catch (Exception e) {
+            LogDinnamus.Log(e, true);
+            return null;
+        }
+    }
+    private static boolean viewReportFrame( String titulo, JasperPrint print ) {
+ 
+        /*
+         * Cria um JRViewer para exibir o relatório.
+         * Um JRViewer é uma JPanel.
+         */
+        try {
+            viewer = new JRViewer( print );
+            
+            if(print.getPages().isEmpty()){
+                viewer=null;
+                // cria o JFrame
+               /* JFrame frameRelatorio = new JFrame(titulo);
+                
+                 //javax.swing.JDialog  frameRelatorio = new JDialog();
+                 
+                // adiciona o JRViewer no JFrame
+                frameRelatorio.add( viewer, BorderLayout.CENTER );
+
+                // configura o tamanho padrão do JFrame
+                frameRelatorio.setSize( 500, 500 );
+
+                // maximiza o JFrame para ocupar a tela toda.
+                //frameRelatorio.
+
+                // configura a operação padrão quando o JFrame for fechado.
+                frameRelatorio.setDefaultCloseOperation( JFrame.DISPOSE_ON_CLOSE );
+
+                // exibe o JFrame
+                frameRelatorio.setVisible( true );   */      
+            }
+
+            return true;
+ 
+        } catch (Exception e) {
+            LogDinnamus.Log(e, true);
+            return false;
+        }
+
+    }
+}

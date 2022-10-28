@@ -1,0 +1,178 @@
+0 [AWT-EventQueue-0] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Mon Dec 17 10:36:37 GMT-03:00 2018
+77 [AWT-EventQueue-0] ERROR br.com.log.LogDinnamus  - Registro de Exceção detectada : Mon Dec 17 10:36:37 GMT-03:00 2018
+java.lang.NumberFormatException: null
+	at java.lang.Integer.parseInt(Integer.java:542)
+	at java.lang.Integer.valueOf(Integer.java:766)
+	at smack.config.frmChat$8.run(frmChat.java:774)
+	at java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:311)
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:758)
+	at java.awt.EventQueue.access$500(EventQueue.java:97)
+	at java.awt.EventQueue$3.run(EventQueue.java:709)
+	at java.awt.EventQueue$3.run(EventQueue.java:703)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:74)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:728)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:205)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:116)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:105)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:93)
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:82)
+0 [AWT-EventQueue-0] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Mon Dec 17 10:38:40 GMT-03:00 2018
+0 [AWT-EventQueue-0] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Mon Dec 17 10:39:01 GMT-03:00 2018
+0 [AWT-EventQueue-0] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Mon Dec 17 10:39:27 GMT-03:00 2018
+7591 [AWT-EventQueue-0] ERROR br.com.log.LogDinnamus  - Registro de Exceção detectada : Mon Dec 17 10:39:35 GMT-03:00 2018
+java.lang.NullPointerException
+	at java.lang.String.<init>(String.java:152)
+	at smack.config.frmChat.btConectarActionPerformed(frmChat.java:355)
+	at smack.config.frmChat.iniciarUI(frmChat.java:696)
+	at smack.config.frmChat.<init>(frmChat.java:58)
+	at smack.config.frmChat$8.run(frmChat.java:782)
+	at java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:311)
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:758)
+	at java.awt.EventQueue.access$500(EventQueue.java:97)
+	at java.awt.EventQueue$3.run(EventQueue.java:709)
+	at java.awt.EventQueue$3.run(EventQueue.java:703)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:74)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:728)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:205)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:116)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:105)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:93)
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:82)
+0 [AWT-EventQueue-0] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Mon Dec 17 10:41:15 GMT-03:00 2018
+0 [AWT-EventQueue-0] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Mon Dec 17 10:45:31 GMT-03:00 2018
+1 [AWT-EventQueue-0] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Mon Dec 17 10:46:15 GMT-03:00 2018
+0 [AWT-EventQueue-0] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Mon Dec 17 10:46:28 GMT-03:00 2018
+0 [AWT-EventQueue-0] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Mon Dec 17 10:46:57 GMT-03:00 2018
+0 [AWT-EventQueue-0] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Mon Dec 17 10:47:54 GMT-03:00 2018
+45109 [AWT-EventQueue-0] ERROR br.com.log.LogDinnamus  - Registro de Exceção detectada : Mon Dec 17 10:48:39 GMT-03:00 2018
+java.lang.NullPointerException
+	at java.lang.String.<init>(String.java:152)
+	at smack.config.frmChat.btConectarActionPerformed(frmChat.java:355)
+	at smack.config.frmChat.iniciarUI(frmChat.java:696)
+	at smack.config.frmChat.<init>(frmChat.java:58)
+	at smack.config.frmChat$8.run(frmChat.java:783)
+	at java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:311)
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:758)
+	at java.awt.EventQueue.access$500(EventQueue.java:97)
+	at java.awt.EventQueue$3.run(EventQueue.java:709)
+	at java.awt.EventQueue$3.run(EventQueue.java:703)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:74)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:728)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:205)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:116)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:105)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:93)
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:82)
+0 [AWT-EventQueue-0] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Mon Dec 17 10:49:59 GMT-03:00 2018
+0 [AWT-EventQueue-0] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Mon Dec 17 10:50:34 GMT-03:00 2018
+0 [AWT-EventQueue-0] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Mon Dec 17 10:51:39 GMT-03:00 2018
+1 [AWT-EventQueue-0] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Mon Dec 17 10:55:20 GMT-03:00 2018
+0 [AWT-EventQueue-0] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Mon Dec 17 10:58:10 GMT-03:00 2018
+11 [AWT-EventQueue-0] ERROR br.com.log.LogDinnamus  - Registro de Exceção detectada : Mon Dec 17 10:58:10 GMT-03:00 2018
+java.lang.NumberFormatException: null
+	at java.lang.Integer.parseInt(Integer.java:542)
+	at java.lang.Integer.valueOf(Integer.java:766)
+	at smack.config.frmChat$8.run(frmChat.java:775)
+	at java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:311)
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:758)
+	at java.awt.EventQueue.access$500(EventQueue.java:97)
+	at java.awt.EventQueue$3.run(EventQueue.java:709)
+	at java.awt.EventQueue$3.run(EventQueue.java:703)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:74)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:728)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:205)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:116)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:105)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:93)
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:82)
+0 [AWT-EventQueue-0] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Mon Dec 17 10:58:20 GMT-03:00 2018
+0 [AWT-EventQueue-0] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Mon Dec 17 10:59:45 GMT-03:00 2018
+42030 [AWT-EventQueue-0] ERROR br.com.log.LogDinnamus  - Registro de Exceção detectada : Mon Dec 17 11:00:27 GMT-03:00 2018
+java.lang.NullPointerException
+	at java.lang.String.<init>(String.java:152)
+	at smack.config.frmChat.btConectarActionPerformed(frmChat.java:355)
+	at smack.config.frmChat.iniciarUI(frmChat.java:696)
+	at smack.config.frmChat.<init>(frmChat.java:58)
+	at smack.config.frmChat$8.run(frmChat.java:783)
+	at java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:311)
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:758)
+	at java.awt.EventQueue.access$500(EventQueue.java:97)
+	at java.awt.EventQueue$3.run(EventQueue.java:709)
+	at java.awt.EventQueue$3.run(EventQueue.java:703)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:74)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:728)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:205)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:116)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:105)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:93)
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:82)
+1 [AWT-EventQueue-0] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Mon Dec 17 11:01:00 GMT-03:00 2018
+376 [AWT-EventQueue-0] ERROR br.com.log.LogDinnamus  - Registro de Exceção detectada : Mon Dec 17 11:01:00 GMT-03:00 2018
+java.lang.NullPointerException
+	at smack.config.frmChat.btConectarActionPerformed(frmChat.java:357)
+	at smack.config.frmChat.iniciarUI(frmChat.java:696)
+	at smack.config.frmChat.<init>(frmChat.java:58)
+	at smack.config.frmChat$8.run(frmChat.java:783)
+	at java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:311)
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:758)
+	at java.awt.EventQueue.access$500(EventQueue.java:97)
+	at java.awt.EventQueue$3.run(EventQueue.java:709)
+	at java.awt.EventQueue$3.run(EventQueue.java:703)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:74)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:728)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:205)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:116)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:105)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:93)
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:82)
+0 [AWT-EventQueue-0] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Mon Dec 17 11:01:09 GMT-03:00 2018
+0 [AWT-EventQueue-0] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Mon Dec 17 11:02:20 GMT-03:00 2018
+0 [AWT-EventQueue-0] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Mon Dec 17 11:02:57 GMT-03:00 2018
+0 [AWT-EventQueue-0] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Mon Dec 17 11:04:08 GMT-03:00 2018
+1 [AWT-EventQueue-0] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Mon Dec 17 11:04:39 GMT-03:00 2018
+0 [AWT-EventQueue-0] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Mon Dec 17 11:04:49 GMT-03:00 2018
+0 [AWT-EventQueue-0] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Mon Dec 17 11:11:46 GMT-03:00 2018
+0 [AWT-EventQueue-0] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Mon Dec 17 11:12:30 GMT-03:00 2018
+1 [AWT-EventQueue-0] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Mon Dec 17 11:13:54 GMT-03:00 2018
+0 [AWT-EventQueue-0] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Mon Dec 17 11:45:00 GMT-03:00 2018
+0 [AWT-EventQueue-0] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Mon Dec 17 11:48:30 GMT-03:00 2018
+2805 [AWT-EventQueue-0] ERROR br.com.log.LogDinnamus  - Registro de Exceção detectada : Mon Dec 17 11:48:33 GMT-03:00 2018
+org.jivesoftware.smack.sasl.SASLErrorException: SASLError using SCRAM-SHA-1: not-authorized
+	at org.jivesoftware.smack.SASLAuthentication.authenticationFailed(SASLAuthentication.java:365)
+	at org.jivesoftware.smack.tcp.XMPPTCPConnection$PacketReader.parsePackets(XMPPTCPConnection.java:1052)
+	at org.jivesoftware.smack.tcp.XMPPTCPConnection$PacketReader.access$300(XMPPTCPConnection.java:956)
+	at org.jivesoftware.smack.tcp.XMPPTCPConnection$PacketReader$1.run(XMPPTCPConnection.java:971)
+	at java.lang.Thread.run(Thread.java:748)
+0 [AWT-EventQueue-0] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Mon Dec 17 11:50:41 GMT-03:00 2018
+0 [AWT-EventQueue-0] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Mon Dec 17 11:51:42 GMT-03:00 2018
+0 [AWT-EventQueue-0] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Mon Dec 17 11:58:13 GMT-03:00 2018
+0 [AWT-EventQueue-0] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Mon Dec 17 12:00:45 GMT-03:00 2018
+0 [AWT-EventQueue-0] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Mon Dec 17 12:02:40 GMT-03:00 2018
+0 [AWT-EventQueue-0] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Mon Dec 17 12:05:02 GMT-03:00 2018
+0 [AWT-EventQueue-0] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Mon Dec 17 12:06:05 GMT-03:00 2018
+1 [AWT-EventQueue-0] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Mon Dec 17 12:15:50 GMT-03:00 2018
+0 [AWT-EventQueue-0] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Mon Dec 17 12:17:24 GMT-03:00 2018
+0 [AWT-EventQueue-0] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Mon Dec 17 12:41:33 GMT-03:00 2018
+0 [AWT-EventQueue-0] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Mon Dec 17 12:43:36 GMT-03:00 2018
+1 [AWT-EventQueue-0] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Mon Dec 17 12:49:01 GMT-03:00 2018
+1 [AWT-EventQueue-0] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Mon Dec 17 13:18:17 GMT-03:00 2018
+0 [AWT-EventQueue-0] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Mon Dec 17 13:20:27 GMT-03:00 2018
+0 [AWT-EventQueue-0] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Mon Dec 17 13:21:17 GMT-03:00 2018
+0 [AWT-EventQueue-0] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Mon Dec 17 19:52:35 GMT-03:00 2018
+0 [AWT-EventQueue-0] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Mon Dec 17 20:17:42 GMT-03:00 2018
+0 [AWT-EventQueue-0] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Mon Dec 17 20:19:27 GMT-03:00 2018
+0 [AWT-EventQueue-0] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Mon Dec 17 20:35:40 GMT-03:00 2018
+0 [AWT-EventQueue-0] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Mon Dec 17 23:47:23 GMT-03:00 2018
+0 [AWT-EventQueue-0] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Mon Dec 17 23:59:34 GMT-03:00 2018

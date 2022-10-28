@@ -1,0 +1,177 @@
+1 [Thread-1] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Sat Dec 29 10:54:51 GMT-03:00 2018
+0 [Thread-1] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Sat Dec 29 11:08:39 GMT-03:00 2018
+0 [Thread-1] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Sat Dec 29 11:16:05 GMT-03:00 2018
+0 [Thread-1] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Sat Dec 29 11:16:24 GMT-03:00 2018
+0 [Thread-1] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Sat Dec 29 11:18:40 GMT-03:00 2018
+639 [Thread-1] ERROR br.com.log.LogDinnamus  - Registro de Exceção detectada : Sat Dec 29 11:18:41 GMT-03:00 2018
+org.jivesoftware.smack.SmackException$ConnectionException: The following addresses failed: 'ip193.ip-142-44-146.net:5222' failed because java.net.UnknownHostException: ip193.ip-142-44-146.net
+	at org.jivesoftware.smack.SmackException$ConnectionException.from(SmackException.java:255)
+	at org.jivesoftware.smack.tcp.XMPPTCPConnection.connectUsingConfiguration(XMPPTCPConnection.java:613)
+	at org.jivesoftware.smack.tcp.XMPPTCPConnection.connectInternal(XMPPTCPConnection.java:851)
+	at org.jivesoftware.smack.AbstractXMPPConnection.connect(AbstractXMPPConnection.java:364)
+	at smack.config.SmackMensageria.conectarServidor(SmackMensageria.java:396)
+	at smack.config.frmChat.conectarServidor(frmChat.java:1259)
+	at smack.config.frmChat.btConectarActionPerformed(frmChat.java:491)
+	at smack.config.frmChat.iniciarUI(frmChat.java:1439)
+	at smack.config.frmChat.<init>(frmChat.java:102)
+	at smack.config.frmChat$18.run(frmChat.java:1412)
+	at java.lang.Thread.run(Thread.java:748)
+0 [Thread-1] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Sat Dec 29 11:19:08 GMT-03:00 2018
+0 [Thread-1] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Sat Dec 29 11:21:09 GMT-03:00 2018
+0 [Thread-1] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Sat Dec 29 11:23:33 GMT-03:00 2018
+0 [Thread-1] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Sat Dec 29 11:24:35 GMT-03:00 2018
+0 [Thread-1] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Sat Dec 29 11:29:55 GMT-03:00 2018
+0 [Thread-1] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Sat Dec 29 11:30:22 GMT-03:00 2018
+0 [Thread-1] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Sat Dec 29 11:31:44 GMT-03:00 2018
+231071 [AWT-EventQueue-0] ERROR br.com.log.LogDinnamus  - Registro de Exceção detectada : Sat Dec 29 11:35:35 GMT-03:00 2018
+org.jivesoftware.smack.SmackException$NotConnectedException: Client is not, or no longer, connected.
+	at org.jivesoftware.smack.tcp.XMPPTCPConnection$PacketWriter.throwNotConnectedExceptionIfDoneAndResumptionNotPossible(XMPPTCPConnection.java:1252)
+	at org.jivesoftware.smack.tcp.XMPPTCPConnection.throwNotConnectedExceptionIfAppropriate(XMPPTCPConnection.java:345)
+	at org.jivesoftware.smack.AbstractXMPPConnection.sendStanza(AbstractXMPPConnection.java:617)
+	at smack.config.frmChat.btFechar1ActionPerformed(frmChat.java:479)
+	at smack.config.frmChat.access$100(frmChat.java:55)
+	at smack.config.frmChat$2.actionPerformed(frmChat.java:178)
+	at javax.swing.AbstractButton.fireActionPerformed(AbstractButton.java:2022)
+	at javax.swing.AbstractButton$Handler.actionPerformed(AbstractButton.java:2348)
+	at javax.swing.DefaultButtonModel.fireActionPerformed(DefaultButtonModel.java:402)
+	at javax.swing.DefaultButtonModel.setPressed(DefaultButtonModel.java:259)
+	at javax.swing.plaf.basic.BasicButtonListener.mouseReleased(BasicButtonListener.java:252)
+	at java.awt.Component.processMouseEvent(Component.java:6539)
+	at javax.swing.JComponent.processMouseEvent(JComponent.java:3324)
+	at java.awt.Component.processEvent(Component.java:6304)
+	at java.awt.Container.processEvent(Container.java:2239)
+	at java.awt.Component.dispatchEventImpl(Component.java:4889)
+	at java.awt.Container.dispatchEventImpl(Container.java:2297)
+	at java.awt.Component.dispatchEvent(Component.java:4711)
+	at java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4904)
+	at java.awt.LightweightDispatcher.processMouseEvent(Container.java:4535)
+	at java.awt.LightweightDispatcher.dispatchEvent(Container.java:4476)
+	at java.awt.Container.dispatchEventImpl(Container.java:2283)
+	at java.awt.Window.dispatchEventImpl(Window.java:2746)
+	at java.awt.Component.dispatchEvent(Component.java:4711)
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:760)
+	at java.awt.EventQueue.access$500(EventQueue.java:97)
+	at java.awt.EventQueue$3.run(EventQueue.java:709)
+	at java.awt.EventQueue$3.run(EventQueue.java:703)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:74)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:84)
+	at java.awt.EventQueue$4.run(EventQueue.java:733)
+	at java.awt.EventQueue$4.run(EventQueue.java:731)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:74)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:730)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:205)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:116)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:105)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:93)
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:82)
+244291 [AWT-EventQueue-0] ERROR br.com.log.LogDinnamus  - Registro de Exceção detectada : Sat Dec 29 11:35:48 GMT-03:00 2018
+org.jivesoftware.smack.SmackException$NotConnectedException: Client is not, or no longer, connected.
+	at org.jivesoftware.smack.tcp.XMPPTCPConnection$PacketWriter.throwNotConnectedExceptionIfDoneAndResumptionNotPossible(XMPPTCPConnection.java:1252)
+	at org.jivesoftware.smack.tcp.XMPPTCPConnection.throwNotConnectedExceptionIfAppropriate(XMPPTCPConnection.java:345)
+	at org.jivesoftware.smack.AbstractXMPPConnection.sendStanza(AbstractXMPPConnection.java:617)
+	at smack.config.frmChat.btFechar1ActionPerformed(frmChat.java:479)
+	at smack.config.frmChat.access$100(frmChat.java:55)
+	at smack.config.frmChat$2.actionPerformed(frmChat.java:178)
+	at javax.swing.AbstractButton.fireActionPerformed(AbstractButton.java:2022)
+	at javax.swing.AbstractButton$Handler.actionPerformed(AbstractButton.java:2348)
+	at javax.swing.DefaultButtonModel.fireActionPerformed(DefaultButtonModel.java:402)
+	at javax.swing.DefaultButtonModel.setPressed(DefaultButtonModel.java:259)
+	at javax.swing.plaf.basic.BasicButtonListener.mouseReleased(BasicButtonListener.java:252)
+	at java.awt.Component.processMouseEvent(Component.java:6539)
+	at javax.swing.JComponent.processMouseEvent(JComponent.java:3324)
+	at java.awt.Component.processEvent(Component.java:6304)
+	at java.awt.Container.processEvent(Container.java:2239)
+	at java.awt.Component.dispatchEventImpl(Component.java:4889)
+	at java.awt.Container.dispatchEventImpl(Container.java:2297)
+	at java.awt.Component.dispatchEvent(Component.java:4711)
+	at java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4904)
+	at java.awt.LightweightDispatcher.processMouseEvent(Container.java:4535)
+	at java.awt.LightweightDispatcher.dispatchEvent(Container.java:4476)
+	at java.awt.Container.dispatchEventImpl(Container.java:2283)
+	at java.awt.Window.dispatchEventImpl(Window.java:2746)
+	at java.awt.Component.dispatchEvent(Component.java:4711)
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:760)
+	at java.awt.EventQueue.access$500(EventQueue.java:97)
+	at java.awt.EventQueue$3.run(EventQueue.java:709)
+	at java.awt.EventQueue$3.run(EventQueue.java:703)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:74)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:84)
+	at java.awt.EventQueue$4.run(EventQueue.java:733)
+	at java.awt.EventQueue$4.run(EventQueue.java:731)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:74)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:730)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:205)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:116)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:105)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:93)
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:82)
+0 [Thread-1] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Sat Dec 29 11:36:35 GMT-03:00 2018
+627 [Thread-1] ERROR br.com.log.LogDinnamus  - Registro de Exceção detectada : Sat Dec 29 11:36:36 GMT-03:00 2018
+org.jivesoftware.smack.SmackException$ConnectionException: The following addresses failed: 'ip193.ip-142-44-146.net:5222' failed because java.net.UnknownHostException: ip193.ip-142-44-146.net
+	at org.jivesoftware.smack.SmackException$ConnectionException.from(SmackException.java:255)
+	at org.jivesoftware.smack.tcp.XMPPTCPConnection.connectUsingConfiguration(XMPPTCPConnection.java:613)
+	at org.jivesoftware.smack.tcp.XMPPTCPConnection.connectInternal(XMPPTCPConnection.java:851)
+	at org.jivesoftware.smack.AbstractXMPPConnection.connect(AbstractXMPPConnection.java:364)
+	at smack.config.SmackMensageria.conectarServidor(SmackMensageria.java:396)
+	at smack.config.frmChat.conectarServidor(frmChat.java:1277)
+	at smack.config.frmChat.btConectarActionPerformed(frmChat.java:509)
+	at smack.config.frmChat.iniciarUI(frmChat.java:1457)
+	at smack.config.frmChat.<init>(frmChat.java:104)
+	at smack.config.frmChat$18.run(frmChat.java:1430)
+	at java.lang.Thread.run(Thread.java:748)
+0 [Thread-1] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Sat Dec 29 11:36:50 GMT-03:00 2018
+0 [Thread-1] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Sat Dec 29 11:46:16 GMT-03:00 2018
+592 [Thread-1] ERROR br.com.log.LogDinnamus  - Registro de Exceção detectada : Sat Dec 29 11:46:17 GMT-03:00 2018
+org.jivesoftware.smack.SmackException$ConnectionException: The following addresses failed: 'ip193.ip-142-44-146.net:5222' failed because java.net.UnknownHostException: ip193.ip-142-44-146.net
+	at org.jivesoftware.smack.SmackException$ConnectionException.from(SmackException.java:255)
+	at org.jivesoftware.smack.tcp.XMPPTCPConnection.connectUsingConfiguration(XMPPTCPConnection.java:613)
+	at org.jivesoftware.smack.tcp.XMPPTCPConnection.connectInternal(XMPPTCPConnection.java:851)
+	at org.jivesoftware.smack.AbstractXMPPConnection.connect(AbstractXMPPConnection.java:364)
+	at smack.config.SmackMensageria.conectarServidor(SmackMensageria.java:396)
+	at smack.config.frmChat.conectarServidor(frmChat.java:1301)
+	at smack.config.frmChat.btConectarActionPerformed(frmChat.java:511)
+	at smack.config.frmChat.iniciarUI(frmChat.java:1481)
+	at smack.config.frmChat.<init>(frmChat.java:106)
+	at smack.config.frmChat$19.run(frmChat.java:1454)
+	at java.lang.Thread.run(Thread.java:748)
+0 [Thread-1] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Sat Dec 29 11:46:30 GMT-03:00 2018
+661 [Thread-1] ERROR br.com.log.LogDinnamus  - Registro de Exceção detectada : Sat Dec 29 11:46:31 GMT-03:00 2018
+org.jivesoftware.smack.SmackException$ConnectionException: The following addresses failed: 'ip193.ip-142-44-146.net:5222' failed because java.net.UnknownHostException: ip193.ip-142-44-146.net
+	at org.jivesoftware.smack.SmackException$ConnectionException.from(SmackException.java:255)
+	at org.jivesoftware.smack.tcp.XMPPTCPConnection.connectUsingConfiguration(XMPPTCPConnection.java:613)
+	at org.jivesoftware.smack.tcp.XMPPTCPConnection.connectInternal(XMPPTCPConnection.java:851)
+	at org.jivesoftware.smack.AbstractXMPPConnection.connect(AbstractXMPPConnection.java:364)
+	at smack.config.SmackMensageria.conectarServidor(SmackMensageria.java:396)
+	at smack.config.frmChat.conectarServidor(frmChat.java:1301)
+	at smack.config.frmChat.btConectarActionPerformed(frmChat.java:511)
+	at smack.config.frmChat.iniciarUI(frmChat.java:1481)
+	at smack.config.frmChat.<init>(frmChat.java:106)
+	at smack.config.frmChat$19.run(frmChat.java:1454)
+	at java.lang.Thread.run(Thread.java:748)
+0 [Thread-1] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Sat Dec 29 11:48:11 GMT-03:00 2018
+0 [Thread-1] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Sat Dec 29 11:49:00 GMT-03:00 2018
+0 [Thread-1] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Sat Dec 29 11:49:17 GMT-03:00 2018
+0 [Thread-1] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Sat Dec 29 11:51:22 GMT-03:00 2018
+724 [Thread-1] ERROR br.com.log.LogDinnamus  - Registro de Exceção detectada : Sat Dec 29 11:51:23 GMT-03:00 2018
+org.jivesoftware.smack.SmackException$ConnectionException: The following addresses failed: 'ip193.ip-142-44-146.net:5222' failed because java.net.UnknownHostException: ip193.ip-142-44-146.net
+	at org.jivesoftware.smack.SmackException$ConnectionException.from(SmackException.java:255)
+	at org.jivesoftware.smack.tcp.XMPPTCPConnection.connectUsingConfiguration(XMPPTCPConnection.java:613)
+	at org.jivesoftware.smack.tcp.XMPPTCPConnection.connectInternal(XMPPTCPConnection.java:851)
+	at org.jivesoftware.smack.AbstractXMPPConnection.connect(AbstractXMPPConnection.java:364)
+	at smack.config.SmackMensageria.conectarServidor(SmackMensageria.java:396)
+	at smack.config.frmChat.conectarServidor(frmChat.java:1304)
+	at smack.config.frmChat.btConectarActionPerformed(frmChat.java:511)
+	at smack.config.frmChat.iniciarUI(frmChat.java:1484)
+	at smack.config.frmChat.<init>(frmChat.java:106)
+	at smack.config.frmChat$19.run(frmChat.java:1457)
+	at java.lang.Thread.run(Thread.java:748)
+0 [Thread-1] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Sat Dec 29 11:51:35 GMT-03:00 2018
+0 [Thread-1] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Sat Dec 29 12:00:04 GMT-03:00 2018
+0 [Thread-1] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Sat Dec 29 12:02:10 GMT-03:00 2018
+0 [Thread-1] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Sat Dec 29 12:40:30 GMT-03:00 2018

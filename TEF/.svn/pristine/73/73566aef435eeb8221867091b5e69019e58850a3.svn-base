@@ -1,0 +1,58 @@
+0 [main] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Tue Dec 31 14:30:28 BRST 2013
+0 [main] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Tue Dec 31 14:31:14 BRST 2013
+0 [main] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Tue Dec 31 14:31:20 BRST 2013
+1 [main] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Tue Dec 31 14:35:25 BRST 2013
+0 [main] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Tue Dec 31 14:36:22 BRST 2013
+0 [main] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Tue Dec 31 14:36:47 BRST 2013
+1 [main] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Tue Dec 31 14:37:20 BRST 2013
+0 [main] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Tue Dec 31 14:37:51 BRST 2013
+0 [main] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Tue Dec 31 14:39:42 BRST 2013
+1 [main] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Tue Dec 31 14:40:14 BRST 2013
+0 [main] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Tue Dec 31 14:46:02 BRST 2013
+0 [main] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Tue Dec 31 14:46:19 BRST 2013
+0 [main] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Tue Dec 31 14:47:15 BRST 2013
+0 [main] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Tue Dec 31 14:47:25 BRST 2013
+0 [main] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Tue Dec 31 14:47:35 BRST 2013
+1 [main] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Tue Dec 31 14:48:07 BRST 2013
+0 [main] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Tue Dec 31 14:51:51 BRST 2013
+0 [main] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Tue Dec 31 15:13:52 BRST 2013
+0 [main] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Tue Dec 31 15:14:05 BRST 2013
+46790 [main] ERROR br.com.log.LogDinnamus  - Registro de Exceção detectada : Tue Dec 31 15:14:52 BRST 2013
+java.lang.NullPointerException
+	at br.tef.Padrao.ui.InteracaoTEF.MensagemTEF_Terminar(InteracaoTEF.java:27)
+	at br.tef.Padrao.TefPadrao.IniciarVendaTEF(TefPadrao.java:35)
+	at br.tef.Padrao.TefPadrao.main(TefPadrao.java:54)
+0 [main] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Tue Dec 31 15:15:43 BRST 2013
+0 [main] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Tue Dec 31 15:16:11 BRST 2013
+17 [main] ERROR br.com.log.LogDinnamus  - Registro de Exceção detectada : Tue Dec 31 15:16:11 BRST 2013
+java.lang.NullPointerException
+	at br.tef.Padrao.ui.InteracaoTEF.MensagemTEF_Terminar(InteracaoTEF.java:28)
+	at br.tef.Padrao.TefPadrao.IniciarVendaTEF(TefPadrao.java:35)
+	at br.tef.Padrao.TefPadrao.main(TefPadrao.java:54)
+0 [main] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Tue Dec 31 15:16:49 BRST 2013
+1 [main] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Tue Dec 31 15:17:10 BRST 2013
+16 [main] ERROR br.com.log.LogDinnamus  - Registro de Exceção detectada : Tue Dec 31 15:17:10 BRST 2013
+java.lang.NullPointerException
+	at br.tef.Padrao.ui.InteracaoTEF.MensagemTEF_Terminar(InteracaoTEF.java:28)
+	at br.tef.Padrao.TefPadrao.IniciarVendaTEF(TefPadrao.java:35)
+	at br.tef.Padrao.TefPadrao.main(TefPadrao.java:54)
+0 [main] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Tue Dec 31 15:18:24 BRST 2013
+150 [main] ERROR br.com.log.LogDinnamus  - Registro de Exceção detectada : Tue Dec 31 15:18:24 BRST 2013
+java.lang.NullPointerException
+	at br.tef.Padrao.ui.InteracaoTEF.MensagemTEF_Terminar(InteracaoTEF.java:26)
+	at br.tef.Padrao.TefPadrao.IniciarVendaTEF(TefPadrao.java:35)
+	at br.tef.Padrao.TefPadrao.main(TefPadrao.java:54)
+0 [main] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Tue Dec 31 15:18:33 BRST 2013
+0 [main] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Tue Dec 31 15:19:27 BRST 2013
+0 [main] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Tue Dec 31 15:20:01 BRST 2013
+0 [main] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Tue Dec 31 15:20:15 BRST 2013
+0 [main] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Tue Dec 31 15:20:38 BRST 2013
+0 [main] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Tue Dec 31 15:20:56 BRST 2013
+0 [main] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Tue Dec 31 15:21:04 BRST 2013
+1 [main] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Tue Dec 31 16:56:49 BRST 2013
+0 [main] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Tue Dec 31 17:00:56 BRST 2013
+0 [main] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Tue Dec 31 17:01:38 BRST 2013
+0 [main] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Tue Dec 31 17:04:17 BRST 2013
+0 [main] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Tue Dec 31 17:04:53 BRST 2013
+0 [main] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Tue Dec 31 17:10:55 BRST 2013
+0 [main] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Tue Dec 31 17:13:07 BRST 2013

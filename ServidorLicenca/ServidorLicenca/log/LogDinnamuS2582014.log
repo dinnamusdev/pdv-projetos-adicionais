@@ -1,0 +1,287 @@
+1 [main] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Thu Sep 25 00:31:29 BRT 2014
+241 [main] INFO br.com.log.LogDinnamus  - Abrindo conexao com o servidor
+1468 [main] INFO br.com.log.LogDinnamus  - Abrindo conexao com o servidor
+0 [main] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Thu Sep 25 00:33:57 BRT 2014
+93 [main] INFO br.com.log.LogDinnamus  - Abrindo conexao com o servidor
+989 [main] INFO br.com.log.LogDinnamus  - Abrindo conexao com o servidor
+0 [main] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Thu Sep 25 00:35:05 BRT 2014
+117 [main] INFO br.com.log.LogDinnamus  - Abrindo conexao com o servidor
+424 [main] INFO br.com.log.LogDinnamus  - Abrindo conexao com o servidor
+0 [main] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Thu Sep 25 00:42:57 BRT 2014
+698 [main] INFO br.com.log.LogDinnamus  - Abrindo conexao com o servidor
+2278 [main] INFO br.com.log.LogDinnamus  - Abrindo conexao com o servidor
+0 [main] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Thu Sep 25 00:44:29 BRT 2014
+105 [main] INFO br.com.log.LogDinnamus  - Abrindo conexao com o servidor
+1289 [main] INFO br.com.log.LogDinnamus  - Abrindo conexao com o servidor
+0 [main] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Thu Sep 25 00:46:36 BRT 2014
+82 [main] INFO br.com.log.LogDinnamus  - Abrindo conexao com o servidor
+1279 [main] INFO br.com.log.LogDinnamus  - Abrindo conexao com o servidor
+0 [main] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Thu Sep 25 00:48:58 BRT 2014
+87 [main] INFO br.com.log.LogDinnamus  - Abrindo conexao com o servidor
+999 [main] INFO br.com.log.LogDinnamus  - Abrindo conexao com o servidor
+0 [main] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Thu Sep 25 09:18:30 BRT 2014
+744 [main] INFO br.com.log.LogDinnamus  - Abrindo conexao com o servidor
+2244 [main] INFO br.com.log.LogDinnamus  - Abrindo conexao com o servidor
+1 [main] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Thu Sep 25 09:42:05 BRT 2014
+128 [main] INFO br.com.log.LogDinnamus  - Abrindo conexao com o servidor
+1441 [main] INFO br.com.log.LogDinnamus  - Abrindo conexao com o servidor
+0 [main] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Thu Sep 25 09:50:40 BRT 2014
+97 [main] INFO br.com.log.LogDinnamus  - Abrindo conexao com o servidor
+1186 [main] INFO br.com.log.LogDinnamus  - Abrindo conexao com o servidor
+0 [main] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Thu Sep 25 10:09:18 BRT 2014
+301 [main] INFO br.com.log.LogDinnamus  - Abrindo conexao com o servidor
+1698 [main] INFO br.com.log.LogDinnamus  - Abrindo conexao com o servidor
+1 [main] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Thu Sep 25 10:13:59 BRT 2014
+75 [main] INFO br.com.log.LogDinnamus  - Abrindo conexao com o servidor
+1126 [main] INFO br.com.log.LogDinnamus  - Abrindo conexao com o servidor
+1 [main] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Thu Sep 25 10:20:51 BRT 2014
+56 [main] INFO br.com.log.LogDinnamus  - Abrindo conexao com o servidor
+1237 [main] INFO br.com.log.LogDinnamus  - Abrindo conexao com o servidor
+0 [main] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Thu Sep 25 10:22:20 BRT 2014
+80 [main] INFO br.com.log.LogDinnamus  - Abrindo conexao com o servidor
+1117 [main] INFO br.com.log.LogDinnamus  - Abrindo conexao com o servidor
+0 [main] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Thu Sep 25 10:25:20 BRT 2014
+79 [main] INFO br.com.log.LogDinnamus  - Abrindo conexao com o servidor
+947 [main] INFO br.com.log.LogDinnamus  - Abrindo conexao com o servidor
+0 [main] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Thu Sep 25 10:31:37 BRT 2014
+158 [main] INFO br.com.log.LogDinnamus  - Abrindo conexao com o servidor
+1306 [main] INFO br.com.log.LogDinnamus  - Abrindo conexao com o servidor
+0 [main] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Thu Sep 25 10:37:16 BRT 2014
+64 [main] INFO br.com.log.LogDinnamus  - Abrindo conexao com o servidor
+1001 [main] INFO br.com.log.LogDinnamus  - Abrindo conexao com o servidor
+0 [main] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Thu Sep 25 10:41:12 BRT 2014
+78 [main] INFO br.com.log.LogDinnamus  - Abrindo conexao com o servidor
+1016 [main] INFO br.com.log.LogDinnamus  - Abrindo conexao com o servidor
+10660 [AWT-EventQueue-0] ERROR br.com.log.LogDinnamus  - Registro de Exceção detectada : Thu Sep 25 10:41:23 BRT 2014
+java.text.ParseException: Unparseable date: "01/02/2013"
+	at java.text.DateFormat.parse(DateFormat.java:357)
+	at br.data.DataHora.getStringToData(DataHora.java:60)
+	at ui.rel.frmListagemLiberacoes.btConsultarActionPerformed(frmListagemLiberacoes.java:187)
+	at ui.rel.frmListagemLiberacoes.access$000(frmListagemLiberacoes.java:21)
+	at ui.rel.frmListagemLiberacoes$1.actionPerformed(frmListagemLiberacoes.java:82)
+	at javax.swing.AbstractButton.fireActionPerformed(AbstractButton.java:2018)
+	at javax.swing.AbstractButton$Handler.actionPerformed(AbstractButton.java:2341)
+	at javax.swing.DefaultButtonModel.fireActionPerformed(DefaultButtonModel.java:402)
+	at javax.swing.DefaultButtonModel.setPressed(DefaultButtonModel.java:259)
+	at javax.swing.plaf.basic.BasicButtonListener.mouseReleased(BasicButtonListener.java:252)
+	at java.awt.Component.processMouseEvent(Component.java:6504)
+	at javax.swing.JComponent.processMouseEvent(JComponent.java:3321)
+	at java.awt.Component.processEvent(Component.java:6269)
+	at java.awt.Container.processEvent(Container.java:2229)
+	at java.awt.Component.dispatchEventImpl(Component.java:4860)
+	at java.awt.Container.dispatchEventImpl(Container.java:2287)
+	at java.awt.Component.dispatchEvent(Component.java:4686)
+	at java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4832)
+	at java.awt.LightweightDispatcher.processMouseEvent(Container.java:4492)
+	at java.awt.LightweightDispatcher.dispatchEvent(Container.java:4422)
+	at java.awt.Container.dispatchEventImpl(Container.java:2273)
+	at java.awt.Window.dispatchEventImpl(Window.java:2713)
+	at java.awt.Component.dispatchEvent(Component.java:4686)
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:707)
+	at java.awt.EventQueue.access$000(EventQueue.java:101)
+	at java.awt.EventQueue$3.run(EventQueue.java:666)
+	at java.awt.EventQueue$3.run(EventQueue.java:664)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(ProtectionDomain.java:76)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(ProtectionDomain.java:87)
+	at java.awt.EventQueue$4.run(EventQueue.java:680)
+	at java.awt.EventQueue$4.run(EventQueue.java:678)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(ProtectionDomain.java:76)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:677)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:211)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:128)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:121)
+	at java.awt.WaitDispatchSupport$2.run(WaitDispatchSupport.java:182)
+	at java.awt.WaitDispatchSupport$4.run(WaitDispatchSupport.java:221)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.awt.WaitDispatchSupport.enter(WaitDispatchSupport.java:219)
+	at java.awt.Dialog.show(Dialog.java:1072)
+	at java.awt.Component.show(Component.java:1650)
+	at java.awt.Component.setVisible(Component.java:1602)
+	at java.awt.Window.setVisible(Window.java:1013)
+	at java.awt.Dialog.setVisible(Dialog.java:1003)
+	at ui.frmGerenciador.btListagemLiberacaoActionPerformed(frmGerenciador.java:435)
+	at ui.frmGerenciador.access$600(frmGerenciador.java:26)
+	at ui.frmGerenciador$7.actionPerformed(frmGerenciador.java:138)
+	at javax.swing.AbstractButton.fireActionPerformed(AbstractButton.java:2018)
+	at javax.swing.AbstractButton$Handler.actionPerformed(AbstractButton.java:2341)
+	at javax.swing.DefaultButtonModel.fireActionPerformed(DefaultButtonModel.java:402)
+	at javax.swing.DefaultButtonModel.setPressed(DefaultButtonModel.java:259)
+	at javax.swing.plaf.basic.BasicButtonListener.mouseReleased(BasicButtonListener.java:252)
+	at java.awt.Component.processMouseEvent(Component.java:6504)
+	at javax.swing.JComponent.processMouseEvent(JComponent.java:3321)
+	at java.awt.Component.processEvent(Component.java:6269)
+	at java.awt.Container.processEvent(Container.java:2229)
+	at java.awt.Component.dispatchEventImpl(Component.java:4860)
+	at java.awt.Container.dispatchEventImpl(Container.java:2287)
+	at java.awt.Component.dispatchEvent(Component.java:4686)
+	at java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4832)
+	at java.awt.LightweightDispatcher.processMouseEvent(Container.java:4492)
+	at java.awt.LightweightDispatcher.dispatchEvent(Container.java:4422)
+	at java.awt.Container.dispatchEventImpl(Container.java:2273)
+	at java.awt.Window.dispatchEventImpl(Window.java:2713)
+	at java.awt.Component.dispatchEvent(Component.java:4686)
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:707)
+	at java.awt.EventQueue.access$000(EventQueue.java:101)
+	at java.awt.EventQueue$3.run(EventQueue.java:666)
+	at java.awt.EventQueue$3.run(EventQueue.java:664)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(ProtectionDomain.java:76)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(ProtectionDomain.java:87)
+	at java.awt.EventQueue$4.run(EventQueue.java:680)
+	at java.awt.EventQueue$4.run(EventQueue.java:678)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(ProtectionDomain.java:76)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:677)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:211)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:128)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:117)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:113)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:105)
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:90)
+11213 [AWT-EventQueue-0] ERROR br.com.log.LogDinnamus  - Registro de Exceção detectada : Thu Sep 25 10:41:23 BRT 2014
+java.text.ParseException: Unparseable date: "28/02/2013"
+	at java.text.DateFormat.parse(DateFormat.java:357)
+	at br.data.DataHora.getStringToData(DataHora.java:60)
+	at ui.rel.frmListagemLiberacoes.btConsultarActionPerformed(frmListagemLiberacoes.java:188)
+	at ui.rel.frmListagemLiberacoes.access$000(frmListagemLiberacoes.java:21)
+	at ui.rel.frmListagemLiberacoes$1.actionPerformed(frmListagemLiberacoes.java:82)
+	at javax.swing.AbstractButton.fireActionPerformed(AbstractButton.java:2018)
+	at javax.swing.AbstractButton$Handler.actionPerformed(AbstractButton.java:2341)
+	at javax.swing.DefaultButtonModel.fireActionPerformed(DefaultButtonModel.java:402)
+	at javax.swing.DefaultButtonModel.setPressed(DefaultButtonModel.java:259)
+	at javax.swing.plaf.basic.BasicButtonListener.mouseReleased(BasicButtonListener.java:252)
+	at java.awt.Component.processMouseEvent(Component.java:6504)
+	at javax.swing.JComponent.processMouseEvent(JComponent.java:3321)
+	at java.awt.Component.processEvent(Component.java:6269)
+	at java.awt.Container.processEvent(Container.java:2229)
+	at java.awt.Component.dispatchEventImpl(Component.java:4860)
+	at java.awt.Container.dispatchEventImpl(Container.java:2287)
+	at java.awt.Component.dispatchEvent(Component.java:4686)
+	at java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4832)
+	at java.awt.LightweightDispatcher.processMouseEvent(Container.java:4492)
+	at java.awt.LightweightDispatcher.dispatchEvent(Container.java:4422)
+	at java.awt.Container.dispatchEventImpl(Container.java:2273)
+	at java.awt.Window.dispatchEventImpl(Window.java:2713)
+	at java.awt.Component.dispatchEvent(Component.java:4686)
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:707)
+	at java.awt.EventQueue.access$000(EventQueue.java:101)
+	at java.awt.EventQueue$3.run(EventQueue.java:666)
+	at java.awt.EventQueue$3.run(EventQueue.java:664)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(ProtectionDomain.java:76)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(ProtectionDomain.java:87)
+	at java.awt.EventQueue$4.run(EventQueue.java:680)
+	at java.awt.EventQueue$4.run(EventQueue.java:678)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(ProtectionDomain.java:76)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:677)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:211)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:128)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:121)
+	at java.awt.WaitDispatchSupport$2.run(WaitDispatchSupport.java:182)
+	at java.awt.WaitDispatchSupport$4.run(WaitDispatchSupport.java:221)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.awt.WaitDispatchSupport.enter(WaitDispatchSupport.java:219)
+	at java.awt.Dialog.show(Dialog.java:1072)
+	at java.awt.Component.show(Component.java:1650)
+	at java.awt.Component.setVisible(Component.java:1602)
+	at java.awt.Window.setVisible(Window.java:1013)
+	at java.awt.Dialog.setVisible(Dialog.java:1003)
+	at ui.frmGerenciador.btListagemLiberacaoActionPerformed(frmGerenciador.java:435)
+	at ui.frmGerenciador.access$600(frmGerenciador.java:26)
+	at ui.frmGerenciador$7.actionPerformed(frmGerenciador.java:138)
+	at javax.swing.AbstractButton.fireActionPerformed(AbstractButton.java:2018)
+	at javax.swing.AbstractButton$Handler.actionPerformed(AbstractButton.java:2341)
+	at javax.swing.DefaultButtonModel.fireActionPerformed(DefaultButtonModel.java:402)
+	at javax.swing.DefaultButtonModel.setPressed(DefaultButtonModel.java:259)
+	at javax.swing.plaf.basic.BasicButtonListener.mouseReleased(BasicButtonListener.java:252)
+	at java.awt.Component.processMouseEvent(Component.java:6504)
+	at javax.swing.JComponent.processMouseEvent(JComponent.java:3321)
+	at java.awt.Component.processEvent(Component.java:6269)
+	at java.awt.Container.processEvent(Container.java:2229)
+	at java.awt.Component.dispatchEventImpl(Component.java:4860)
+	at java.awt.Container.dispatchEventImpl(Container.java:2287)
+	at java.awt.Component.dispatchEvent(Component.java:4686)
+	at java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4832)
+	at java.awt.LightweightDispatcher.processMouseEvent(Container.java:4492)
+	at java.awt.LightweightDispatcher.dispatchEvent(Container.java:4422)
+	at java.awt.Container.dispatchEventImpl(Container.java:2273)
+	at java.awt.Window.dispatchEventImpl(Window.java:2713)
+	at java.awt.Component.dispatchEvent(Component.java:4686)
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:707)
+	at java.awt.EventQueue.access$000(EventQueue.java:101)
+	at java.awt.EventQueue$3.run(EventQueue.java:666)
+	at java.awt.EventQueue$3.run(EventQueue.java:664)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(ProtectionDomain.java:76)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(ProtectionDomain.java:87)
+	at java.awt.EventQueue$4.run(EventQueue.java:680)
+	at java.awt.EventQueue$4.run(EventQueue.java:678)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(ProtectionDomain.java:76)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:677)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:211)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:128)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:117)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:113)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:105)
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:90)
+0 [main] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Thu Sep 25 10:42:33 BRT 2014
+70 [main] INFO br.com.log.LogDinnamus  - Abrindo conexao com o servidor
+1146 [main] INFO br.com.log.LogDinnamus  - Abrindo conexao com o servidor
+0 [main] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Thu Sep 25 10:45:11 BRT 2014
+71 [main] INFO br.com.log.LogDinnamus  - Abrindo conexao com o servidor
+1057 [main] INFO br.com.log.LogDinnamus  - Abrindo conexao com o servidor
+1 [main] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Thu Sep 25 10:47:59 BRT 2014
+64 [main] INFO br.com.log.LogDinnamus  - Abrindo conexao com o servidor
+991 [main] INFO br.com.log.LogDinnamus  - Abrindo conexao com o servidor
+0 [main] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Thu Sep 25 10:49:56 BRT 2014
+59 [main] INFO br.com.log.LogDinnamus  - Abrindo conexao com o servidor
+942 [main] INFO br.com.log.LogDinnamus  - Abrindo conexao com o servidor
+0 [main] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Thu Sep 25 10:51:27 BRT 2014
+52 [main] INFO br.com.log.LogDinnamus  - Abrindo conexao com o servidor
+1193 [main] INFO br.com.log.LogDinnamus  - Abrindo conexao com o servidor
+0 [main] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Thu Sep 25 10:52:46 BRT 2014
+59 [main] INFO br.com.log.LogDinnamus  - Abrindo conexao com o servidor
+284 [main] INFO br.com.log.LogDinnamus  - Abrindo conexao com o servidor
+0 [main] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Thu Sep 25 10:54:25 BRT 2014
+74 [main] INFO br.com.log.LogDinnamus  - Abrindo conexao com o servidor
+1159 [main] INFO br.com.log.LogDinnamus  - Abrindo conexao com o servidor
+0 [main] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Thu Sep 25 10:58:50 BRT 2014
+44 [main] INFO br.com.log.LogDinnamus  - Abrindo conexao com o servidor
+933 [main] INFO br.com.log.LogDinnamus  - Abrindo conexao com o servidor
+0 [main] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Thu Sep 25 11:01:08 BRT 2014
+77 [main] INFO br.com.log.LogDinnamus  - Abrindo conexao com o servidor
+1033 [main] INFO br.com.log.LogDinnamus  - Abrindo conexao com o servidor
+0 [main] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Thu Sep 25 11:03:49 BRT 2014
+61 [main] INFO br.com.log.LogDinnamus  - Abrindo conexao com o servidor
+992 [main] INFO br.com.log.LogDinnamus  - Abrindo conexao com o servidor
+0 [main] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Thu Sep 25 11:46:23 BRT 2014
+658 [main] INFO br.com.log.LogDinnamus  - Abrindo conexao com o servidor
+2254 [main] INFO br.com.log.LogDinnamus  - Abrindo conexao com o servidor
+1 [main] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Thu Sep 25 11:48:19 BRT 2014
+94 [main] INFO br.com.log.LogDinnamus  - Abrindo conexao com o servidor
+1068 [main] INFO br.com.log.LogDinnamus  - Abrindo conexao com o servidor
+0 [main] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Thu Sep 25 12:00:54 BRT 2014
+659 [main] INFO br.com.log.LogDinnamus  - Abrindo conexao com o servidor
+2492 [main] INFO br.com.log.LogDinnamus  - Abrindo conexao com o servidor
+1 [main] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Thu Sep 25 12:15:42 BRT 2014
+74 [main] INFO br.com.log.LogDinnamus  - Abrindo conexao com o servidor
+1110 [main] INFO br.com.log.LogDinnamus  - Abrindo conexao com o servidor
+0 [main] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Thu Sep 25 12:20:46 BRT 2014
+522 [main] INFO br.com.log.LogDinnamus  - Abrindo conexao com o servidor
+2134 [main] INFO br.com.log.LogDinnamus  - Abrindo conexao com o servidor
+0 [main] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Thu Sep 25 12:32:24 BRT 2014
+845 [main] INFO br.com.log.LogDinnamus  - Abrindo conexao com o servidor
+2031 [main] INFO br.com.log.LogDinnamus  - Abrindo conexao com o servidor
+0 [main] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Thu Sep 25 12:42:12 BRT 2014
+89 [main] INFO br.com.log.LogDinnamus  - Abrindo conexao com o servidor
+1262 [main] INFO br.com.log.LogDinnamus  - Abrindo conexao com o servidor
+0 [main] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Thu Sep 25 17:52:51 BRT 2014
+821 [main] INFO br.com.log.LogDinnamus  - Abrindo conexao com o servidor
+2404 [main] INFO br.com.log.LogDinnamus  - Abrindo conexao com o servidor
+0 [main] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Thu Sep 25 17:56:00 BRT 2014
+82 [main] INFO br.com.log.LogDinnamus  - Abrindo conexao com o servidor
+1014 [main] INFO br.com.log.LogDinnamus  - Abrindo conexao com o servidor

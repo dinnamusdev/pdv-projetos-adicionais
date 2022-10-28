@@ -1,0 +1,1073 @@
+/*
+ * To change this template, choose Tools | Templates
+ * and open the template in the editor.
+ */
+
+package br.com.ui;
+
+
+
+import br.com.generica.Dao_Generica;
+import br.com.log.LogDinnamus;
+import java.math.BigDecimal;
+import java.math.RoundingMode;
+import java.sql.ResultSet;
+import java.sql.ResultSetMetaData;
+import java.sql.SQLException;
+import java.sql.Connection;
+import java.sql.Types;
+import java.text.DateFormat;
+import java.text.NumberFormat;
+import java.util.ArrayList;
+import java.util.Date;
+import java.util.HashMap;
+import java.util.TreeMap;
+import java.util.logging.Level;
+import java.util.logging.Logger;
+import javax.swing.event.TableModelEvent;
+import javax.swing.event.TableModelListener;
+import javax.swing.table.AbstractTableModel;
+
+/**
+ *
+ * @author desenvolvedor
+ */
+public class TbDinnamuS extends AbstractTableModel implements TableModelListener{
+    private boolean Editavel = true;
+    private ResultSet rs;
+    private ResultSetMetaData rsmd;
+    private HashMap<String, NumberFormat> numberFormat=new HashMap<String, NumberFormat>();
+    private HashMap<String, DateFormat> dateFormat=new HashMap<String, DateFormat>();    
+    private ArrayList<String> clColunasEditaveis=new ArrayList<String>();    
+    private String Edicao_ChavePrimaria ="";
+    private String Edicao_ChaveEstrangeira ="";
+    private String Edicao_Tabela="";
+    private Connection Edicao_Cnx = null;
+    private String Edicao_Query ="";
+    private int LinhaAtual=-1;
+    private int ColunaAtual=-1;
+    private ArrayList<Integer> TiposNumericos = new ArrayList<Integer>();
+    private ArrayList<Object> Colunas = new ArrayList<Object>();
+    private boolean ModeloUsandoColecao =false;
+    private TreeMap<String,TreeMap<Integer,Object>> ColunasNaoVinculadas_Valores = new TreeMap<String, TreeMap<Integer, Object>>();    
+    private TreeMap<String,String> ColunasNaoVinculadas = new TreeMap<String, String>();
+    private ArrayList<String> ColunasInvisiveis = new ArrayList<String>();
+    private TreeMap<String, JTableDinnamuS_SubTabela> SubTabelas = new TreeMap<String, JTableDinnamuS_SubTabela>();
+    private TreeMap<String, String> SubTabelas_ChavePrimarias = new TreeMap<String, String>();
+    private ArrayList<String> ColunasBotoes = new ArrayList<String>();
+    //private TreeMap<String, String> SubTabelas_ChaveEstrageira = new TreeMap<String, String>();
+    private TreeMap<String,Integer> TipoJDBC = new TreeMap<String, Integer>();
+    private TreeMap<String,Integer> CampoNumerico_CasaDecimais = new TreeMap<String, Integer>();
+    private boolean IgnorarProcedimento = false;
+            
+    public TbDinnamuS() {
+        
+            //this.addTableModelListener(this);
+            this.rs=null;
+            this.rsmd=null;            
+                   
+    }
+    public  TreeMap<String, Integer> getTipoJDBC(){
+            return TipoJDBC;
+    } 
+    public void setTipoJDBC( TreeMap<String, Integer> _tipo){
+            TipoJDBC = _tipo;
+        
+    }
+    public TreeMap<String,Integer> getCampoNumerico_CasaDecimais(){
+        return CampoNumerico_CasaDecimais;
+    }
+    public void setCampoNumerico_CasaDecimais(TreeMap<String,Integer> _CampoNumerico_CasaDecimais ){
+        CampoNumerico_CasaDecimais = _CampoNumerico_CasaDecimais;
+    }
+    
+    /*@Override
+    public Class<?> getColumnClass(int columnIndex) {
+        Class<?> cl =null;
+        try {
+            String Classe ="";
+            if(isModeloUsandoColecao()){
+                String cNomeCampo=Colunas.get(columnIndex).toString();
+                columnIndex = getIndiceColuna(cNomeCampo);            
+            }
+            Classe = rs.getMetaData().getColumnClassName(columnIndex+1);
+            
+            Class  t  = Class.forName(Classe);
+            
+            cl = t;
+            
+        } catch (Exception e) {
+            LogDinnamus.Log(e, true);
+        }
+        
+        return cl;
+    }*/
+    private ArrayList<Integer> getTiposNumericos(){
+        try {
+            if(TiposNumericos.size()==0){
+               TiposNumericos.add(Types.BIGINT);
+               TiposNumericos.add(Types.DECIMAL);
+               TiposNumericos.add(Types.DOUBLE);
+               TiposNumericos.add(Types.FLOAT);
+               TiposNumericos.add(Types.INTEGER);
+               TiposNumericos.add(Types.NUMERIC);
+               TiposNumericos.add(Types.REAL);
+               TiposNumericos.add(Types.SMALLINT);
+               TiposNumericos.add(Types.TINYINT);
+            }
+            
+        } catch (Exception e) {
+            LogDinnamus.Log(e, true);
+        }
+        return this.TiposNumericos;
+    }
+     
+    
+    @Override
+    public boolean isCellEditable(int linha,int coluna){
+        
+        
+        if(getClColunasEditaveis().isEmpty()){
+            return false;
+        }else{
+            
+            String cColunaAtual = getColumnName(coluna).toLowerCase();
+            
+            if(getClColunasEditaveis().contains(cColunaAtual)){
+                if(isEditavel()){
+                   return true;
+                }else{
+                    return false;
+                }
+            }else
+            {
+                return false;
+            }
+        }
+    } 
+    
+    public TbDinnamuS(ResultSet rsDados) {
+        try {
+            
+            this.rs = rsDados;
+            this.rsmd = rs.getMetaData();
+
+
+            
+        } catch (SQLException ex) {
+            LogDinnamus.Log(ex);
+        }
+
+    }   
+    @Override
+    public String getColumnName(int nColuna) {
+
+        String cNomeCampo=null;
+        try {
+            
+            
+            if(isModeloUsandoColecao()){
+                
+                cNomeCampo=Colunas.get(nColuna).toString();
+                if(getColunasInvisiveis().contains(cNomeCampo)){
+                  cNomeCampo="";
+                }
+                
+            }else{
+                cNomeCampo=rsmd.getColumnName(nColuna+1).toUpperCase();
+            }
+           
+            
+        } catch (SQLException exception) {
+            LogDinnamus.Log(exception);
+        }
+        return cNomeCampo;
+        
+    }
+   
+
+    @Override
+    public int getColumnCount() {
+     
+        int nIndice=-1;        
+        try {            
+             if(isModeloUsandoColecao()){
+                 nIndice = Colunas.size()  ;// - getColunasInvisiveis().size()  ;
+             }else{
+                nIndice= rsmd.getColumnCount();
+             }
+
+        } catch (Exception exception) {
+                LogDinnamus.Log(exception);
+        }
+        
+        
+        return nIndice ;
+    }
+
+    @Override
+    public void setValueAt(Object aValue, int rowIndex, int columnIndex ) {
+         setValueAt(aValue, rowIndex, columnIndex, false);
+    }
+    
+    
+    public void setValueAt(Object aValue, int rowIndex, int columnIndex, boolean ignorarColecao) {
+        try {
+             String cNomeColuna="";
+             if(isModeloUsandoColecao()){
+                 if(columnIndex < Colunas.size()-1){
+                    cNomeColuna = Colunas.get(columnIndex).toString();
+                 }else{
+                     cNomeColuna = getRs().getMetaData().getColumnName(columnIndex+1).toUpperCase();  
+                 }
+             }else{
+               cNomeColuna = getRs().getMetaData().getColumnName(columnIndex+1).toUpperCase();            
+             }
+             if(getColunasNaoVinculadas().containsKey(cNomeColuna)){
+                String TipoCampoNaoVinculado =  getColunasNaoVinculadas().get(cNomeColuna);
+                if(TipoCampoNaoVinculado.equalsIgnoreCase("java.lang.Boolean")){
+                   TreeMap<Integer, Object> vlr_nao_vinculados = getColunasNaoVinculadas_Valores().get(cNomeColuna);
+                   vlr_nao_vinculados.put(rowIndex, (Boolean)aValue);
+                }
+             }else{
+                getRs().absolute(rowIndex + 1);
+                if(isModeloUsandoColecao()){                     
+                     for (int i = 0; i < rs.getMetaData().getColumnCount(); i++) {
+                        if(rs.getMetaData().getColumnLabel(i+1).equalsIgnoreCase(cNomeColuna)){
+                            columnIndex=i;
+                            break;
+                        }
+                    }
+                }else{
+                    cNomeColuna=getRs().getMetaData().getColumnName(columnIndex+1).toUpperCase();            
+                }       
+                String TipoColuna = getRs().getMetaData().getColumnTypeName(columnIndex+1);
+
+                if(getTiposNumericos().contains(getRs().getMetaData().getColumnType(columnIndex+1))){
+                   aValue =aValue.toString().replace(",", ".");
+                }              
+                
+                if(getColunasBotoes().contains(cNomeColuna)){
+                    return;
+                }
+                int TipoCampo=0;
+                if(!getTipoJDBC().containsKey(cNomeColuna)){
+                   TipoCampo = getRs().getMetaData().getColumnType(columnIndex+1);
+                }else{
+                    TipoCampo  =getTipoJDBC().get(cNomeColuna);
+                }
+                int CasaDecimais =0;
+                if(getCampoNumerico_CasaDecimais().containsKey(cNomeColuna)){
+                   CasaDecimais= getCampoNumerico_CasaDecimais().get(cNomeColuna);
+                }
+                
+                
+                if(TipoCampo==Types.BIGINT){
+                   getRs().updateBigDecimal(cNomeColuna, new BigDecimal(aValue.toString().replace(",", ".")));
+                }else if( TipoCampo==Types.BOOLEAN || TipoCampo==Types.BIT){
+                   boolean NovoValorBooleano = aValue.toString().equalsIgnoreCase("true")|| aValue.toString().equalsIgnoreCase("1") ? true : false;
+                   getRs().updateBoolean(cNomeColuna,NovoValorBooleano );
+                }else if( TipoCampo==Types.CHAR){
+                    getRs().updateString(cNomeColuna, aValue.toString());
+                }else if(TipoCampo==Types.DATE){
+                    getRs().updateObject(cNomeColuna, aValue);
+                }else if(TipoCampo==Types.DECIMAL){
+                    //float Valor = new Float(aValue.toString().replace(",", ".")).byteValue();
+                    BigDecimal valor = new BigDecimal(new Double(aValue.toString()));
+                    valor = valor.setScale(2, RoundingMode.HALF_UP);
+                    getRs().updateBigDecimal(cNomeColuna,valor);
+                }else if(TipoCampo==Types.DOUBLE){
+                    
+                    //float Valor = new Float(aValue.toString().replace(",", ".")).byteValue();
+                    Double v = new Double(aValue.toString().replace(",", "."));
+                    //getRs().updateDouble(cNomeColuna, v);                    
+                    BigDecimal valor = new BigDecimal(v);
+                    valor = valor.setScale(CasaDecimais, BigDecimal.ROUND_HALF_EVEN);
+                    v =valor.doubleValue();
+                    
+                    getRs().updateDouble(cNomeColuna,v);
+                     
+                }else if(TipoCampo==Types.FLOAT){
+                   getRs().updateFloat(cNomeColuna, new Float(aValue.toString().replace(",", ".")));
+                }else if( TipoCampo==Types.INTEGER){
+                   getRs().updateInt(cNomeColuna, new Integer(aValue.toString().replace(",", ".")));  
+                }else if(TipoCampo==Types.REAL){
+                   getRs().updateFloat(cNomeColuna, new Float(aValue.toString().replace(",", ".")));
+                }else if( TipoCampo==Types.VARCHAR){
+                  getRs().updateString(cNomeColuna, aValue ==null ? "" : aValue.toString());  
+                }
+                getRs().updateRow();
+             }
+             this.fireTableCellUpdated(rowIndex, columnIndex);
+           
+            
+        } catch (Exception e) {
+            LogDinnamus.Log(e, true);
+        }
+    }
+    public void AtualizarCelula(int LinhaAtual){
+         this.fireTableRowsUpdated(LinhaAtual, LinhaAtual);
+    }
+    
+    
+    private boolean  AtualizarDadosFloat(Float aValue, int rowIndex, int columnIndex, String cNomeColuna){
+        try {
+            
+         
+           
+           int linha = getRs().getRow();
+           
+           getRs().updateFloat(columnIndex+1, aValue);
+                               
+           if(getEdicao_Query().length()>0){
+              setRs(getRs().getStatement().executeQuery(getEdicao_Query()));
+           }
+           getRs().updateRow();
+           //linha = getRs().getRow();
+           this.fireTableRowsUpdated(linha, linha);
+           //this.fireTableCellUpdated(rowIndex,columnIndex);
+           linha = getRs().getRow();
+           
+           return true;
+        } catch (Exception e) {
+            LogDinnamus.Log(e, true);           
+            return false;
+        }
+    }
+        private boolean  AtualizarDadosDouble(Double aValue, int rowIndex, int columnIndex, String cNomeColuna){
+        try {
+            
+         
+           
+           int linha = getRs().getRow();
+           
+           getRs().updateDouble(columnIndex+1, aValue);
+                               
+           if(getEdicao_Query().length()>0){
+              setRs(getRs().getStatement().executeQuery(getEdicao_Query()));
+           }
+           getRs().updateRow();
+           //linha = getRs().getRow();
+           this.fireTableRowsUpdated(linha, linha);
+           //this.fireTableCellUpdated(rowIndex,columnIndex);
+           linha = getRs().getRow();
+           
+           return true;
+        } catch (Exception e) {
+            LogDinnamus.Log(e, true);           
+            return false;
+        }
+    }
+    private boolean  AtualizarDados(Object aValue, int rowIndex, int columnIndex, String cNomeColuna){
+        try {
+            
+         
+           
+           int linha = getRs().getRow();
+           
+           getRs().updateObject(columnIndex+1, aValue);
+                               
+           if(getEdicao_Query().length()>0){
+              setRs(getRs().getStatement().executeQuery(getEdicao_Query()));
+           }
+           getRs().updateRow();
+           //linha = getRs().getRow();
+           this.fireTableRowsUpdated(linha, linha);
+           //this.fireTableCellUpdated(rowIndex,columnIndex);
+           linha = getRs().getRow();
+           
+           return true;
+        } catch (Exception e) {
+            LogDinnamus.Log(e, true);           
+            return false;
+        }
+    }
+    public boolean setValorCelular(String cNomeColuna, Object aValue){
+        return setValorCelular(cNomeColuna, aValue, getLinhaAtual());
+    }
+    public int getIndiceColuna(String cNomeColuna){
+        int nColuna=-1;
+        try {
+             
+            for (int columnIndex = 1; columnIndex <= rs.getMetaData().getColumnCount(); columnIndex++) {
+                String ColunaModelo = rs.getMetaData().getColumnName(columnIndex);
+                if(ColunaModelo.equalsIgnoreCase(cNomeColuna)){
+                    nColuna = --columnIndex;
+                    break;
+                }
+            }
+            
+        } catch (Exception e) {
+            LogDinnamus.Log(e, true);
+        }
+        return nColuna;
+    }
+    
+    public boolean setValorCelular(String cNomeColuna, Object aValue,int Linha){
+        try {
+            int nColuna =getIndiceColuna(cNomeColuna);
+            if(nColuna>=0){
+                return AtualizarDados( aValue, getLinhaAtual(),  nColuna,  cNomeColuna);
+            }else{
+                return false;
+            }            
+        } catch (Exception e) {
+             LogDinnamus.Log(e, true);
+             return false;
+        }
+    
+    }
+    public boolean setValorFloat(String cNomeColuna, Float aValue,int Linha){
+        try {
+            int nColuna =getIndiceColuna(cNomeColuna);
+            if(nColuna>=0){
+                
+                setValueAt(aValue, Linha, nColuna);
+                                
+                return AtualizarDadosFloat(aValue, getLinhaAtual(),  nColuna,  cNomeColuna);
+            }else{
+                return false;
+            }            
+        } catch (Exception e) {
+             LogDinnamus.Log(e, true);
+             return false;
+        }
+    
+    }
+    public boolean setValorDouble(String cNomeColuna, Double aValue,int Linha){
+        try {
+            int nColuna =getIndiceColuna(cNomeColuna);
+            if(nColuna>=0){
+                
+                setValueAt(aValue, Linha, nColuna);
+                                
+                return true; //AtualizarDadosDouble(aValue, getLinhaAtual(),  nColuna,  cNomeColuna);
+            }else{
+                return false;
+            }            
+        } catch (Exception e) {
+             LogDinnamus.Log(e, true);
+             return false;
+        }
+    
+    }
+    
+    public Object getValorCelula(String NomeCampo){
+        return getValorCelula(NomeCampo,false);
+    }
+    
+    
+    public Long getValorCelulaLong(String NomeCampo){
+        return getValorCelulaLong(NomeCampo, -1);
+    }
+    public Long getValorCelulaLong(String NomeCampo, int Linha){
+        int nLinha =0;
+        try {
+            Long obj = null;              
+            getRs().absolute((Linha==-1 ? getLinhaAtual() : Linha ) + 1);
+            obj = getRs().getLong(NomeCampo);
+            return obj;             
+        } catch (Exception e) {
+             LogDinnamus.Log(e, true);
+             return null;
+        }
+    }       
+     public Boolean getValorCelulaBoolean(String NomeCampo, int Linha){
+        
+        try {
+            Boolean obj = false;              
+            getRs().absolute((Linha==-1 ? getLinhaAtual() : Linha ) + 1);
+            obj = getRs().getBoolean(NomeCampo);
+            return obj;             
+        } catch (Exception e) {
+             LogDinnamus.Log(e, true);
+             return null;
+        }
+    }       
+    
+    
+    public Date getValorCelulaDate(String NomeCampo , int Linha){
+        int nLinha =0;
+        try {
+            Date obj = null;  
+            getRs().absolute((Linha==-1 ? getLinhaAtual() : Linha ) + 1);
+            obj = getRs().getDate(NomeCampo);
+            return obj;             
+        } catch (Exception e) {
+             LogDinnamus.Log(e, true);
+             return null;
+        }
+    }            
+    public Float getValorCelulaFloat(String NomeCampo){
+        return getValorCelulaFloat(NomeCampo, -1);
+    }
+    public Float getValorCelulaFloat(String NomeCampo, int Linha){
+        int nLinha =0;
+        try {
+            Float obj = null;  
+            getRs().absolute((Linha==-1 ? getLinhaAtual() : Linha ) + 1);
+            obj = getRs().getFloat(NomeCampo);
+            return obj;             
+        } catch (Exception e) {
+             LogDinnamus.Log(e, true);
+             return null;
+        }
+    }            
+    public Double getValorCelulaDouble(String NomeCampo){
+        return getValorCelulaDouble(NomeCampo, -1);
+    }
+    public Double getValorCelulaDouble(String NomeCampo, int Linha){
+        int nLinha =0;
+        try {
+            Double obj = null;  
+            getRs().absolute((Linha==-1 ? getLinhaAtual() : Linha ) + 1);
+            obj = getRs().getDouble(NomeCampo);
+            return obj;             
+        } catch (Exception e) {
+             LogDinnamus.Log(e, true);
+             return null;
+        }
+    }            
+   public String getValorCelulaString(String NomeCampo ){
+       return  getValorCelulaString(NomeCampo, -1);
+   }
+   public String getValorCelulaString(String NomeCampo , int Linha){
+        int nLinha =0;
+        try {
+            String obj = "";  
+            getRs().absolute((Linha==-1 ? getLinhaAtual() : Linha ) + 1);
+            obj = getRs().getString(NomeCampo);
+            return obj;             
+        } catch (Exception e) {
+             LogDinnamus.Log(e, true);
+             return null;
+        }
+    }   
+    public Integer getValorCelulaInt(String NomeCampo , int Linha){
+        int nLinha =0;
+        try {
+            Integer obj = 0;  
+            getRs().absolute((Linha==-1 ? getLinhaAtual() : Linha ) + 1);
+            obj = getRs().getInt(NomeCampo);
+            return obj;             
+        } catch (Exception e) {
+             LogDinnamus.Log(e, true);
+             return null;
+        }
+    }   
+    public Object getValorCelula(String NomeCampo,boolean retorna_nulo){
+        int nLinha =0;
+        try {
+            Object obj = null;  
+            //nLinha=getRs().getRow();
+            //if(nLinha!=0){
+               getRs().absolute(getLinhaAtual() + 1);
+               obj = getRs().getObject(NomeCampo);
+             //}       
+            if(!retorna_nulo){
+                 return (obj==null ? new Object() : obj);
+            }else{
+                return obj;
+            }
+             
+        } catch (Exception e) {
+             LogDinnamus.Log(e, true);
+             return null;
+        }
+    }
+    public Object getValueAt(int rowIndex, int columnIndex) {
+        Object obj = null;
+        try {
+            
+            
+            
+            setLinhaAtual(rowIndex);  
+            setColunaAtual(columnIndex);
+            String cNomeColuna="";
+            if(isModeloUsandoColecao()){
+               cNomeColuna = Colunas.get(columnIndex).toString();               
+            }else{
+               cNomeColuna = getRs().getMetaData().getColumnName(columnIndex+1).toUpperCase();            
+            }
+           
+            getRs().absolute(rowIndex + 1);
+            if(getColunasNaoVinculadas().containsKey(cNomeColuna)){
+                String  TipoColunaNaoVinculada = getColunasNaoVinculadas().get(cNomeColuna);
+                 
+                if(!getColunasNaoVinculadas_Valores().containsKey(cNomeColuna)){
+                   
+                   getColunasNaoVinculadas_Valores().put(cNomeColuna, new TreeMap<Integer, Object>());                  
+                }
+                if(!getColunasNaoVinculadas_Valores().get(cNomeColuna).containsKey(rowIndex)){                    
+                    if(TipoColunaNaoVinculada.equalsIgnoreCase("java.lang.Boolean")){
+                      obj=false;  
+                    }
+                    getColunasNaoVinculadas_Valores().get(cNomeColuna).put(rowIndex, obj);
+                }                                
+                 if(TipoColunaNaoVinculada.equalsIgnoreCase("java.lang.Boolean")){
+                    obj = (Boolean) getColunasNaoVinculadas_Valores().get(cNomeColuna).get(rowIndex);
+                 }
+            }else{
+                if(getSubTabelas().containsKey(cNomeColuna)){                   
+
+                    String CampoChavePrimaria = getSubTabelas_ChavePrimarias().get(cNomeColuna);            
+                    Long ValorChavePrimaria = getRs().getLong(CampoChavePrimaria);
+                    obj = getSubTabelas().get(cNomeColuna).getModel(ValorChavePrimaria);
+                    //obj = FiltrarResultSet(cNomeColuna);
+                    //System.out.println("Terminando Filtro");
+                   // System.out.println("Pagto");
+                }else{
+                    if(isModeloUsandoColecao()){
+                       obj = getRs().getObject(cNomeColuna ); 
+                    }else{
+                       obj = getRs().getObject(columnIndex + 1);
+                    }
+                    if(getNumberFormat().containsKey(cNomeColuna.toLowerCase())){
+                        Double f = (obj==null ? 0 : new Double(obj.toString()));
+                        
+                        obj=getNumberFormat().get(cNomeColuna.toLowerCase()).format(f);
+                        
+                        //System.out.println(obj);
+                    }else if(getDateFormat().containsKey(cNomeColuna.toLowerCase())){
+                           if(obj!=null){               
+                             obj=getDateFormat().get(cNomeColuna.toLowerCase()).format(obj);
+                           }                    
+                    }
+                }
+            }
+
+            if(  rs.getFetchSize()>0 && rowIndex +1 >= getRowCount()){
+                rs.next();
+                getRowCount();
+            }
+        } catch (SQLException ex) {
+            Logger.getLogger(TbDinnamuS.class.getName()).log(Level.SEVERE, null, ex);
+        }
+        
+        
+        return obj;
+
+    }
+    /*public ResultSet FiltrarResultSet(String cNomeColuna){
+        
+        ResultSet rsFiltro =null;
+        FilteredRowSetImpl DadosFiltrados =null;
+        try {
+            
+            rsFiltro = getSubTabelas_ResultSet().get(cNomeColuna);            
+            String CampoChavePrimaria = getSubTabelas_ChavePrimarias().get(cNomeColuna);
+            String CampoChaveEstrangeira = getSubTabelas_ChaveEstrageira().get(cNomeColuna);
+            Long ValorChavePrimaria = getRs().getLong(CampoChavePrimaria);
+            DadosFiltrados = new FilteredRowSetImpl();  
+            rsFiltro.beforeFirst();
+            DadosFiltrados.populate(rsFiltro);
+            DadosFiltrados.setFilter(new Filtro(CampoChaveEstrangeira, ValorChavePrimaria));                    
+            //rs = DadosFiltrados;
+           
+        } catch (Exception e) {
+            LogDinnamus.Log(e, true);
+        }
+        return  DadosFiltrados;
+    }*/
+    public int getRowCount() {
+        int nIndice=-1;
+        try {
+            //if(getRs()!=null){
+                getRs().last();
+                nIndice= getRs().getRow();
+            //}
+        } catch (Exception exception) {
+                LogDinnamus.Log(exception);
+        }
+
+        return nIndice;
+    }
+
+    /**
+     * @return the rs
+     */
+    public ResultSet getRs() {
+
+        return rs;
+    }
+
+    /**
+     * @param rs the rs to set
+     */
+    public void setRs(ResultSet rs) {
+        try {            
+            this.rs = rs;
+            this.rsmd = rs.getMetaData();
+        } catch (SQLException ex) {
+            Logger.getLogger(TbDinnamuS.class.getName()).log(Level.SEVERE, null, ex);
+        }
+    }
+
+    /**
+     * @return the numberFormat
+     */
+    public HashMap<String, NumberFormat> getNumberFormat() {
+        return numberFormat;
+    }
+
+    /**
+     * @param numberFormat the numberFormat to set
+     */
+    public void setNumberFormat(HashMap<String, NumberFormat> numberFormat) {
+        this.numberFormat = numberFormat;
+    }
+
+    /**
+     * @return the dateFormat
+     */
+    public HashMap<String, DateFormat> getDateFormat() {
+        return dateFormat;
+    }
+
+    /**
+     * @param dateFormat the dateFormat to set
+     */
+    public void setDateFormat(HashMap<String, DateFormat> dateFormat) {
+        this.dateFormat = dateFormat;
+    }
+
+    /**
+     * @return the clColunas
+     */
+    /*public HashMap<Object, Integer> getClColunas() {
+        return clColunas;
+    }*/
+
+    /**
+     * @param clColunas the clColunas to set
+     */
+    /*ublic void setClColunas(HashMap<Object, Integer> clColunas) {
+        this.clColunas = clColunas;
+    }*/
+
+    /**
+     * @return the clColunasEditaveis
+     */
+    public ArrayList<String> getClColunasEditaveis() {
+        
+        return clColunasEditaveis;
+    }
+
+    /**
+     * @param clColunasEditaveis the clColunasEditaveis to set
+     */
+    public void setClColunasEditaveis(ArrayList<String> clColunasEditaveis) {
+        this.clColunasEditaveis = clColunasEditaveis;
+    }
+    /**
+     * @return the ChavePrimaria
+     */
+    public void setChaveEstrangeira(String Campo){
+        this.Edicao_ChaveEstrangeira  = Campo;
+    }
+    public String getChaveEstrangeira()
+    {
+        return Edicao_ChaveEstrangeira;
+    }
+    public String getChavePrimaria() {
+        return Edicao_ChavePrimaria;
+    }
+
+    /**
+     * @param ChavePrimaria the ChavePrimaria to set
+     */
+    public void setChavePrimaria(String ChavePrimaria) {
+        this.Edicao_ChavePrimaria = ChavePrimaria;
+    }
+
+    /**
+     * @return the Tabela_Edicao
+     */
+    public String getTabela_Edicao() {
+        return Edicao_Tabela;
+    }
+
+    /**
+     * @param Tabela_Edicao the Tabela_Edicao to set
+     */
+    public void setTabela_Edicao(String Tabela_Edicao) {
+        this.Edicao_Tabela = Tabela_Edicao;
+    }
+
+    /**
+     * @return the Edicao_Cnx
+     */
+    public Connection getEdicao_Cnx() {
+        return Edicao_Cnx;
+    }
+    
+    
+    @Override
+    public void fireTableRowsInserted(int firstRow, int lastRow) {
+        if(isIgnorarProcedimento()){
+            return;
+        }
+        fireTableChanged(new TableModelEvent(this, firstRow, lastRow,
+                             TableModelEvent.ALL_COLUMNS, TableModelEvent.INSERT));
+    }
+    
+    @Override
+    public void fireTableRowsUpdated(int firstRow, int lastRow) {
+        if(isIgnorarProcedimento()){
+            return;
+        }
+        super.fireTableRowsUpdated(firstRow, lastRow);
+    }
+
+    /**
+     * @param Edicao_Cnx the Edicao_Cnx to set
+     */
+    
+    
+    public void setEdicao_Cnx(Connection Edicao_Cnx) {
+        this.Edicao_Cnx = Edicao_Cnx;
+    }
+
+    /**
+     * @return the Edicao_Query
+     */
+    public String getEdicao_Query() {
+        return Edicao_Query;
+    }
+
+    /**
+     * @param Edicao_Query the Edicao_Query to set
+     */
+    public void setEdicao_Query(String Edicao_Query) {
+        this.Edicao_Query = Edicao_Query;
+    }
+
+    /*
+     * @return the LinhaAtual
+     */
+    public int getLinhaAtual() {
+        return LinhaAtual;
+    }
+
+    /**
+     * @param LinhaAtual the LinhaAtual to set
+     */
+    public void setLinhaAtual(int LinhaAtual) {
+        this.LinhaAtual = LinhaAtual;
+    }
+
+    /**
+     * @return the ColunaAtual
+     */
+    public int getColunaAtual() {
+        return ColunaAtual;
+    }
+
+    /**
+     * @param ColunaAtual the ColunaAtual to set
+     */
+    public void setColunaAtual(int ColunaAtual) {
+        this.ColunaAtual = ColunaAtual;
+    }
+
+  public boolean RemoveRow(int Linha){
+        try {
+            
+            getRs().absolute(Linha+1);
+            getRs().deleteRow();  
+            //getRs().absolute(Linha);
+            fireTableRowsDeleted(Linha,Linha);
+            //fire
+            return true;
+        } catch (Exception e) {
+            LogDinnamus.Log(e, true);
+            return false;
+        }
+    }
+   public boolean addRow(){
+        try {
+            ///rs.
+            rs.moveToInsertRow();
+            rs.insertRow();                
+            fireTableRowsInserted(getRowCount()-1, getRowCount()-1);
+            return true;
+        } catch (Exception e) {
+            LogDinnamus.Log(e, true);
+        }
+        return false;
+        
+    }
+    public boolean addRow(boolean GerarPK, Long ValorChaveEstrangeira, Integer Loja,Integer PDV,boolean online,boolean commit){
+            try {
+               
+               Long PK =0l;               
+               rs.moveToInsertRow();               
+               if(GerarPK){
+                   PK = Dao_Generica.NovoValorPK(Edicao_Tabela, Loja, PDV,online,commit);               
+                   rs.updateLong(getChavePrimaria(), PK);                   
+               }
+               if(ValorChaveEstrangeira!=null){
+                 rs.updateLong(getChaveEstrangeira(), ValorChaveEstrangeira);                                      
+               }          
+               rs.insertRow(); 
+               rs.moveToCurrentRow();
+             
+            return true;
+        } catch (Exception e) {
+            LogDinnamus.Log(e, true);
+            return false;
+        }
+    
+    }
+    
+    public void tableChanged(TableModelEvent e) {
+            
+       
+    }
+
+    /**
+     * @return the Editavel
+     */
+    public boolean isEditavel() {
+        return Editavel;
+    }
+
+    /**
+     * @param Editavel the Editavel to set
+     */
+    public void setEditavel(boolean Editavel) {
+        this.Editavel = Editavel;
+    }
+
+    /**
+     * @return the ModeloUsandoColecao
+     */
+    public boolean isModeloUsandoColecao() {
+        return ModeloUsandoColecao;
+    }
+
+    /**
+     * @param ModeloUsandoColecao the ModeloUsandoColecao to set
+     */
+    public void setModeloUsandoColecao(boolean ModeloUsandoColecao) {
+        this.ModeloUsandoColecao = ModeloUsandoColecao;
+    }
+
+    /**
+     * @return the Colunas
+     */
+    public ArrayList<Object> getColunas() {
+        return Colunas;
+    }
+
+    /**
+     * @param Colunas the Colunas to set
+     */
+    public void setColunas(ArrayList<Object> Colunas) {
+        this.Colunas = Colunas;
+    }
+
+    /**
+     * @return the ColunasNaoVinculadas_Valores
+     */
+    public TreeMap<String,TreeMap<Integer,Object>> getColunasNaoVinculadas_Valores() {
+        return ColunasNaoVinculadas_Valores;
+    }
+
+    /**
+     * @param ColunasNaoVinculadas_Valores the ColunasNaoVinculadas_Valores to set
+     */
+    public void setColunasNaoVinculadas_Valores(TreeMap<String,TreeMap<Integer,Object>> ColunasNaoVinculadas_Valores) {
+        this.ColunasNaoVinculadas_Valores = ColunasNaoVinculadas_Valores;
+    }
+
+    /**
+     * @return the ColunasNaoVinculadas
+     */
+    public TreeMap<String,String> getColunasNaoVinculadas() {
+        return ColunasNaoVinculadas;
+    }
+
+    /**
+     * @param ColunasNaoVinculadas the ColunasNaoVinculadas to set
+     */
+    public void setColunasNaoVinculadas(TreeMap<String,String> ColunasNaoVinculadas) {
+        this.ColunasNaoVinculadas = ColunasNaoVinculadas;
+    }
+
+    /**
+     * @return the ColunasInvisiveis
+     */
+    public ArrayList<String> getColunasInvisiveis() {
+        return ColunasInvisiveis;
+    }
+
+    /**
+     * @param ColunasInvisiveis the ColunasInvisiveis to set
+     */
+    public void setColunasInvisiveis(ArrayList<String> ColunasInvisiveis) {
+        this.ColunasInvisiveis = ColunasInvisiveis;
+    }
+
+    /**
+     * @return the SubTabelas_ResultSet
+     */
+    public TreeMap<String, JTableDinnamuS_SubTabela> getSubTabelas() {
+        return SubTabelas;
+    }
+
+    /**
+     * @param SubTabelas_ResultSet the SubTabelas_ResultSet to set
+     */
+    public void setSubTabelas(TreeMap<String, JTableDinnamuS_SubTabela> SubTabelas) {
+        this.SubTabelas = SubTabelas;
+    }
+
+    /**
+     * @return the SubTabelas_ChavePrimarias
+     */
+    public TreeMap<String, String> getSubTabelas_ChavePrimarias() {
+        return SubTabelas_ChavePrimarias;
+    }
+
+    /**
+     * @param SubTabelas_ChavePrimarias the SubTabelas_ChavePrimarias to set
+     */
+    public void setSubTabelas_ChavePrimarias(TreeMap<String, String> SubTabelas_ChavePrimarias) {
+        this.SubTabelas_ChavePrimarias = SubTabelas_ChavePrimarias;
+    }
+  
+    /**
+     * @return the IgnorarProcedimento
+     */
+    public boolean isIgnorarProcedimento() {
+        return IgnorarProcedimento;
+    }
+
+    /**
+     * @param IgnorarProcedimento the IgnorarProcedimento to set
+     */
+    public void setIgnorarProcedimento(boolean IgnorarProcedimento) {
+        this.IgnorarProcedimento = IgnorarProcedimento;
+    }
+
+    /**
+     * @return the ColunasBotoes
+     */
+    public ArrayList<String> getColunasBotoes() {
+        return ColunasBotoes;
+    }
+
+    /**
+     * @param ColunasBotoes the ColunasBotoes to set
+     */
+    public void setColunasBotoes(ArrayList<String> ColunasBotoes) {
+        this.ColunasBotoes = ColunasBotoes;
+    }
+
+    /**
+     * @return the ColunasNaoVinculadas
+     */
+   
+}
+

@@ -1,0 +1,1263 @@
+0 [Thread-1] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Tue Jan 08 00:32:15 GMT-03:00 2019
+696 [Thread-1] ERROR br.com.log.LogDinnamus  - Registro de Exceção detectada : Tue Jan 08 00:32:16 GMT-03:00 2019
+org.jivesoftware.smack.SmackException$ConnectionException: The following addresses failed: 'ip193.ip-142-44-146.net:5222' failed because java.net.UnknownHostException: ip193.ip-142-44-146.net
+	at org.jivesoftware.smack.SmackException$ConnectionException.from(SmackException.java:255)
+	at org.jivesoftware.smack.tcp.XMPPTCPConnection.connectUsingConfiguration(XMPPTCPConnection.java:613)
+	at org.jivesoftware.smack.tcp.XMPPTCPConnection.connectInternal(XMPPTCPConnection.java:851)
+	at org.jivesoftware.smack.AbstractXMPPConnection.connect(AbstractXMPPConnection.java:364)
+	at smack.config.SmackMensageria.conectarServidor(SmackMensageria.java:439)
+	at smack.config.frmChat.conectarServidor(frmChat.java:1441)
+	at smack.config.frmChat.btConectarActionPerformed(frmChat.java:522)
+	at smack.config.frmChat.iniciarUI(frmChat.java:1625)
+	at smack.config.frmChat.<init>(frmChat.java:114)
+	at smack.config.frmChat$20.run(frmChat.java:1598)
+	at java.lang.Thread.run(Thread.java:748)
+1 [Thread-1] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Tue Jan 08 00:33:13 GMT-03:00 2019
+23120 [Thread-13] ERROR br.com.log.LogDinnamus  - Registro de Exceção detectada : Tue Jan 08 00:33:36 GMT-03:00 2019
+java.net.NoRouteToHostException: No route to host: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:79)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at java.net.Socket.connect(Socket.java:538)
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:180)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:463)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:558)
+	at sun.net.www.http.HttpClient.<init>(HttpClient.java:242)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:339)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:357)
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1220)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1156)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1050)
+	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:984)
+	at smack.config.frmChat.TestarConexao(frmChat.java:1230)
+	at smack.config.frmChat.access$1700(frmChat.java:65)
+	at smack.config.frmChat$17.run(frmChat.java:1308)
+	at java.lang.Thread.run(Thread.java:748)
+0 [Thread-1] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Tue Jan 08 00:34:24 GMT-03:00 2019
+710 [Thread-1] ERROR br.com.log.LogDinnamus  - Registro de Exceção detectada : Tue Jan 08 00:34:24 GMT-03:00 2019
+org.jivesoftware.smack.SmackException$ConnectionException: The following addresses failed: 'ip193.ip-142-44-146.net:5222' failed because java.net.UnknownHostException: ip193.ip-142-44-146.net
+	at org.jivesoftware.smack.SmackException$ConnectionException.from(SmackException.java:255)
+	at org.jivesoftware.smack.tcp.XMPPTCPConnection.connectUsingConfiguration(XMPPTCPConnection.java:613)
+	at org.jivesoftware.smack.tcp.XMPPTCPConnection.connectInternal(XMPPTCPConnection.java:851)
+	at org.jivesoftware.smack.AbstractXMPPConnection.connect(AbstractXMPPConnection.java:364)
+	at smack.config.SmackMensageria.conectarServidor(SmackMensageria.java:439)
+	at smack.config.frmChat.conectarServidor(frmChat.java:1441)
+	at smack.config.frmChat.btConectarActionPerformed(frmChat.java:522)
+	at smack.config.frmChat.iniciarUI(frmChat.java:1625)
+	at smack.config.frmChat.<init>(frmChat.java:114)
+	at smack.config.frmChat$20.run(frmChat.java:1598)
+	at java.lang.Thread.run(Thread.java:748)
+0 [Thread-1] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Tue Jan 08 00:34:34 GMT-03:00 2019
+13437 [Thread-12] ERROR br.com.log.LogDinnamus  - Registro de Exceção detectada : Tue Jan 08 00:34:47 GMT-03:00 2019
+java.net.NoRouteToHostException: No route to host: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:79)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at java.net.Socket.connect(Socket.java:538)
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:180)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:463)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:558)
+	at sun.net.www.http.HttpClient.<init>(HttpClient.java:242)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:339)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:357)
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1220)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1156)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1050)
+	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:984)
+	at smack.config.frmChat.TestarConexao(frmChat.java:1230)
+	at smack.config.frmChat.access$1700(frmChat.java:65)
+	at smack.config.frmChat$17.run(frmChat.java:1308)
+	at java.lang.Thread.run(Thread.java:748)
+23459 [Thread-12] ERROR br.com.log.LogDinnamus  - Registro de Exceção detectada : Tue Jan 08 00:34:58 GMT-03:00 2019
+java.net.NoRouteToHostException: No route to host: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:79)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at java.net.Socket.connect(Socket.java:538)
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:180)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:463)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:558)
+	at sun.net.www.http.HttpClient.<init>(HttpClient.java:242)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:339)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:357)
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1220)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1156)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1050)
+	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:984)
+	at smack.config.frmChat.TestarConexao(frmChat.java:1230)
+	at smack.config.frmChat.access$1700(frmChat.java:65)
+	at smack.config.frmChat$17.run(frmChat.java:1308)
+	at java.lang.Thread.run(Thread.java:748)
+33467 [Thread-12] ERROR br.com.log.LogDinnamus  - Registro de Exceção detectada : Tue Jan 08 00:35:08 GMT-03:00 2019
+java.net.UnknownHostException: ip193.ip-142-44-146.net
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:184)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at java.net.Socket.connect(Socket.java:538)
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:180)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:463)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:558)
+	at sun.net.www.http.HttpClient.<init>(HttpClient.java:242)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:339)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:357)
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1220)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1156)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1050)
+	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:984)
+	at smack.config.frmChat.TestarConexao(frmChat.java:1230)
+	at smack.config.frmChat.access$1700(frmChat.java:65)
+	at smack.config.frmChat$17.run(frmChat.java:1308)
+	at java.lang.Thread.run(Thread.java:748)
+0 [Thread-1] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Tue Jan 08 00:35:25 GMT-03:00 2019
+33418 [Thread-12] ERROR br.com.log.LogDinnamus  - Registro de Exceção detectada : Tue Jan 08 00:35:58 GMT-03:00 2019
+java.net.UnknownHostException: ip193.ip-142-44-146.net
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:184)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at java.net.Socket.connect(Socket.java:538)
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:180)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:463)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:558)
+	at sun.net.www.http.HttpClient.<init>(HttpClient.java:242)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:339)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:357)
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1220)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1156)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1050)
+	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:984)
+	at smack.config.frmChat.TestarConexao(frmChat.java:1230)
+	at smack.config.frmChat.access$1700(frmChat.java:65)
+	at smack.config.frmChat$17.run(frmChat.java:1308)
+	at java.lang.Thread.run(Thread.java:748)
+49687 [Thread-12] ERROR br.com.log.LogDinnamus  - Registro de Exceção detectada : Tue Jan 08 00:36:14 GMT-03:00 2019
+java.net.UnknownHostException: ip193.ip-142-44-146.net
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:184)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at java.net.Socket.connect(Socket.java:538)
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:180)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:463)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:558)
+	at sun.net.www.http.HttpClient.<init>(HttpClient.java:242)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:339)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:357)
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1220)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1156)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1050)
+	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:984)
+	at smack.config.frmChat.TestarConexao(frmChat.java:1230)
+	at smack.config.frmChat.access$1700(frmChat.java:65)
+	at smack.config.frmChat$17.run(frmChat.java:1308)
+	at java.lang.Thread.run(Thread.java:748)
+84154 [Thread-12] ERROR br.com.log.LogDinnamus  - Registro de Exceção detectada : Tue Jan 08 00:36:49 GMT-03:00 2019
+java.net.UnknownHostException: ip193.ip-142-44-146.net
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:184)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at java.net.Socket.connect(Socket.java:538)
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:180)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:463)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:558)
+	at sun.net.www.http.HttpClient.<init>(HttpClient.java:242)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:339)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:357)
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1220)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1156)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1050)
+	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:984)
+	at smack.config.frmChat.TestarConexao(frmChat.java:1230)
+	at smack.config.frmChat.access$1700(frmChat.java:65)
+	at smack.config.frmChat$17.run(frmChat.java:1308)
+	at java.lang.Thread.run(Thread.java:748)
+0 [Thread-1] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Tue Jan 08 00:38:58 GMT-03:00 2019
+691 [Thread-1] ERROR br.com.log.LogDinnamus  - Registro de Exceção detectada : Tue Jan 08 00:38:59 GMT-03:00 2019
+org.jivesoftware.smack.SmackException$ConnectionException: The following addresses failed: 'ip193.ip-142-44-146.net:5222' failed because java.net.UnknownHostException: ip193.ip-142-44-146.net
+	at org.jivesoftware.smack.SmackException$ConnectionException.from(SmackException.java:255)
+	at org.jivesoftware.smack.tcp.XMPPTCPConnection.connectUsingConfiguration(XMPPTCPConnection.java:613)
+	at org.jivesoftware.smack.tcp.XMPPTCPConnection.connectInternal(XMPPTCPConnection.java:851)
+	at org.jivesoftware.smack.AbstractXMPPConnection.connect(AbstractXMPPConnection.java:364)
+	at smack.config.SmackMensageria.conectarServidor(SmackMensageria.java:439)
+	at smack.config.frmChat.conectarServidor(frmChat.java:1441)
+	at smack.config.frmChat.btConectarActionPerformed(frmChat.java:522)
+	at smack.config.frmChat.iniciarUI(frmChat.java:1625)
+	at smack.config.frmChat.<init>(frmChat.java:114)
+	at smack.config.frmChat$20.run(frmChat.java:1598)
+	at java.lang.Thread.run(Thread.java:748)
+1 [Thread-1] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Tue Jan 08 00:39:20 GMT-03:00 2019
+12988 [Thread-12] ERROR br.com.log.LogDinnamus  - Registro de Exceção detectada : Tue Jan 08 00:39:33 GMT-03:00 2019
+java.net.NoRouteToHostException: No route to host: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:79)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at java.net.Socket.connect(Socket.java:538)
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:180)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:463)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:558)
+	at sun.net.www.http.HttpClient.<init>(HttpClient.java:242)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:339)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:357)
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1220)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1156)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1050)
+	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:984)
+	at smack.config.frmChat.TestarConexao(frmChat.java:1230)
+	at smack.config.frmChat.access$1700(frmChat.java:65)
+	at smack.config.frmChat$17.run(frmChat.java:1308)
+	at java.lang.Thread.run(Thread.java:748)
+0 [Thread-1] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Tue Jan 08 00:40:11 GMT-03:00 2019
+23297 [Thread-13] ERROR br.com.log.LogDinnamus  - Registro de Exceção detectada : Tue Jan 08 00:40:34 GMT-03:00 2019
+java.net.NoRouteToHostException: No route to host: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:79)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at java.net.Socket.connect(Socket.java:538)
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:180)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:463)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:558)
+	at sun.net.www.http.HttpClient.<init>(HttpClient.java:242)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:339)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:357)
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1220)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1156)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1050)
+	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:984)
+	at smack.config.frmChat.TestarConexao(frmChat.java:1230)
+	at smack.config.frmChat.access$1700(frmChat.java:65)
+	at smack.config.frmChat$17.run(frmChat.java:1308)
+	at java.lang.Thread.run(Thread.java:748)
+1 [Thread-1] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Tue Jan 08 00:42:21 GMT-03:00 2019
+939 [Thread-1] ERROR br.com.log.LogDinnamus  - Registro de Exceção detectada : Tue Jan 08 00:42:22 GMT-03:00 2019
+org.jivesoftware.smack.SmackException$ConnectionException: The following addresses failed: 'ip193.ip-142-44-146.net:5222' failed because java.net.UnknownHostException: ip193.ip-142-44-146.net
+	at org.jivesoftware.smack.SmackException$ConnectionException.from(SmackException.java:255)
+	at org.jivesoftware.smack.tcp.XMPPTCPConnection.connectUsingConfiguration(XMPPTCPConnection.java:613)
+	at org.jivesoftware.smack.tcp.XMPPTCPConnection.connectInternal(XMPPTCPConnection.java:851)
+	at org.jivesoftware.smack.AbstractXMPPConnection.connect(AbstractXMPPConnection.java:364)
+	at smack.config.SmackMensageria.conectarServidor(SmackMensageria.java:439)
+	at smack.config.frmChat.conectarServidor(frmChat.java:1441)
+	at smack.config.frmChat.btConectarActionPerformed(frmChat.java:522)
+	at smack.config.frmChat.iniciarUI(frmChat.java:1625)
+	at smack.config.frmChat.<init>(frmChat.java:114)
+	at smack.config.frmChat$20.run(frmChat.java:1598)
+	at java.lang.Thread.run(Thread.java:748)
+0 [Thread-1] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Tue Jan 08 00:42:39 GMT-03:00 2019
+23202 [Thread-13] ERROR br.com.log.LogDinnamus  - Registro de Exceção detectada : Tue Jan 08 00:43:02 GMT-03:00 2019
+java.net.NoRouteToHostException: No route to host: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:79)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at java.net.Socket.connect(Socket.java:538)
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:180)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:463)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:558)
+	at sun.net.www.http.HttpClient.<init>(HttpClient.java:242)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:339)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:357)
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1220)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1156)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1050)
+	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:984)
+	at smack.config.frmChat.TestarConexao(frmChat.java:1230)
+	at smack.config.frmChat.access$1700(frmChat.java:65)
+	at smack.config.frmChat$17.run(frmChat.java:1308)
+	at java.lang.Thread.run(Thread.java:748)
+38833 [Smack Reconnection Manager (0)] INFO br.com.log.LogDinnamus  - Aguardando ....4 para reconectar - Tue Jan 08 00:43:18 GMT-03:00 2019
+39841 [Smack Reconnection Manager (0)] INFO br.com.log.LogDinnamus  - Aguardando ....3 para reconectar - Tue Jan 08 00:43:19 GMT-03:00 2019
+40844 [Smack Reconnection Manager (0)] INFO br.com.log.LogDinnamus  - Aguardando ....2 para reconectar - Tue Jan 08 00:43:20 GMT-03:00 2019
+41845 [Smack Reconnection Manager (0)] INFO br.com.log.LogDinnamus  - Aguardando ....1 para reconectar - Tue Jan 08 00:43:21 GMT-03:00 2019
+42846 [Smack Reconnection Manager (0)] INFO br.com.log.LogDinnamus  - Aguardando ....0 para reconectar - Tue Jan 08 00:43:22 GMT-03:00 2019
+42848 [Smack Reconnection Manager (0)] INFO br.com.log.LogDinnamus  - tentando reconectar.... - Tue Jan 08 00:43:22 GMT-03:00 2019
+42853 [Smack Reconnection Manager (0)] ERROR br.com.log.LogDinnamus  - Registro de Exceção detectada : Tue Jan 08 00:43:22 GMT-03:00 2019
+org.jivesoftware.smack.SmackException$ConnectionException: The following addresses failed: 'ip193.ip-142-44-146.net:5222' failed because java.net.UnknownHostException: ip193.ip-142-44-146.net
+	at org.jivesoftware.smack.SmackException$ConnectionException.from(SmackException.java:255)
+	at org.jivesoftware.smack.tcp.XMPPTCPConnection.connectUsingConfiguration(XMPPTCPConnection.java:613)
+	at org.jivesoftware.smack.tcp.XMPPTCPConnection.connectInternal(XMPPTCPConnection.java:851)
+	at org.jivesoftware.smack.AbstractXMPPConnection.connect(AbstractXMPPConnection.java:364)
+	at smack.config.Reconectar$1.run(Reconectar.java:113)
+	at java.lang.Thread.run(Thread.java:748)
+50237 [Thread-13] ERROR br.com.log.LogDinnamus  - Registro de Exceção detectada : Tue Jan 08 00:43:29 GMT-03:00 2019
+java.net.UnknownHostException: ip193.ip-142-44-146.net
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:184)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at java.net.Socket.connect(Socket.java:538)
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:180)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:463)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:558)
+	at sun.net.www.http.HttpClient.<init>(HttpClient.java:242)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:339)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:357)
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1220)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1156)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1050)
+	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:984)
+	at smack.config.frmChat.TestarConexao(frmChat.java:1230)
+	at smack.config.frmChat.access$1700(frmChat.java:65)
+	at smack.config.frmChat$17.run(frmChat.java:1308)
+	at java.lang.Thread.run(Thread.java:748)
+55177 [Smack Reconnection Manager (0)] INFO br.com.log.LogDinnamus  - Aguardando ....4 para reconectar - Tue Jan 08 00:43:34 GMT-03:00 2019
+56179 [Smack Reconnection Manager (0)] INFO br.com.log.LogDinnamus  - Aguardando ....3 para reconectar - Tue Jan 08 00:43:35 GMT-03:00 2019
+57182 [Smack Reconnection Manager (0)] INFO br.com.log.LogDinnamus  - Aguardando ....2 para reconectar - Tue Jan 08 00:43:36 GMT-03:00 2019
+58183 [Smack Reconnection Manager (0)] INFO br.com.log.LogDinnamus  - Aguardando ....1 para reconectar - Tue Jan 08 00:43:37 GMT-03:00 2019
+59184 [Smack Reconnection Manager (0)] INFO br.com.log.LogDinnamus  - Aguardando ....0 para reconectar - Tue Jan 08 00:43:38 GMT-03:00 2019
+59186 [Smack Reconnection Manager (0)] INFO br.com.log.LogDinnamus  - tentando reconectar.... - Tue Jan 08 00:43:38 GMT-03:00 2019
+59189 [Smack Reconnection Manager (0)] ERROR br.com.log.LogDinnamus  - Registro de Exceção detectada : Tue Jan 08 00:43:38 GMT-03:00 2019
+org.jivesoftware.smack.SmackException$ConnectionException: The following addresses failed: 'ip193.ip-142-44-146.net:5222' failed because java.net.UnknownHostException: ip193.ip-142-44-146.net
+	at org.jivesoftware.smack.SmackException$ConnectionException.from(SmackException.java:255)
+	at org.jivesoftware.smack.tcp.XMPPTCPConnection.connectUsingConfiguration(XMPPTCPConnection.java:613)
+	at org.jivesoftware.smack.tcp.XMPPTCPConnection.connectInternal(XMPPTCPConnection.java:851)
+	at org.jivesoftware.smack.AbstractXMPPConnection.connect(AbstractXMPPConnection.java:364)
+	at smack.config.Reconectar$1.run(Reconectar.java:113)
+	at java.lang.Thread.run(Thread.java:748)
+64177 [Thread-13] ERROR br.com.log.LogDinnamus  - Registro de Exceção detectada : Tue Jan 08 00:43:43 GMT-03:00 2019
+java.net.UnknownHostException: ip193.ip-142-44-146.net
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:184)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at java.net.Socket.connect(Socket.java:538)
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:180)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:463)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:558)
+	at sun.net.www.http.HttpClient.<init>(HttpClient.java:242)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:339)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:357)
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1220)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1156)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1050)
+	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:984)
+	at smack.config.frmChat.TestarConexao(frmChat.java:1230)
+	at smack.config.frmChat.access$1700(frmChat.java:65)
+	at smack.config.frmChat$17.run(frmChat.java:1308)
+	at java.lang.Thread.run(Thread.java:748)
+65182 [Smack Reconnection Manager (0)] INFO br.com.log.LogDinnamus  - Aguardando ....4 para reconectar - Tue Jan 08 00:43:44 GMT-03:00 2019
+66184 [Smack Reconnection Manager (0)] INFO br.com.log.LogDinnamus  - Aguardando ....3 para reconectar - Tue Jan 08 00:43:45 GMT-03:00 2019
+67184 [Smack Reconnection Manager (0)] INFO br.com.log.LogDinnamus  - Aguardando ....2 para reconectar - Tue Jan 08 00:43:46 GMT-03:00 2019
+68185 [Smack Reconnection Manager (0)] INFO br.com.log.LogDinnamus  - Aguardando ....1 para reconectar - Tue Jan 08 00:43:47 GMT-03:00 2019
+69187 [Smack Reconnection Manager (0)] INFO br.com.log.LogDinnamus  - Aguardando ....0 para reconectar - Tue Jan 08 00:43:48 GMT-03:00 2019
+69188 [Smack Reconnection Manager (0)] INFO br.com.log.LogDinnamus  - tentando reconectar.... - Tue Jan 08 00:43:48 GMT-03:00 2019
+69188 [Smack Reconnection Manager (0)] ERROR br.com.log.LogDinnamus  - Registro de Exceção detectada : Tue Jan 08 00:43:48 GMT-03:00 2019
+org.jivesoftware.smack.SmackException$ConnectionException: The following addresses failed: 'ip193.ip-142-44-146.net:5222' failed because java.net.UnknownHostException: ip193.ip-142-44-146.net
+	at org.jivesoftware.smack.SmackException$ConnectionException.from(SmackException.java:255)
+	at org.jivesoftware.smack.tcp.XMPPTCPConnection.connectUsingConfiguration(XMPPTCPConnection.java:613)
+	at org.jivesoftware.smack.tcp.XMPPTCPConnection.connectInternal(XMPPTCPConnection.java:851)
+	at org.jivesoftware.smack.AbstractXMPPConnection.connect(AbstractXMPPConnection.java:364)
+	at smack.config.Reconectar$1.run(Reconectar.java:113)
+	at java.lang.Thread.run(Thread.java:748)
+75378 [Smack Reconnection Manager (0)] INFO br.com.log.LogDinnamus  - Aguardando ....4 para reconectar - Tue Jan 08 00:43:55 GMT-03:00 2019
+76380 [Smack Reconnection Manager (0)] INFO br.com.log.LogDinnamus  - Aguardando ....3 para reconectar - Tue Jan 08 00:43:56 GMT-03:00 2019
+77382 [Smack Reconnection Manager (0)] INFO br.com.log.LogDinnamus  - Aguardando ....2 para reconectar - Tue Jan 08 00:43:57 GMT-03:00 2019
+78384 [Smack Reconnection Manager (0)] INFO br.com.log.LogDinnamus  - Aguardando ....1 para reconectar - Tue Jan 08 00:43:58 GMT-03:00 2019
+79386 [Smack Reconnection Manager (0)] INFO br.com.log.LogDinnamus  - Aguardando ....0 para reconectar - Tue Jan 08 00:43:59 GMT-03:00 2019
+79388 [Smack Reconnection Manager (0)] INFO br.com.log.LogDinnamus  - tentando reconectar.... - Tue Jan 08 00:43:59 GMT-03:00 2019
+0 [Thread-1] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Tue Jan 08 00:45:32 GMT-03:00 2019
+33631 [Thread-13] ERROR br.com.log.LogDinnamus  - Registro de Exceção detectada : Tue Jan 08 00:46:06 GMT-03:00 2019
+java.net.UnknownHostException: ip193.ip-142-44-146.net
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:184)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at java.net.Socket.connect(Socket.java:538)
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:180)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:463)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:558)
+	at sun.net.www.http.HttpClient.<init>(HttpClient.java:242)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:339)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:357)
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1220)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1156)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1050)
+	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:984)
+	at smack.config.frmChat.TestarConexao(frmChat.java:1230)
+	at smack.config.frmChat.access$1800(frmChat.java:65)
+	at smack.config.frmChat$17.run(frmChat.java:1308)
+	at java.lang.Thread.run(Thread.java:748)
+34666 [Smack Reconnection Manager (0)] INFO br.com.log.LogDinnamus  - Aguardando ....4 para reconectar - Tue Jan 08 00:46:07 GMT-03:00 2019
+35676 [Smack Reconnection Manager (0)] INFO br.com.log.LogDinnamus  - Aguardando ....3 para reconectar - Tue Jan 08 00:46:08 GMT-03:00 2019
+36677 [Smack Reconnection Manager (0)] INFO br.com.log.LogDinnamus  - Aguardando ....2 para reconectar - Tue Jan 08 00:46:09 GMT-03:00 2019
+37679 [Smack Reconnection Manager (0)] INFO br.com.log.LogDinnamus  - Aguardando ....1 para reconectar - Tue Jan 08 00:46:10 GMT-03:00 2019
+38680 [Smack Reconnection Manager (0)] INFO br.com.log.LogDinnamus  - Aguardando ....0 para reconectar - Tue Jan 08 00:46:11 GMT-03:00 2019
+38682 [Smack Reconnection Manager (0)] INFO br.com.log.LogDinnamus  - tentando reconectar.... - Tue Jan 08 00:46:11 GMT-03:00 2019
+38684 [Smack Reconnection Manager (0)] ERROR br.com.log.LogDinnamus  - Registro de Exceção detectada : Tue Jan 08 00:46:11 GMT-03:00 2019
+org.jivesoftware.smack.SmackException$ConnectionException: The following addresses failed: 'ip193.ip-142-44-146.net:5222' failed because java.net.UnknownHostException: ip193.ip-142-44-146.net
+	at org.jivesoftware.smack.SmackException$ConnectionException.from(SmackException.java:255)
+	at org.jivesoftware.smack.tcp.XMPPTCPConnection.connectUsingConfiguration(XMPPTCPConnection.java:613)
+	at org.jivesoftware.smack.tcp.XMPPTCPConnection.connectInternal(XMPPTCPConnection.java:851)
+	at org.jivesoftware.smack.AbstractXMPPConnection.connect(AbstractXMPPConnection.java:364)
+	at smack.config.Reconectar$1.run(Reconectar.java:113)
+	at java.lang.Thread.run(Thread.java:748)
+43667 [Thread-13] ERROR br.com.log.LogDinnamus  - Registro de Exceção detectada : Tue Jan 08 00:46:16 GMT-03:00 2019
+java.net.UnknownHostException: ip193.ip-142-44-146.net
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:184)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at java.net.Socket.connect(Socket.java:538)
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:180)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:463)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:558)
+	at sun.net.www.http.HttpClient.<init>(HttpClient.java:242)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:339)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:357)
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1220)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1156)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1050)
+	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:984)
+	at smack.config.frmChat.TestarConexao(frmChat.java:1230)
+	at smack.config.frmChat.access$1800(frmChat.java:65)
+	at smack.config.frmChat$17.run(frmChat.java:1308)
+	at java.lang.Thread.run(Thread.java:748)
+44673 [Smack Reconnection Manager (0)] INFO br.com.log.LogDinnamus  - Aguardando ....4 para reconectar - Tue Jan 08 00:46:17 GMT-03:00 2019
+45675 [Smack Reconnection Manager (0)] INFO br.com.log.LogDinnamus  - Aguardando ....3 para reconectar - Tue Jan 08 00:46:18 GMT-03:00 2019
+46677 [Smack Reconnection Manager (0)] INFO br.com.log.LogDinnamus  - Aguardando ....2 para reconectar - Tue Jan 08 00:46:19 GMT-03:00 2019
+47678 [Smack Reconnection Manager (0)] INFO br.com.log.LogDinnamus  - Aguardando ....1 para reconectar - Tue Jan 08 00:46:20 GMT-03:00 2019
+48679 [Smack Reconnection Manager (0)] INFO br.com.log.LogDinnamus  - Aguardando ....0 para reconectar - Tue Jan 08 00:46:21 GMT-03:00 2019
+48683 [Smack Reconnection Manager (0)] INFO br.com.log.LogDinnamus  - tentando reconectar.... - Tue Jan 08 00:46:21 GMT-03:00 2019
+48685 [Smack Reconnection Manager (0)] ERROR br.com.log.LogDinnamus  - Registro de Exceção detectada : Tue Jan 08 00:46:21 GMT-03:00 2019
+org.jivesoftware.smack.SmackException$ConnectionException: The following addresses failed: 'ip193.ip-142-44-146.net:5222' failed because java.net.UnknownHostException: ip193.ip-142-44-146.net
+	at org.jivesoftware.smack.SmackException$ConnectionException.from(SmackException.java:255)
+	at org.jivesoftware.smack.tcp.XMPPTCPConnection.connectUsingConfiguration(XMPPTCPConnection.java:613)
+	at org.jivesoftware.smack.tcp.XMPPTCPConnection.connectInternal(XMPPTCPConnection.java:851)
+	at org.jivesoftware.smack.AbstractXMPPConnection.connect(AbstractXMPPConnection.java:364)
+	at smack.config.Reconectar$1.run(Reconectar.java:113)
+	at java.lang.Thread.run(Thread.java:748)
+54870 [Smack Reconnection Manager (0)] INFO br.com.log.LogDinnamus  - Aguardando ....4 para reconectar - Tue Jan 08 00:46:27 GMT-03:00 2019
+55872 [Smack Reconnection Manager (0)] INFO br.com.log.LogDinnamus  - Aguardando ....3 para reconectar - Tue Jan 08 00:46:28 GMT-03:00 2019
+56874 [Smack Reconnection Manager (0)] INFO br.com.log.LogDinnamus  - Aguardando ....2 para reconectar - Tue Jan 08 00:46:29 GMT-03:00 2019
+57876 [Smack Reconnection Manager (0)] INFO br.com.log.LogDinnamus  - Aguardando ....1 para reconectar - Tue Jan 08 00:46:30 GMT-03:00 2019
+58877 [Smack Reconnection Manager (0)] INFO br.com.log.LogDinnamus  - Aguardando ....0 para reconectar - Tue Jan 08 00:46:31 GMT-03:00 2019
+58879 [Smack Reconnection Manager (0)] INFO br.com.log.LogDinnamus  - tentando reconectar.... - Tue Jan 08 00:46:31 GMT-03:00 2019
+145768 [Thread-13] ERROR br.com.log.LogDinnamus  - Registro de Exceção detectada : Tue Jan 08 00:47:58 GMT-03:00 2019
+java.net.ConnectException: Connection timed out: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:79)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at java.net.Socket.connect(Socket.java:538)
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:180)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:463)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:558)
+	at sun.net.www.http.HttpClient.<init>(HttpClient.java:242)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:339)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:357)
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1220)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1156)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1050)
+	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:984)
+	at smack.config.frmChat.TestarConexao(frmChat.java:1230)
+	at smack.config.frmChat.access$1800(frmChat.java:65)
+	at smack.config.frmChat$17.run(frmChat.java:1308)
+	at java.lang.Thread.run(Thread.java:748)
+155772 [Thread-13] ERROR br.com.log.LogDinnamus  - Registro de Exceção detectada : Tue Jan 08 00:48:08 GMT-03:00 2019
+java.net.UnknownHostException: ip193.ip-142-44-146.net
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:184)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at java.net.Socket.connect(Socket.java:538)
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:180)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:463)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:558)
+	at sun.net.www.http.HttpClient.<init>(HttpClient.java:242)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:339)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:357)
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1220)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1156)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1050)
+	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:984)
+	at smack.config.frmChat.TestarConexao(frmChat.java:1230)
+	at smack.config.frmChat.access$1800(frmChat.java:65)
+	at smack.config.frmChat$17.run(frmChat.java:1308)
+	at java.lang.Thread.run(Thread.java:748)
+165774 [Thread-13] ERROR br.com.log.LogDinnamus  - Registro de Exceção detectada : Tue Jan 08 00:48:18 GMT-03:00 2019
+java.net.UnknownHostException: ip193.ip-142-44-146.net
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:184)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at java.net.Socket.connect(Socket.java:538)
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:180)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:463)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:558)
+	at sun.net.www.http.HttpClient.<init>(HttpClient.java:242)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:339)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:357)
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1220)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1156)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1050)
+	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:984)
+	at smack.config.frmChat.TestarConexao(frmChat.java:1230)
+	at smack.config.frmChat.access$1800(frmChat.java:65)
+	at smack.config.frmChat$17.run(frmChat.java:1308)
+	at java.lang.Thread.run(Thread.java:748)
+182253 [Thread-13] ERROR br.com.log.LogDinnamus  - Registro de Exceção detectada : Tue Jan 08 00:48:35 GMT-03:00 2019
+java.net.UnknownHostException: ip193.ip-142-44-146.net
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:184)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at java.net.Socket.connect(Socket.java:538)
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:180)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:463)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:558)
+	at sun.net.www.http.HttpClient.<init>(HttpClient.java:242)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:339)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:357)
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1220)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1156)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1050)
+	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:984)
+	at smack.config.frmChat.TestarConexao(frmChat.java:1230)
+	at smack.config.frmChat.access$1800(frmChat.java:65)
+	at smack.config.frmChat$17.run(frmChat.java:1308)
+	at java.lang.Thread.run(Thread.java:748)
+208439 [Thread-13] ERROR br.com.log.LogDinnamus  - Registro de Exceção detectada : Tue Jan 08 00:49:01 GMT-03:00 2019
+java.net.UnknownHostException: ip193.ip-142-44-146.net
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:184)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at java.net.Socket.connect(Socket.java:538)
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:180)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:463)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:558)
+	at sun.net.www.http.HttpClient.<init>(HttpClient.java:242)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:339)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:357)
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1220)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1156)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1050)
+	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:984)
+	at smack.config.frmChat.TestarConexao(frmChat.java:1230)
+	at smack.config.frmChat.access$1800(frmChat.java:65)
+	at smack.config.frmChat$17.run(frmChat.java:1308)
+	at java.lang.Thread.run(Thread.java:748)
+296356 [Thread-13] ERROR br.com.log.LogDinnamus  - Registro de Exceção detectada : Tue Jan 08 00:50:29 GMT-03:00 2019
+java.net.UnknownHostException: ip193.ip-142-44-146.net
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:184)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at java.net.Socket.connect(Socket.java:538)
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:180)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:463)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:558)
+	at sun.net.www.http.HttpClient.<init>(HttpClient.java:242)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:339)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:357)
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1220)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1156)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1050)
+	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:984)
+	at smack.config.frmChat.TestarConexao(frmChat.java:1230)
+	at smack.config.frmChat.access$1800(frmChat.java:65)
+	at smack.config.frmChat$17.run(frmChat.java:1308)
+	at java.lang.Thread.run(Thread.java:748)
+0 [Thread-1] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Tue Jan 08 00:52:38 GMT-03:00 2019
+31100 [Thread-13] ERROR br.com.log.LogDinnamus  - Registro de Exceção detectada : Tue Jan 08 00:53:09 GMT-03:00 2019
+java.net.UnknownHostException: ip193.ip-142-44-146.net
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:184)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at java.net.Socket.connect(Socket.java:538)
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:180)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:463)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:558)
+	at sun.net.www.http.HttpClient.<init>(HttpClient.java:242)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:339)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:357)
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1220)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1156)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1050)
+	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:984)
+	at smack.config.frmChat.TestarConexao(frmChat.java:1230)
+	at smack.config.frmChat.access$1800(frmChat.java:65)
+	at smack.config.frmChat$17.run(frmChat.java:1308)
+	at java.lang.Thread.run(Thread.java:748)
+37018 [Smack Reconnection Manager (0)] INFO br.com.log.LogDinnamus  - Aguardando ....4 para reconectar - Tue Jan 08 00:53:15 GMT-03:00 2019
+38022 [Smack Reconnection Manager (0)] INFO br.com.log.LogDinnamus  - Aguardando ....3 para reconectar - Tue Jan 08 00:53:16 GMT-03:00 2019
+39024 [Smack Reconnection Manager (0)] INFO br.com.log.LogDinnamus  - Aguardando ....2 para reconectar - Tue Jan 08 00:53:17 GMT-03:00 2019
+40027 [Smack Reconnection Manager (0)] INFO br.com.log.LogDinnamus  - Aguardando ....1 para reconectar - Tue Jan 08 00:53:18 GMT-03:00 2019
+41030 [Smack Reconnection Manager (0)] INFO br.com.log.LogDinnamus  - Aguardando ....0 para reconectar - Tue Jan 08 00:53:19 GMT-03:00 2019
+41033 [Smack Reconnection Manager (0)] INFO br.com.log.LogDinnamus  - tentando reconectar.... - Tue Jan 08 00:53:19 GMT-03:00 2019
+41036 [Smack Reconnection Manager (0)] ERROR br.com.log.LogDinnamus  - Registro de Exceção detectada : Tue Jan 08 00:53:19 GMT-03:00 2019
+org.jivesoftware.smack.SmackException$ConnectionException: The following addresses failed: 'ip193.ip-142-44-146.net:5222' failed because java.net.UnknownHostException: ip193.ip-142-44-146.net
+	at org.jivesoftware.smack.SmackException$ConnectionException.from(SmackException.java:255)
+	at org.jivesoftware.smack.tcp.XMPPTCPConnection.connectUsingConfiguration(XMPPTCPConnection.java:613)
+	at org.jivesoftware.smack.tcp.XMPPTCPConnection.connectInternal(XMPPTCPConnection.java:851)
+	at org.jivesoftware.smack.AbstractXMPPConnection.connect(AbstractXMPPConnection.java:364)
+	at smack.config.Reconectar$1.run(Reconectar.java:115)
+	at java.lang.Thread.run(Thread.java:748)
+46019 [Thread-13] ERROR br.com.log.LogDinnamus  - Registro de Exceção detectada : Tue Jan 08 00:53:24 GMT-03:00 2019
+java.net.UnknownHostException: ip193.ip-142-44-146.net
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:184)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at java.net.Socket.connect(Socket.java:538)
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:180)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:463)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:558)
+	at sun.net.www.http.HttpClient.<init>(HttpClient.java:242)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:339)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:357)
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1220)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1156)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1050)
+	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:984)
+	at smack.config.frmChat.TestarConexao(frmChat.java:1230)
+	at smack.config.frmChat.access$1800(frmChat.java:65)
+	at smack.config.frmChat$17.run(frmChat.java:1308)
+	at java.lang.Thread.run(Thread.java:748)
+47022 [Smack Reconnection Manager (0)] INFO br.com.log.LogDinnamus  - Aguardando ....4 para reconectar - Tue Jan 08 00:53:25 GMT-03:00 2019
+48025 [Smack Reconnection Manager (0)] INFO br.com.log.LogDinnamus  - Aguardando ....3 para reconectar - Tue Jan 08 00:53:26 GMT-03:00 2019
+49027 [Smack Reconnection Manager (0)] INFO br.com.log.LogDinnamus  - Aguardando ....2 para reconectar - Tue Jan 08 00:53:27 GMT-03:00 2019
+50033 [Smack Reconnection Manager (0)] INFO br.com.log.LogDinnamus  - Aguardando ....1 para reconectar - Tue Jan 08 00:53:28 GMT-03:00 2019
+51034 [Smack Reconnection Manager (0)] INFO br.com.log.LogDinnamus  - Aguardando ....0 para reconectar - Tue Jan 08 00:53:29 GMT-03:00 2019
+51039 [Smack Reconnection Manager (0)] INFO br.com.log.LogDinnamus  - tentando reconectar.... - Tue Jan 08 00:53:29 GMT-03:00 2019
+51043 [Smack Reconnection Manager (0)] ERROR br.com.log.LogDinnamus  - Registro de Exceção detectada : Tue Jan 08 00:53:29 GMT-03:00 2019
+org.jivesoftware.smack.SmackException$ConnectionException: The following addresses failed: 'ip193.ip-142-44-146.net:5222' failed because java.net.UnknownHostException: ip193.ip-142-44-146.net
+	at org.jivesoftware.smack.SmackException$ConnectionException.from(SmackException.java:255)
+	at org.jivesoftware.smack.tcp.XMPPTCPConnection.connectUsingConfiguration(XMPPTCPConnection.java:613)
+	at org.jivesoftware.smack.tcp.XMPPTCPConnection.connectInternal(XMPPTCPConnection.java:851)
+	at org.jivesoftware.smack.AbstractXMPPConnection.connect(AbstractXMPPConnection.java:364)
+	at smack.config.Reconectar$1.run(Reconectar.java:115)
+	at java.lang.Thread.run(Thread.java:748)
+56022 [Thread-13] ERROR br.com.log.LogDinnamus  - Registro de Exceção detectada : Tue Jan 08 00:53:34 GMT-03:00 2019
+java.net.UnknownHostException: ip193.ip-142-44-146.net
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:184)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at java.net.Socket.connect(Socket.java:538)
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:180)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:463)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:558)
+	at sun.net.www.http.HttpClient.<init>(HttpClient.java:242)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:339)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:357)
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1220)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1156)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1050)
+	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:984)
+	at smack.config.frmChat.TestarConexao(frmChat.java:1230)
+	at smack.config.frmChat.access$1800(frmChat.java:65)
+	at smack.config.frmChat$17.run(frmChat.java:1308)
+	at java.lang.Thread.run(Thread.java:748)
+57024 [Smack Reconnection Manager (0)] INFO br.com.log.LogDinnamus  - Aguardando ....4 para reconectar - Tue Jan 08 00:53:35 GMT-03:00 2019
+58026 [Smack Reconnection Manager (0)] INFO br.com.log.LogDinnamus  - Aguardando ....3 para reconectar - Tue Jan 08 00:53:36 GMT-03:00 2019
+59027 [Smack Reconnection Manager (0)] INFO br.com.log.LogDinnamus  - Aguardando ....2 para reconectar - Tue Jan 08 00:53:37 GMT-03:00 2019
+60029 [Smack Reconnection Manager (0)] INFO br.com.log.LogDinnamus  - Aguardando ....1 para reconectar - Tue Jan 08 00:53:38 GMT-03:00 2019
+61030 [Smack Reconnection Manager (0)] INFO br.com.log.LogDinnamus  - Aguardando ....0 para reconectar - Tue Jan 08 00:53:39 GMT-03:00 2019
+61032 [Smack Reconnection Manager (0)] INFO br.com.log.LogDinnamus  - tentando reconectar.... - Tue Jan 08 00:53:39 GMT-03:00 2019
+61033 [Smack Reconnection Manager (0)] ERROR br.com.log.LogDinnamus  - Registro de Exceção detectada : Tue Jan 08 00:53:39 GMT-03:00 2019
+org.jivesoftware.smack.SmackException$ConnectionException: The following addresses failed: 'ip193.ip-142-44-146.net:5222' failed because java.net.UnknownHostException: ip193.ip-142-44-146.net
+	at org.jivesoftware.smack.SmackException$ConnectionException.from(SmackException.java:255)
+	at org.jivesoftware.smack.tcp.XMPPTCPConnection.connectUsingConfiguration(XMPPTCPConnection.java:613)
+	at org.jivesoftware.smack.tcp.XMPPTCPConnection.connectInternal(XMPPTCPConnection.java:851)
+	at org.jivesoftware.smack.AbstractXMPPConnection.connect(AbstractXMPPConnection.java:364)
+	at smack.config.Reconectar$1.run(Reconectar.java:115)
+	at java.lang.Thread.run(Thread.java:748)
+67204 [Smack Reconnection Manager (0)] INFO br.com.log.LogDinnamus  - Aguardando ....4 para reconectar - Tue Jan 08 00:53:45 GMT-03:00 2019
+68206 [Smack Reconnection Manager (0)] INFO br.com.log.LogDinnamus  - Aguardando ....3 para reconectar - Tue Jan 08 00:53:46 GMT-03:00 2019
+69207 [Smack Reconnection Manager (0)] INFO br.com.log.LogDinnamus  - Aguardando ....2 para reconectar - Tue Jan 08 00:53:47 GMT-03:00 2019
+70208 [Smack Reconnection Manager (0)] INFO br.com.log.LogDinnamus  - Aguardando ....1 para reconectar - Tue Jan 08 00:53:48 GMT-03:00 2019
+71210 [Smack Reconnection Manager (0)] INFO br.com.log.LogDinnamus  - Aguardando ....0 para reconectar - Tue Jan 08 00:53:49 GMT-03:00 2019
+71212 [Smack Reconnection Manager (0)] INFO br.com.log.LogDinnamus  - tentando reconectar.... - Tue Jan 08 00:53:49 GMT-03:00 2019
+0 [Thread-1] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Tue Jan 08 00:55:15 GMT-03:00 2019
+58669 [Thread-13] ERROR br.com.log.LogDinnamus  - Registro de Exceção detectada : Tue Jan 08 00:56:13 GMT-03:00 2019
+java.net.ConnectException: Connection timed out: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:79)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at java.net.Socket.connect(Socket.java:538)
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:180)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:463)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:558)
+	at sun.net.www.http.HttpClient.<init>(HttpClient.java:242)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:339)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:357)
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1220)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1156)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1050)
+	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:984)
+	at smack.config.frmChat.TestarConexao(frmChat.java:1230)
+	at smack.config.frmChat.access$1800(frmChat.java:65)
+	at smack.config.frmChat$17.run(frmChat.java:1308)
+	at java.lang.Thread.run(Thread.java:748)
+59712 [Smack Reconnection Manager (0)] INFO br.com.log.LogDinnamus  - Aguardando ....4 para reconectar - Tue Jan 08 00:56:14 GMT-03:00 2019
+60720 [Smack Reconnection Manager (0)] INFO br.com.log.LogDinnamus  - Aguardando ....3 para reconectar - Tue Jan 08 00:56:15 GMT-03:00 2019
+61721 [Smack Reconnection Manager (0)] INFO br.com.log.LogDinnamus  - Aguardando ....2 para reconectar - Tue Jan 08 00:56:16 GMT-03:00 2019
+62722 [Smack Reconnection Manager (0)] INFO br.com.log.LogDinnamus  - Aguardando ....1 para reconectar - Tue Jan 08 00:56:17 GMT-03:00 2019
+63723 [Smack Reconnection Manager (0)] INFO br.com.log.LogDinnamus  - Aguardando ....0 para reconectar - Tue Jan 08 00:56:18 GMT-03:00 2019
+63725 [Smack Reconnection Manager (0)] INFO br.com.log.LogDinnamus  - tentando reconectar.... - Tue Jan 08 00:56:18 GMT-03:00 2019
+63728 [Smack Reconnection Manager (0)] ERROR br.com.log.LogDinnamus  - Registro de Exceção detectada : Tue Jan 08 00:56:18 GMT-03:00 2019
+org.jivesoftware.smack.SmackException$ConnectionException: The following addresses failed: 'ip193.ip-142-44-146.net:5222' failed because java.net.NoRouteToHostException: No route to host: connect
+	at org.jivesoftware.smack.SmackException$ConnectionException.from(SmackException.java:255)
+	at org.jivesoftware.smack.tcp.XMPPTCPConnection.connectUsingConfiguration(XMPPTCPConnection.java:613)
+	at org.jivesoftware.smack.tcp.XMPPTCPConnection.connectInternal(XMPPTCPConnection.java:851)
+	at org.jivesoftware.smack.AbstractXMPPConnection.connect(AbstractXMPPConnection.java:364)
+	at smack.config.Reconectar$1.run(Reconectar.java:115)
+	at java.lang.Thread.run(Thread.java:748)
+68713 [Thread-13] ERROR br.com.log.LogDinnamus  - Registro de Exceção detectada : Tue Jan 08 00:56:23 GMT-03:00 2019
+java.net.UnknownHostException: ip193.ip-142-44-146.net
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:184)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at java.net.Socket.connect(Socket.java:538)
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:180)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:463)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:558)
+	at sun.net.www.http.HttpClient.<init>(HttpClient.java:242)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:339)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:357)
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1220)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1156)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1050)
+	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:984)
+	at smack.config.frmChat.TestarConexao(frmChat.java:1230)
+	at smack.config.frmChat.access$1800(frmChat.java:65)
+	at smack.config.frmChat$17.run(frmChat.java:1308)
+	at java.lang.Thread.run(Thread.java:748)
+69720 [Smack Reconnection Manager (0)] INFO br.com.log.LogDinnamus  - Aguardando ....4 para reconectar - Tue Jan 08 00:56:24 GMT-03:00 2019
+70723 [Smack Reconnection Manager (0)] INFO br.com.log.LogDinnamus  - Aguardando ....3 para reconectar - Tue Jan 08 00:56:25 GMT-03:00 2019
+71725 [Smack Reconnection Manager (0)] INFO br.com.log.LogDinnamus  - Aguardando ....2 para reconectar - Tue Jan 08 00:56:26 GMT-03:00 2019
+72727 [Smack Reconnection Manager (0)] INFO br.com.log.LogDinnamus  - Aguardando ....1 para reconectar - Tue Jan 08 00:56:27 GMT-03:00 2019
+73729 [Smack Reconnection Manager (0)] INFO br.com.log.LogDinnamus  - Aguardando ....0 para reconectar - Tue Jan 08 00:56:28 GMT-03:00 2019
+73731 [Smack Reconnection Manager (0)] INFO br.com.log.LogDinnamus  - tentando reconectar.... - Tue Jan 08 00:56:28 GMT-03:00 2019
+73732 [Smack Reconnection Manager (0)] ERROR br.com.log.LogDinnamus  - Registro de Exceção detectada : Tue Jan 08 00:56:28 GMT-03:00 2019
+org.jivesoftware.smack.SmackException$ConnectionException: The following addresses failed: 'ip193.ip-142-44-146.net:5222' failed because java.net.UnknownHostException: ip193.ip-142-44-146.net
+	at org.jivesoftware.smack.SmackException$ConnectionException.from(SmackException.java:255)
+	at org.jivesoftware.smack.tcp.XMPPTCPConnection.connectUsingConfiguration(XMPPTCPConnection.java:613)
+	at org.jivesoftware.smack.tcp.XMPPTCPConnection.connectInternal(XMPPTCPConnection.java:851)
+	at org.jivesoftware.smack.AbstractXMPPConnection.connect(AbstractXMPPConnection.java:364)
+	at smack.config.Reconectar$1.run(Reconectar.java:115)
+	at java.lang.Thread.run(Thread.java:748)
+79958 [Smack Reconnection Manager (0)] INFO br.com.log.LogDinnamus  - Aguardando ....4 para reconectar - Tue Jan 08 00:56:35 GMT-03:00 2019
+80960 [Smack Reconnection Manager (0)] INFO br.com.log.LogDinnamus  - Aguardando ....3 para reconectar - Tue Jan 08 00:56:36 GMT-03:00 2019
+81961 [Smack Reconnection Manager (0)] INFO br.com.log.LogDinnamus  - Aguardando ....2 para reconectar - Tue Jan 08 00:56:37 GMT-03:00 2019
+82961 [Smack Reconnection Manager (0)] INFO br.com.log.LogDinnamus  - Aguardando ....1 para reconectar - Tue Jan 08 00:56:38 GMT-03:00 2019
+83963 [Smack Reconnection Manager (0)] INFO br.com.log.LogDinnamus  - Aguardando ....0 para reconectar - Tue Jan 08 00:56:39 GMT-03:00 2019
+83966 [Smack Reconnection Manager (0)] INFO br.com.log.LogDinnamus  - tentando reconectar.... - Tue Jan 08 00:56:39 GMT-03:00 2019
+139857 [Thread-13] ERROR br.com.log.LogDinnamus  - Registro de Exceção detectada : Tue Jan 08 00:57:35 GMT-03:00 2019
+java.net.UnknownHostException: ip193.ip-142-44-146.net
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:184)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at java.net.Socket.connect(Socket.java:538)
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:180)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:463)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:558)
+	at sun.net.www.http.HttpClient.<init>(HttpClient.java:242)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:339)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:357)
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1220)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1156)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1050)
+	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:984)
+	at smack.config.frmChat.TestarConexao(frmChat.java:1230)
+	at smack.config.frmChat.access$1800(frmChat.java:65)
+	at smack.config.frmChat$17.run(frmChat.java:1308)
+	at java.lang.Thread.run(Thread.java:748)
+140879 [Smack Reconnection Manager (0)] INFO br.com.log.LogDinnamus  - Aguardando ....4 para reconectar - Tue Jan 08 00:57:36 GMT-03:00 2019
+141881 [Smack Reconnection Manager (0)] INFO br.com.log.LogDinnamus  - Aguardando ....3 para reconectar - Tue Jan 08 00:57:37 GMT-03:00 2019
+142884 [Smack Reconnection Manager (0)] INFO br.com.log.LogDinnamus  - Aguardando ....2 para reconectar - Tue Jan 08 00:57:38 GMT-03:00 2019
+143886 [Smack Reconnection Manager (0)] INFO br.com.log.LogDinnamus  - Aguardando ....1 para reconectar - Tue Jan 08 00:57:39 GMT-03:00 2019
+144889 [Smack Reconnection Manager (0)] INFO br.com.log.LogDinnamus  - Aguardando ....0 para reconectar - Tue Jan 08 00:57:40 GMT-03:00 2019
+144890 [Smack Reconnection Manager (0)] INFO br.com.log.LogDinnamus  - tentando reconectar.... - Tue Jan 08 00:57:40 GMT-03:00 2019
+144891 [Smack Reconnection Manager (0)] ERROR br.com.log.LogDinnamus  - Registro de Exceção detectada : Tue Jan 08 00:57:40 GMT-03:00 2019
+org.jivesoftware.smack.SmackException$ConnectionException: The following addresses failed: 'ip193.ip-142-44-146.net:5222' failed because java.net.UnknownHostException: ip193.ip-142-44-146.net
+	at org.jivesoftware.smack.SmackException$ConnectionException.from(SmackException.java:255)
+	at org.jivesoftware.smack.tcp.XMPPTCPConnection.connectUsingConfiguration(XMPPTCPConnection.java:613)
+	at org.jivesoftware.smack.tcp.XMPPTCPConnection.connectInternal(XMPPTCPConnection.java:851)
+	at org.jivesoftware.smack.AbstractXMPPConnection.connect(AbstractXMPPConnection.java:364)
+	at smack.config.Reconectar$1.run(Reconectar.java:115)
+	at java.lang.Thread.run(Thread.java:748)
+151056 [Smack Reconnection Manager (0)] INFO br.com.log.LogDinnamus  - Aguardando ....4 para reconectar - Tue Jan 08 00:57:46 GMT-03:00 2019
+152058 [Smack Reconnection Manager (0)] INFO br.com.log.LogDinnamus  - Aguardando ....3 para reconectar - Tue Jan 08 00:57:47 GMT-03:00 2019
+153058 [Smack Reconnection Manager (0)] INFO br.com.log.LogDinnamus  - Aguardando ....2 para reconectar - Tue Jan 08 00:57:48 GMT-03:00 2019
+154060 [Smack Reconnection Manager (0)] INFO br.com.log.LogDinnamus  - Aguardando ....1 para reconectar - Tue Jan 08 00:57:49 GMT-03:00 2019
+155061 [Smack Reconnection Manager (0)] INFO br.com.log.LogDinnamus  - Aguardando ....0 para reconectar - Tue Jan 08 00:57:50 GMT-03:00 2019
+155064 [Smack Reconnection Manager (0)] INFO br.com.log.LogDinnamus  - tentando reconectar.... - Tue Jan 08 00:57:50 GMT-03:00 2019
+0 [Thread-1] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Tue Jan 08 01:04:15 GMT-03:00 2019
+23205 [Thread-12] ERROR br.com.log.LogDinnamus  - Registro de Exceção detectada : Tue Jan 08 01:04:39 GMT-03:00 2019
+java.net.NoRouteToHostException: No route to host: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:79)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at java.net.Socket.connect(Socket.java:538)
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:180)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:463)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:558)
+	at sun.net.www.http.HttpClient.<init>(HttpClient.java:242)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:339)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:357)
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1220)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1156)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1050)
+	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:984)
+	at smack.config.frmChat.TestarConexao(frmChat.java:1230)
+	at smack.config.frmChat.access$1700(frmChat.java:65)
+	at smack.config.frmChat$17.run(frmChat.java:1308)
+	at java.lang.Thread.run(Thread.java:748)
+24260 [Smack Reconnection Manager (0)] INFO br.com.log.LogDinnamus  - Aguardando ....4 para reconectar - Tue Jan 08 01:04:40 GMT-03:00 2019
+25268 [Smack Reconnection Manager (0)] INFO br.com.log.LogDinnamus  - Aguardando ....3 para reconectar - Tue Jan 08 01:04:41 GMT-03:00 2019
+26269 [Smack Reconnection Manager (0)] INFO br.com.log.LogDinnamus  - Aguardando ....2 para reconectar - Tue Jan 08 01:04:42 GMT-03:00 2019
+27270 [Smack Reconnection Manager (0)] INFO br.com.log.LogDinnamus  - Aguardando ....1 para reconectar - Tue Jan 08 01:04:43 GMT-03:00 2019
+28271 [Smack Reconnection Manager (0)] INFO br.com.log.LogDinnamus  - Aguardando ....0 para reconectar - Tue Jan 08 01:04:44 GMT-03:00 2019
+28273 [Smack Reconnection Manager (0)] INFO br.com.log.LogDinnamus  - tentando reconectar.... - Tue Jan 08 01:04:44 GMT-03:00 2019
+28276 [Smack Reconnection Manager (0)] ERROR br.com.log.LogDinnamus  - Registro de Exceção detectada : Tue Jan 08 01:04:44 GMT-03:00 2019
+org.jivesoftware.smack.SmackException$ConnectionException: The following addresses failed: 'ip193.ip-142-44-146.net:5222' failed because java.net.NoRouteToHostException: No route to host: connect
+	at org.jivesoftware.smack.SmackException$ConnectionException.from(SmackException.java:255)
+	at org.jivesoftware.smack.tcp.XMPPTCPConnection.connectUsingConfiguration(XMPPTCPConnection.java:613)
+	at org.jivesoftware.smack.tcp.XMPPTCPConnection.connectInternal(XMPPTCPConnection.java:851)
+	at org.jivesoftware.smack.AbstractXMPPConnection.connect(AbstractXMPPConnection.java:364)
+	at smack.config.Reconectar$1.run(Reconectar.java:115)
+	at java.lang.Thread.run(Thread.java:748)
+33260 [Thread-12] ERROR br.com.log.LogDinnamus  - Registro de Exceção detectada : Tue Jan 08 01:04:49 GMT-03:00 2019
+java.net.UnknownHostException: ip193.ip-142-44-146.net
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:184)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at java.net.Socket.connect(Socket.java:538)
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:180)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:463)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:558)
+	at sun.net.www.http.HttpClient.<init>(HttpClient.java:242)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:339)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:357)
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1220)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1156)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1050)
+	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:984)
+	at smack.config.frmChat.TestarConexao(frmChat.java:1230)
+	at smack.config.frmChat.access$1700(frmChat.java:65)
+	at smack.config.frmChat$17.run(frmChat.java:1308)
+	at java.lang.Thread.run(Thread.java:748)
+34267 [Smack Reconnection Manager (0)] INFO br.com.log.LogDinnamus  - Aguardando ....4 para reconectar - Tue Jan 08 01:04:50 GMT-03:00 2019
+35268 [Smack Reconnection Manager (0)] INFO br.com.log.LogDinnamus  - Aguardando ....3 para reconectar - Tue Jan 08 01:04:51 GMT-03:00 2019
+36269 [Smack Reconnection Manager (0)] INFO br.com.log.LogDinnamus  - Aguardando ....2 para reconectar - Tue Jan 08 01:04:52 GMT-03:00 2019
+37272 [Smack Reconnection Manager (0)] INFO br.com.log.LogDinnamus  - Aguardando ....1 para reconectar - Tue Jan 08 01:04:53 GMT-03:00 2019
+38272 [Smack Reconnection Manager (0)] INFO br.com.log.LogDinnamus  - Aguardando ....0 para reconectar - Tue Jan 08 01:04:54 GMT-03:00 2019
+38273 [Smack Reconnection Manager (0)] INFO br.com.log.LogDinnamus  - tentando reconectar.... - Tue Jan 08 01:04:54 GMT-03:00 2019
+38273 [Smack Reconnection Manager (0)] ERROR br.com.log.LogDinnamus  - Registro de Exceção detectada : Tue Jan 08 01:04:54 GMT-03:00 2019
+org.jivesoftware.smack.SmackException$ConnectionException: The following addresses failed: 'ip193.ip-142-44-146.net:5222' failed because java.net.UnknownHostException: ip193.ip-142-44-146.net
+	at org.jivesoftware.smack.SmackException$ConnectionException.from(SmackException.java:255)
+	at org.jivesoftware.smack.tcp.XMPPTCPConnection.connectUsingConfiguration(XMPPTCPConnection.java:613)
+	at org.jivesoftware.smack.tcp.XMPPTCPConnection.connectInternal(XMPPTCPConnection.java:851)
+	at org.jivesoftware.smack.AbstractXMPPConnection.connect(AbstractXMPPConnection.java:364)
+	at smack.config.Reconectar$1.run(Reconectar.java:115)
+	at java.lang.Thread.run(Thread.java:748)
+44430 [Smack Reconnection Manager (0)] INFO br.com.log.LogDinnamus  - Aguardando ....4 para reconectar - Tue Jan 08 01:05:00 GMT-03:00 2019
+45433 [Smack Reconnection Manager (0)] INFO br.com.log.LogDinnamus  - Aguardando ....3 para reconectar - Tue Jan 08 01:05:01 GMT-03:00 2019
+46435 [Smack Reconnection Manager (0)] INFO br.com.log.LogDinnamus  - Aguardando ....2 para reconectar - Tue Jan 08 01:05:02 GMT-03:00 2019
+47436 [Smack Reconnection Manager (0)] INFO br.com.log.LogDinnamus  - Aguardando ....1 para reconectar - Tue Jan 08 01:05:03 GMT-03:00 2019
+48437 [Smack Reconnection Manager (0)] INFO br.com.log.LogDinnamus  - Aguardando ....0 para reconectar - Tue Jan 08 01:05:04 GMT-03:00 2019
+48444 [Smack Reconnection Manager (0)] INFO br.com.log.LogDinnamus  - tentando reconectar.... - Tue Jan 08 01:05:04 GMT-03:00 2019
+0 [Thread-1] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Tue Jan 08 01:16:14 GMT-03:00 2019
+33622 [Thread-12] ERROR br.com.log.LogDinnamus  - Registro de Exceção detectada : Tue Jan 08 01:16:47 GMT-03:00 2019
+java.net.UnknownHostException: ip193.ip-142-44-146.net
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:184)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at java.net.Socket.connect(Socket.java:538)
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:180)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:463)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:558)
+	at sun.net.www.http.HttpClient.<init>(HttpClient.java:242)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:339)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:357)
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1220)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1156)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1050)
+	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:984)
+	at smack.config.frmChat.TestarConexao(frmChat.java:1230)
+	at smack.config.frmChat.access$1700(frmChat.java:66)
+	at smack.config.frmChat$17.run(frmChat.java:1308)
+	at java.lang.Thread.run(Thread.java:748)
+34664 [Smack Reconnection Manager (0)] INFO br.com.log.LogDinnamus  - Aguardando ....4 para reconectar - Tue Jan 08 01:16:48 GMT-03:00 2019
+35672 [Smack Reconnection Manager (0)] INFO br.com.log.LogDinnamus  - Aguardando ....3 para reconectar - Tue Jan 08 01:16:49 GMT-03:00 2019
+36673 [Smack Reconnection Manager (0)] INFO br.com.log.LogDinnamus  - Aguardando ....2 para reconectar - Tue Jan 08 01:16:50 GMT-03:00 2019
+37675 [Smack Reconnection Manager (0)] INFO br.com.log.LogDinnamus  - Aguardando ....1 para reconectar - Tue Jan 08 01:16:51 GMT-03:00 2019
+38677 [Smack Reconnection Manager (0)] INFO br.com.log.LogDinnamus  - Aguardando ....0 para reconectar - Tue Jan 08 01:16:52 GMT-03:00 2019
+38679 [Smack Reconnection Manager (0)] INFO br.com.log.LogDinnamus  - tentando reconectar.... - Tue Jan 08 01:16:52 GMT-03:00 2019
+38682 [Smack Reconnection Manager (0)] ERROR br.com.log.LogDinnamus  - Registro de Exceção detectada : Tue Jan 08 01:16:52 GMT-03:00 2019
+org.jivesoftware.smack.SmackException$ConnectionException: The following addresses failed: 'ip193.ip-142-44-146.net:5222' failed because java.net.UnknownHostException: ip193.ip-142-44-146.net
+	at org.jivesoftware.smack.SmackException$ConnectionException.from(SmackException.java:255)
+	at org.jivesoftware.smack.tcp.XMPPTCPConnection.connectUsingConfiguration(XMPPTCPConnection.java:613)
+	at org.jivesoftware.smack.tcp.XMPPTCPConnection.connectInternal(XMPPTCPConnection.java:851)
+	at org.jivesoftware.smack.AbstractXMPPConnection.connect(AbstractXMPPConnection.java:364)
+	at smack.config.Reconectar$1.run(Reconectar.java:115)
+	at java.lang.Thread.run(Thread.java:748)
+43665 [Thread-12] ERROR br.com.log.LogDinnamus  - Registro de Exceção detectada : Tue Jan 08 01:16:57 GMT-03:00 2019
+java.net.UnknownHostException: ip193.ip-142-44-146.net
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:184)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at java.net.Socket.connect(Socket.java:538)
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:180)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:463)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:558)
+	at sun.net.www.http.HttpClient.<init>(HttpClient.java:242)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:339)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:357)
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1220)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1156)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1050)
+	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:984)
+	at smack.config.frmChat.TestarConexao(frmChat.java:1230)
+	at smack.config.frmChat.access$1700(frmChat.java:66)
+	at smack.config.frmChat$17.run(frmChat.java:1308)
+	at java.lang.Thread.run(Thread.java:748)
+44672 [Smack Reconnection Manager (0)] INFO br.com.log.LogDinnamus  - Aguardando ....4 para reconectar - Tue Jan 08 01:16:58 GMT-03:00 2019
+45675 [Smack Reconnection Manager (0)] INFO br.com.log.LogDinnamus  - Aguardando ....3 para reconectar - Tue Jan 08 01:16:59 GMT-03:00 2019
+46676 [Smack Reconnection Manager (0)] INFO br.com.log.LogDinnamus  - Aguardando ....2 para reconectar - Tue Jan 08 01:17:00 GMT-03:00 2019
+47678 [Smack Reconnection Manager (0)] INFO br.com.log.LogDinnamus  - Aguardando ....1 para reconectar - Tue Jan 08 01:17:01 GMT-03:00 2019
+48679 [Smack Reconnection Manager (0)] INFO br.com.log.LogDinnamus  - Aguardando ....0 para reconectar - Tue Jan 08 01:17:02 GMT-03:00 2019
+48682 [Smack Reconnection Manager (0)] INFO br.com.log.LogDinnamus  - tentando reconectar.... - Tue Jan 08 01:17:02 GMT-03:00 2019
+48683 [Smack Reconnection Manager (0)] ERROR br.com.log.LogDinnamus  - Registro de Exceção detectada : Tue Jan 08 01:17:02 GMT-03:00 2019
+org.jivesoftware.smack.SmackException$ConnectionException: The following addresses failed: 'ip193.ip-142-44-146.net:5222' failed because java.net.UnknownHostException: ip193.ip-142-44-146.net
+	at org.jivesoftware.smack.SmackException$ConnectionException.from(SmackException.java:255)
+	at org.jivesoftware.smack.tcp.XMPPTCPConnection.connectUsingConfiguration(XMPPTCPConnection.java:613)
+	at org.jivesoftware.smack.tcp.XMPPTCPConnection.connectInternal(XMPPTCPConnection.java:851)
+	at org.jivesoftware.smack.AbstractXMPPConnection.connect(AbstractXMPPConnection.java:364)
+	at smack.config.Reconectar$1.run(Reconectar.java:115)
+	at java.lang.Thread.run(Thread.java:748)
+54866 [Smack Reconnection Manager (0)] INFO br.com.log.LogDinnamus  - Aguardando ....4 para reconectar - Tue Jan 08 01:17:09 GMT-03:00 2019
+55866 [Smack Reconnection Manager (0)] INFO br.com.log.LogDinnamus  - Aguardando ....3 para reconectar - Tue Jan 08 01:17:10 GMT-03:00 2019
+56866 [Smack Reconnection Manager (0)] INFO br.com.log.LogDinnamus  - Aguardando ....2 para reconectar - Tue Jan 08 01:17:11 GMT-03:00 2019
+57868 [Smack Reconnection Manager (0)] INFO br.com.log.LogDinnamus  - Aguardando ....1 para reconectar - Tue Jan 08 01:17:12 GMT-03:00 2019
+58870 [Smack Reconnection Manager (0)] INFO br.com.log.LogDinnamus  - Aguardando ....0 para reconectar - Tue Jan 08 01:17:13 GMT-03:00 2019
+58872 [Smack Reconnection Manager (0)] INFO br.com.log.LogDinnamus  - tentando reconectar.... - Tue Jan 08 01:17:13 GMT-03:00 2019
+247033 [Thread-12] ERROR br.com.log.LogDinnamus  - Registro de Exceção detectada : Tue Jan 08 01:20:21 GMT-03:00 2019
+java.net.NoRouteToHostException: No route to host: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:79)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at java.net.Socket.connect(Socket.java:538)
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:180)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:463)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:558)
+	at sun.net.www.http.HttpClient.<init>(HttpClient.java:242)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:339)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:357)
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1220)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1156)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1050)
+	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:984)
+	at smack.config.frmChat.TestarConexao(frmChat.java:1230)
+	at smack.config.frmChat.access$1700(frmChat.java:66)
+	at smack.config.frmChat$17.run(frmChat.java:1308)
+	at java.lang.Thread.run(Thread.java:748)
+248049 [Smack Reconnection Manager (0)] INFO br.com.log.LogDinnamus  - Aguardando ....4 para reconectar - Tue Jan 08 01:20:22 GMT-03:00 2019
+249052 [Smack Reconnection Manager (0)] INFO br.com.log.LogDinnamus  - Aguardando ....3 para reconectar - Tue Jan 08 01:20:23 GMT-03:00 2019
+250053 [Smack Reconnection Manager (0)] INFO br.com.log.LogDinnamus  - Aguardando ....2 para reconectar - Tue Jan 08 01:20:24 GMT-03:00 2019
+251055 [Smack Reconnection Manager (0)] INFO br.com.log.LogDinnamus  - Aguardando ....1 para reconectar - Tue Jan 08 01:20:25 GMT-03:00 2019
+252056 [Smack Reconnection Manager (0)] INFO br.com.log.LogDinnamus  - Aguardando ....0 para reconectar - Tue Jan 08 01:20:26 GMT-03:00 2019
+252058 [Smack Reconnection Manager (0)] INFO br.com.log.LogDinnamus  - tentando reconectar.... - Tue Jan 08 01:20:26 GMT-03:00 2019
+252061 [Smack Reconnection Manager (0)] ERROR br.com.log.LogDinnamus  - Registro de Exceção detectada : Tue Jan 08 01:20:26 GMT-03:00 2019
+org.jivesoftware.smack.SmackException$ConnectionException: The following addresses failed: 'ip193.ip-142-44-146.net:5222' failed because java.net.NoRouteToHostException: No route to host: connect
+	at org.jivesoftware.smack.SmackException$ConnectionException.from(SmackException.java:255)
+	at org.jivesoftware.smack.tcp.XMPPTCPConnection.connectUsingConfiguration(XMPPTCPConnection.java:613)
+	at org.jivesoftware.smack.tcp.XMPPTCPConnection.connectInternal(XMPPTCPConnection.java:851)
+	at org.jivesoftware.smack.AbstractXMPPConnection.connect(AbstractXMPPConnection.java:364)
+	at smack.config.Reconectar$1.run(Reconectar.java:115)
+	at java.lang.Thread.run(Thread.java:748)
+257046 [Thread-12] ERROR br.com.log.LogDinnamus  - Registro de Exceção detectada : Tue Jan 08 01:20:31 GMT-03:00 2019
+java.net.NoRouteToHostException: No route to host: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:79)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at java.net.Socket.connect(Socket.java:538)
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:180)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:463)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:558)
+	at sun.net.www.http.HttpClient.<init>(HttpClient.java:242)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:339)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:357)
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1220)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1156)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1050)
+	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:984)
+	at smack.config.frmChat.TestarConexao(frmChat.java:1230)
+	at smack.config.frmChat.access$1700(frmChat.java:66)
+	at smack.config.frmChat$17.run(frmChat.java:1308)
+	at java.lang.Thread.run(Thread.java:748)
+258049 [Smack Reconnection Manager (0)] INFO br.com.log.LogDinnamus  - Aguardando ....4 para reconectar - Tue Jan 08 01:20:32 GMT-03:00 2019
+259052 [Smack Reconnection Manager (0)] INFO br.com.log.LogDinnamus  - Aguardando ....3 para reconectar - Tue Jan 08 01:20:33 GMT-03:00 2019
+260054 [Smack Reconnection Manager (0)] INFO br.com.log.LogDinnamus  - Aguardando ....2 para reconectar - Tue Jan 08 01:20:34 GMT-03:00 2019
+261055 [Smack Reconnection Manager (0)] INFO br.com.log.LogDinnamus  - Aguardando ....1 para reconectar - Tue Jan 08 01:20:35 GMT-03:00 2019
+262057 [Smack Reconnection Manager (0)] INFO br.com.log.LogDinnamus  - Aguardando ....0 para reconectar - Tue Jan 08 01:20:36 GMT-03:00 2019
+262059 [Smack Reconnection Manager (0)] INFO br.com.log.LogDinnamus  - tentando reconectar.... - Tue Jan 08 01:20:36 GMT-03:00 2019
+287493 [Thread-12] ERROR br.com.log.LogDinnamus  - Registro de Exceção detectada : Tue Jan 08 01:21:01 GMT-03:00 2019
+java.net.NoRouteToHostException: No route to host: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:79)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at java.net.Socket.connect(Socket.java:538)
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:180)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:463)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:558)
+	at sun.net.www.http.HttpClient.<init>(HttpClient.java:242)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:339)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:357)
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1220)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1156)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1050)
+	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:984)
+	at smack.config.frmChat.TestarConexao(frmChat.java:1230)
+	at smack.config.frmChat.access$1700(frmChat.java:66)
+	at smack.config.frmChat$17.run(frmChat.java:1308)
+	at java.lang.Thread.run(Thread.java:748)
+288501 [Smack Reconnection Manager (0)] INFO br.com.log.LogDinnamus  - Aguardando ....4 para reconectar - Tue Jan 08 01:21:02 GMT-03:00 2019
+289503 [Smack Reconnection Manager (0)] INFO br.com.log.LogDinnamus  - Aguardando ....3 para reconectar - Tue Jan 08 01:21:03 GMT-03:00 2019
+290505 [Smack Reconnection Manager (0)] INFO br.com.log.LogDinnamus  - Aguardando ....2 para reconectar - Tue Jan 08 01:21:04 GMT-03:00 2019
+291506 [Smack Reconnection Manager (0)] INFO br.com.log.LogDinnamus  - Aguardando ....1 para reconectar - Tue Jan 08 01:21:05 GMT-03:00 2019
+292508 [Smack Reconnection Manager (0)] INFO br.com.log.LogDinnamus  - Aguardando ....0 para reconectar - Tue Jan 08 01:21:06 GMT-03:00 2019
+292510 [Smack Reconnection Manager (0)] INFO br.com.log.LogDinnamus  - tentando reconectar.... - Tue Jan 08 01:21:06 GMT-03:00 2019
+292512 [Smack Reconnection Manager (0)] ERROR br.com.log.LogDinnamus  - Registro de Exceção detectada : Tue Jan 08 01:21:06 GMT-03:00 2019
+org.jivesoftware.smack.SmackException$ConnectionException: The following addresses failed: 'ip193.ip-142-44-146.net:5222' failed because java.net.NoRouteToHostException: No route to host: connect
+	at org.jivesoftware.smack.SmackException$ConnectionException.from(SmackException.java:255)
+	at org.jivesoftware.smack.tcp.XMPPTCPConnection.connectUsingConfiguration(XMPPTCPConnection.java:613)
+	at org.jivesoftware.smack.tcp.XMPPTCPConnection.connectInternal(XMPPTCPConnection.java:851)
+	at org.jivesoftware.smack.AbstractXMPPConnection.connect(AbstractXMPPConnection.java:364)
+	at smack.config.Reconectar$1.run(Reconectar.java:115)
+	at java.lang.Thread.run(Thread.java:748)
+297502 [Thread-12] ERROR br.com.log.LogDinnamus  - Registro de Exceção detectada : Tue Jan 08 01:21:11 GMT-03:00 2019
+java.net.UnknownHostException: ip193.ip-142-44-146.net
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:184)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at java.net.Socket.connect(Socket.java:538)
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:180)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:463)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:558)
+	at sun.net.www.http.HttpClient.<init>(HttpClient.java:242)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:339)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:357)
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1220)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1156)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1050)
+	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:984)
+	at smack.config.frmChat.TestarConexao(frmChat.java:1230)
+	at smack.config.frmChat.access$1700(frmChat.java:66)
+	at smack.config.frmChat$17.run(frmChat.java:1308)
+	at java.lang.Thread.run(Thread.java:748)
+298507 [Smack Reconnection Manager (0)] INFO br.com.log.LogDinnamus  - Aguardando ....4 para reconectar - Tue Jan 08 01:21:12 GMT-03:00 2019
+299508 [Smack Reconnection Manager (0)] INFO br.com.log.LogDinnamus  - Aguardando ....3 para reconectar - Tue Jan 08 01:21:13 GMT-03:00 2019
+300510 [Smack Reconnection Manager (0)] INFO br.com.log.LogDinnamus  - Aguardando ....2 para reconectar - Tue Jan 08 01:21:14 GMT-03:00 2019
+301510 [Smack Reconnection Manager (0)] INFO br.com.log.LogDinnamus  - Aguardando ....1 para reconectar - Tue Jan 08 01:21:15 GMT-03:00 2019
+302511 [Smack Reconnection Manager (0)] INFO br.com.log.LogDinnamus  - Aguardando ....0 para reconectar - Tue Jan 08 01:21:16 GMT-03:00 2019
+302511 [Smack Reconnection Manager (0)] INFO br.com.log.LogDinnamus  - tentando reconectar.... - Tue Jan 08 01:21:16 GMT-03:00 2019
+302511 [Smack Reconnection Manager (0)] ERROR br.com.log.LogDinnamus  - Registro de Exceção detectada : Tue Jan 08 01:21:16 GMT-03:00 2019
+org.jivesoftware.smack.SmackException$ConnectionException: The following addresses failed: 'ip193.ip-142-44-146.net:5222' failed because java.net.UnknownHostException: ip193.ip-142-44-146.net
+	at org.jivesoftware.smack.SmackException$ConnectionException.from(SmackException.java:255)
+	at org.jivesoftware.smack.tcp.XMPPTCPConnection.connectUsingConfiguration(XMPPTCPConnection.java:613)
+	at org.jivesoftware.smack.tcp.XMPPTCPConnection.connectInternal(XMPPTCPConnection.java:851)
+	at org.jivesoftware.smack.AbstractXMPPConnection.connect(AbstractXMPPConnection.java:364)
+	at smack.config.Reconectar$1.run(Reconectar.java:115)
+	at java.lang.Thread.run(Thread.java:748)
+308692 [Smack Reconnection Manager (0)] INFO br.com.log.LogDinnamus  - Aguardando ....4 para reconectar - Tue Jan 08 01:21:22 GMT-03:00 2019
+309694 [Smack Reconnection Manager (0)] INFO br.com.log.LogDinnamus  - Aguardando ....3 para reconectar - Tue Jan 08 01:21:23 GMT-03:00 2019
+310695 [Smack Reconnection Manager (0)] INFO br.com.log.LogDinnamus  - Aguardando ....2 para reconectar - Tue Jan 08 01:21:24 GMT-03:00 2019
+311699 [Smack Reconnection Manager (0)] INFO br.com.log.LogDinnamus  - Aguardando ....1 para reconectar - Tue Jan 08 01:21:25 GMT-03:00 2019
+312703 [Smack Reconnection Manager (0)] INFO br.com.log.LogDinnamus  - Aguardando ....0 para reconectar - Tue Jan 08 01:21:26 GMT-03:00 2019
+312705 [Smack Reconnection Manager (0)] INFO br.com.log.LogDinnamus  - tentando reconectar.... - Tue Jan 08 01:21:26 GMT-03:00 2019
+0 [Thread-1] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Tue Jan 08 01:26:37 GMT-03:00 2019
+23516 [Thread-13] ERROR br.com.log.LogDinnamus  - Registro de Exceção detectada : Tue Jan 08 01:27:00 GMT-03:00 2019
+java.net.NoRouteToHostException: No route to host: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:79)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at java.net.Socket.connect(Socket.java:538)
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:180)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:463)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:558)
+	at sun.net.www.http.HttpClient.<init>(HttpClient.java:242)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:339)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:357)
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1220)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1156)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1050)
+	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:984)
+	at smack.config.frmChat.TestarConexao(frmChat.java:1230)
+	at smack.config.frmChat.access$1700(frmChat.java:66)
+	at smack.config.frmChat$17.run(frmChat.java:1308)
+	at java.lang.Thread.run(Thread.java:748)
+34789 [Smack Reconnection Manager (0)] INFO br.com.log.LogDinnamus  - Aguardando ....4 para reconectar - Tue Jan 08 01:27:12 GMT-03:00 2019
+35797 [Smack Reconnection Manager (0)] INFO br.com.log.LogDinnamus  - Aguardando ....3 para reconectar - Tue Jan 08 01:27:13 GMT-03:00 2019
+36799 [Smack Reconnection Manager (0)] INFO br.com.log.LogDinnamus  - Aguardando ....2 para reconectar - Tue Jan 08 01:27:14 GMT-03:00 2019
+37800 [Smack Reconnection Manager (0)] INFO br.com.log.LogDinnamus  - Aguardando ....1 para reconectar - Tue Jan 08 01:27:15 GMT-03:00 2019
+38801 [Smack Reconnection Manager (0)] INFO br.com.log.LogDinnamus  - Aguardando ....0 para reconectar - Tue Jan 08 01:27:16 GMT-03:00 2019
+38803 [Smack Reconnection Manager (0)] INFO br.com.log.LogDinnamus  - tentando reconectar.... - Tue Jan 08 01:27:16 GMT-03:00 2019
+38807 [Smack Reconnection Manager (0)] ERROR br.com.log.LogDinnamus  - Registro de Exceção detectada : Tue Jan 08 01:27:16 GMT-03:00 2019
+org.jivesoftware.smack.SmackException$ConnectionException: The following addresses failed: 'ip193.ip-142-44-146.net:5222' failed because java.net.UnknownHostException: ip193.ip-142-44-146.net
+	at org.jivesoftware.smack.SmackException$ConnectionException.from(SmackException.java:255)
+	at org.jivesoftware.smack.tcp.XMPPTCPConnection.connectUsingConfiguration(XMPPTCPConnection.java:613)
+	at org.jivesoftware.smack.tcp.XMPPTCPConnection.connectInternal(XMPPTCPConnection.java:851)
+	at org.jivesoftware.smack.AbstractXMPPConnection.connect(AbstractXMPPConnection.java:364)
+	at smack.config.Reconectar$1.run(Reconectar.java:115)
+	at java.lang.Thread.run(Thread.java:748)
+43788 [Thread-13] ERROR br.com.log.LogDinnamus  - Registro de Exceção detectada : Tue Jan 08 01:27:21 GMT-03:00 2019
+java.net.UnknownHostException: ip193.ip-142-44-146.net
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:184)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at java.net.Socket.connect(Socket.java:538)
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:180)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:463)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:558)
+	at sun.net.www.http.HttpClient.<init>(HttpClient.java:242)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:339)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:357)
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1220)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1156)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1050)
+	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:984)
+	at smack.config.frmChat.TestarConexao(frmChat.java:1230)
+	at smack.config.frmChat.access$1700(frmChat.java:66)
+	at smack.config.frmChat$17.run(frmChat.java:1308)
+	at java.lang.Thread.run(Thread.java:748)
+44791 [Smack Reconnection Manager (0)] INFO br.com.log.LogDinnamus  - Aguardando ....4 para reconectar - Tue Jan 08 01:27:22 GMT-03:00 2019
+45793 [Smack Reconnection Manager (0)] INFO br.com.log.LogDinnamus  - Aguardando ....3 para reconectar - Tue Jan 08 01:27:23 GMT-03:00 2019
+46795 [Smack Reconnection Manager (0)] INFO br.com.log.LogDinnamus  - Aguardando ....2 para reconectar - Tue Jan 08 01:27:24 GMT-03:00 2019
+47797 [Smack Reconnection Manager (0)] INFO br.com.log.LogDinnamus  - Aguardando ....1 para reconectar - Tue Jan 08 01:27:25 GMT-03:00 2019
+48798 [Smack Reconnection Manager (0)] INFO br.com.log.LogDinnamus  - Aguardando ....0 para reconectar - Tue Jan 08 01:27:26 GMT-03:00 2019
+48800 [Smack Reconnection Manager (0)] INFO br.com.log.LogDinnamus  - tentando reconectar.... - Tue Jan 08 01:27:26 GMT-03:00 2019
+48801 [Smack Reconnection Manager (0)] ERROR br.com.log.LogDinnamus  - Registro de Exceção detectada : Tue Jan 08 01:27:26 GMT-03:00 2019
+org.jivesoftware.smack.SmackException$ConnectionException: The following addresses failed: 'ip193.ip-142-44-146.net:5222' failed because java.net.UnknownHostException: ip193.ip-142-44-146.net
+	at org.jivesoftware.smack.SmackException$ConnectionException.from(SmackException.java:255)
+	at org.jivesoftware.smack.tcp.XMPPTCPConnection.connectUsingConfiguration(XMPPTCPConnection.java:613)
+	at org.jivesoftware.smack.tcp.XMPPTCPConnection.connectInternal(XMPPTCPConnection.java:851)
+	at org.jivesoftware.smack.AbstractXMPPConnection.connect(AbstractXMPPConnection.java:364)
+	at smack.config.Reconectar$1.run(Reconectar.java:115)
+	at java.lang.Thread.run(Thread.java:748)
+53793 [Thread-13] ERROR br.com.log.LogDinnamus  - Registro de Exceção detectada : Tue Jan 08 01:27:31 GMT-03:00 2019
+java.net.UnknownHostException: ip193.ip-142-44-146.net
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:184)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at java.net.Socket.connect(Socket.java:538)
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:180)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:463)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:558)
+	at sun.net.www.http.HttpClient.<init>(HttpClient.java:242)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:339)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:357)
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1220)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1156)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1050)
+	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:984)
+	at smack.config.frmChat.TestarConexao(frmChat.java:1230)
+	at smack.config.frmChat.access$1700(frmChat.java:66)
+	at smack.config.frmChat$17.run(frmChat.java:1308)
+	at java.lang.Thread.run(Thread.java:748)
+54798 [Smack Reconnection Manager (0)] INFO br.com.log.LogDinnamus  - Aguardando ....4 para reconectar - Tue Jan 08 01:27:32 GMT-03:00 2019
+55799 [Smack Reconnection Manager (0)] INFO br.com.log.LogDinnamus  - Aguardando ....3 para reconectar - Tue Jan 08 01:27:33 GMT-03:00 2019
+56799 [Smack Reconnection Manager (0)] INFO br.com.log.LogDinnamus  - Aguardando ....2 para reconectar - Tue Jan 08 01:27:34 GMT-03:00 2019
+57800 [Smack Reconnection Manager (0)] INFO br.com.log.LogDinnamus  - Aguardando ....1 para reconectar - Tue Jan 08 01:27:35 GMT-03:00 2019
+58801 [Smack Reconnection Manager (0)] INFO br.com.log.LogDinnamus  - Aguardando ....0 para reconectar - Tue Jan 08 01:27:36 GMT-03:00 2019
+58803 [Smack Reconnection Manager (0)] INFO br.com.log.LogDinnamus  - tentando reconectar.... - Tue Jan 08 01:27:36 GMT-03:00 2019
+58805 [Smack Reconnection Manager (0)] ERROR br.com.log.LogDinnamus  - Registro de Exceção detectada : Tue Jan 08 01:27:36 GMT-03:00 2019
+org.jivesoftware.smack.SmackException$ConnectionException: The following addresses failed: 'ip193.ip-142-44-146.net:5222' failed because java.net.UnknownHostException: ip193.ip-142-44-146.net
+	at org.jivesoftware.smack.SmackException$ConnectionException.from(SmackException.java:255)
+	at org.jivesoftware.smack.tcp.XMPPTCPConnection.connectUsingConfiguration(XMPPTCPConnection.java:613)
+	at org.jivesoftware.smack.tcp.XMPPTCPConnection.connectInternal(XMPPTCPConnection.java:851)
+	at org.jivesoftware.smack.AbstractXMPPConnection.connect(AbstractXMPPConnection.java:364)
+	at smack.config.Reconectar$1.run(Reconectar.java:115)
+	at java.lang.Thread.run(Thread.java:748)
+64997 [Smack Reconnection Manager (0)] INFO br.com.log.LogDinnamus  - Aguardando ....4 para reconectar - Tue Jan 08 01:27:42 GMT-03:00 2019
+66000 [Smack Reconnection Manager (0)] INFO br.com.log.LogDinnamus  - Aguardando ....3 para reconectar - Tue Jan 08 01:27:43 GMT-03:00 2019
+67001 [Smack Reconnection Manager (0)] INFO br.com.log.LogDinnamus  - Aguardando ....2 para reconectar - Tue Jan 08 01:27:44 GMT-03:00 2019
+68002 [Smack Reconnection Manager (0)] INFO br.com.log.LogDinnamus  - Aguardando ....1 para reconectar - Tue Jan 08 01:27:45 GMT-03:00 2019
+69003 [Smack Reconnection Manager (0)] INFO br.com.log.LogDinnamus  - Aguardando ....0 para reconectar - Tue Jan 08 01:27:46 GMT-03:00 2019
+69004 [Smack Reconnection Manager (0)] INFO br.com.log.LogDinnamus  - tentando reconectar.... - Tue Jan 08 01:27:46 GMT-03:00 2019
+0 [Thread-1] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Tue Jan 08 10:38:25 GMT-03:00 2019
+0 [Thread-1] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Tue Jan 08 10:51:38 GMT-03:00 2019
+0 [Thread-1] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Tue Jan 08 11:01:46 GMT-03:00 2019
+0 [Thread-1] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Tue Jan 08 12:12:02 GMT-03:00 2019
+0 [Thread-1] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Tue Jan 08 12:12:27 GMT-03:00 2019
+1 [Thread-1] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Tue Jan 08 12:14:07 GMT-03:00 2019
+0 [Thread-1] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Tue Jan 08 12:15:27 GMT-03:00 2019
+0 [Thread-1] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Tue Jan 08 12:17:46 GMT-03:00 2019
+0 [Thread-1] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Tue Jan 08 12:21:36 GMT-03:00 2019
+0 [Thread-1] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Tue Jan 08 12:30:54 GMT-03:00 2019
+0 [Thread-1] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Tue Jan 08 12:34:27 GMT-03:00 2019
+0 [Thread-1] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Tue Jan 08 12:35:50 GMT-03:00 2019

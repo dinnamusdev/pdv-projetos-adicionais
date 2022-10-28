@@ -1,0 +1,24 @@
+0 [main] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Fri Jul 17 14:03:00 BRT 2015
+3513 [main] INFO br.com.log.LogDinnamus  - Carregando Dll ECF [ CONVECF] - Fri Jul 17 14:03:03 BRT 2015
+22373 [main] INFO br.com.log.LogDinnamus  - Dll ECF[ CONVECF ] carregada com sucesso - Fri Jul 17 14:03:22 BRT 2015
+0 [main] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Fri Jul 17 14:05:07 BRT 2015
+8761 [main] INFO br.com.log.LogDinnamus  - Carregando Dll ECF [ CONVECF] - Fri Jul 17 14:05:16 BRT 2015
+40550 [main] INFO br.com.log.LogDinnamus  - Dll ECF[ CONVECF ] carregada com sucesso - Fri Jul 17 14:05:47 BRT 2015
+0 [main] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Fri Jul 17 14:08:06 BRT 2015
+20 [main] INFO br.com.log.LogDinnamus  - Carregando Dll ECF [ CONVECF] - Fri Jul 17 14:08:06 BRT 2015
+4663 [main] INFO br.com.log.LogDinnamus  - Dll ECF[ CONVECF ] carregada com sucesso - Fri Jul 17 14:08:11 BRT 2015
+0 [main] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Fri Jul 17 15:54:31 BRT 2015
+0 [main] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Fri Jul 17 16:07:49 BRT 2015
+3222 [main] INFO br.com.log.LogDinnamus  - Carregando Dll ECF [ CONVECF] - Fri Jul 17 16:07:53 BRT 2015
+336683 [main] INFO br.com.log.LogDinnamus  - Dll ECF[ CONVECF ] carregada com sucesso - Fri Jul 17 16:13:26 BRT 2015
+0 [main] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Fri Jul 17 16:13:39 BRT 2015
+1629 [main] INFO br.com.log.LogDinnamus  - Carregando Dll ECF [ CONVECF] - Fri Jul 17 16:13:40 BRT 2015
+1 [main] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Fri Jul 17 18:16:17 BRT 2015
+71 [main] INFO br.com.log.LogDinnamus  - Carregando Dll ECF [ CONVECF] - Fri Jul 17 18:16:17 BRT 2015
+24033 [main] INFO br.com.log.LogDinnamus  - Dll ECF[ CONVECF ] carregada com sucesso - Fri Jul 17 18:16:41 BRT 2015
+0 [main] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Fri Jul 17 18:18:16 BRT 2015
+21 [main] INFO br.com.log.LogDinnamus  - Carregando Dll ECF [ CONVECF] - Fri Jul 17 18:18:16 BRT 2015
+15931 [main] INFO br.com.log.LogDinnamus  - Dll ECF[ CONVECF ] carregada com sucesso - Fri Jul 17 18:18:32 BRT 2015
+0 [main] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Fri Jul 17 18:19:31 BRT 2015
+17 [main] INFO br.com.log.LogDinnamus  - Carregando Dll ECF [ CONVECF] - Fri Jul 17 18:19:31 BRT 2015
+22325 [main] INFO br.com.log.LogDinnamus  - Dll ECF[ CONVECF ] carregada com sucesso - Fri Jul 17 18:19:53 BRT 2015

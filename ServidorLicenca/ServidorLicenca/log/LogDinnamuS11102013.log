@@ -1,0 +1,155 @@
+0 [main] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Mon Nov 11 14:21:29 BRST 2013
+741 [main] INFO br.com.log.LogDinnamus  - Abrindo conexao com o servidor
+2853 [main] INFO br.com.log.LogDinnamus  - Abrindo conexao com o servidor
+0 [main] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Mon Nov 11 14:24:22 BRST 2013
+585 [main] INFO br.com.log.LogDinnamus  - Abrindo conexao com o servidor
+1595 [main] INFO br.com.log.LogDinnamus  - Abrindo conexao com o servidor
+0 [main] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Mon Nov 11 14:50:54 BRST 2013
+137 [main] INFO br.com.log.LogDinnamus  - Abrindo conexao com o servidor
+693 [main] INFO br.com.log.LogDinnamus  - Abrindo conexao com o servidor
+0 [main] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Mon Nov 11 14:59:08 BRST 2013
+53 [main] INFO br.com.log.LogDinnamus  - Abrindo conexao com o servidor
+300 [main] INFO br.com.log.LogDinnamus  - Abrindo conexao com o servidor
+0 [main] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Mon Nov 11 15:00:35 BRST 2013
+59 [main] INFO br.com.log.LogDinnamus  - Abrindo conexao com o servidor
+294 [main] INFO br.com.log.LogDinnamus  - Abrindo conexao com o servidor
+0 [main] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Mon Nov 11 15:01:14 BRST 2013
+74 [main] INFO br.com.log.LogDinnamus  - Abrindo conexao com o servidor
+377 [main] INFO br.com.log.LogDinnamus  - Abrindo conexao com o servidor
+0 [main] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Mon Nov 11 15:09:54 BRST 2013
+103 [main] INFO br.com.log.LogDinnamus  - Abrindo conexao com o servidor
+2154 [main] INFO br.com.log.LogDinnamus  - Abrindo conexao com o servidor
+0 [main] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Mon Nov 11 15:22:08 BRST 2013
+98 [main] INFO br.com.log.LogDinnamus  - Abrindo conexao com o servidor
+347 [main] INFO br.com.log.LogDinnamus  - Abrindo conexao com o servidor
+1 [main] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Mon Nov 11 15:23:52 BRST 2013
+67 [main] INFO br.com.log.LogDinnamus  - Abrindo conexao com o servidor
+310 [main] INFO br.com.log.LogDinnamus  - Abrindo conexao com o servidor
+0 [main] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Mon Nov 11 15:25:21 BRST 2013
+58 [main] INFO br.com.log.LogDinnamus  - Abrindo conexao com o servidor
+974 [main] INFO br.com.log.LogDinnamus  - Abrindo conexao com o servidor
+0 [main] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Mon Nov 11 15:29:07 BRST 2013
+65 [main] INFO br.com.log.LogDinnamus  - Abrindo conexao com o servidor
+341 [main] INFO br.com.log.LogDinnamus  - Abrindo conexao com o servidor
+0 [main] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Mon Nov 11 15:29:53 BRST 2013
+57 [main] INFO br.com.log.LogDinnamus  - Abrindo conexao com o servidor
+324 [main] INFO br.com.log.LogDinnamus  - Abrindo conexao com o servidor
+0 [main] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Mon Nov 11 15:37:00 BRST 2013
+92 [main] INFO br.com.log.LogDinnamus  - Abrindo conexao com o servidor
+391 [main] INFO br.com.log.LogDinnamus  - Abrindo conexao com o servidor
+0 [main] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Mon Nov 11 15:37:43 BRST 2013
+48 [main] INFO br.com.log.LogDinnamus  - Abrindo conexao com o servidor
+223 [main] INFO br.com.log.LogDinnamus  - Abrindo conexao com o servidor
+0 [main] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Mon Nov 11 16:20:34 BRST 2013
+776 [main] INFO br.com.log.LogDinnamus  - Abrindo conexao com o servidor
+2800 [main] INFO br.com.log.LogDinnamus  - Abrindo conexao com o servidor
+11932 [AWT-EventQueue-0] ERROR br.com.log.LogDinnamus  - Registro de Exceção detectada : Mon Nov 11 16:20:46 BRST 2013
+java.lang.NullPointerException
+	at ui.frmGerenciador.cbRepresentanteItemStateChanged(frmGerenciador.java:534)
+	at ui.frmGerenciador.access$200(frmGerenciador.java:27)
+	at ui.frmGerenciador$3.itemStateChanged(frmGerenciador.java:132)
+	at javax.swing.JComboBox.fireItemStateChanged(JComboBox.java:1225)
+	at javax.swing.JComboBox.selectedItemChanged(JComboBox.java:1273)
+	at javax.swing.JComboBox.contentsChanged(JComboBox.java:1329)
+	at javax.swing.AbstractListModel.fireContentsChanged(AbstractListModel.java:118)
+	at javax.swing.DefaultComboBoxModel.setSelectedItem(DefaultComboBoxModel.java:94)
+	at javax.swing.JComboBox.setSelectedItem(JComboBox.java:578)
+	at javax.swing.JComboBox.setSelectedIndex(JComboBox.java:624)
+	at javax.swing.plaf.basic.BasicComboPopup$Handler.mouseReleased(BasicComboPopup.java:835)
+	at java.awt.AWTEventMulticaster.mouseReleased(AWTEventMulticaster.java:290)
+	at java.awt.Component.processMouseEvent(Component.java:6504)
+	at javax.swing.JComponent.processMouseEvent(JComponent.java:3321)
+	at javax.swing.plaf.basic.BasicComboPopup$1.processMouseEvent(BasicComboPopup.java:499)
+	at java.awt.Component.processEvent(Component.java:6269)
+	at java.awt.Container.processEvent(Container.java:2229)
+	at java.awt.Component.dispatchEventImpl(Component.java:4860)
+	at java.awt.Container.dispatchEventImpl(Container.java:2287)
+	at java.awt.Component.dispatchEvent(Component.java:4686)
+	at java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4832)
+	at java.awt.LightweightDispatcher.processMouseEvent(Container.java:4492)
+	at java.awt.LightweightDispatcher.dispatchEvent(Container.java:4422)
+	at java.awt.Container.dispatchEventImpl(Container.java:2273)
+	at java.awt.Window.dispatchEventImpl(Window.java:2713)
+	at java.awt.Component.dispatchEvent(Component.java:4686)
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:707)
+	at java.awt.EventQueue.access$000(EventQueue.java:101)
+	at java.awt.EventQueue$3.run(EventQueue.java:666)
+	at java.awt.EventQueue$3.run(EventQueue.java:664)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(ProtectionDomain.java:76)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(ProtectionDomain.java:87)
+	at java.awt.EventQueue$4.run(EventQueue.java:680)
+	at java.awt.EventQueue$4.run(EventQueue.java:678)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(ProtectionDomain.java:76)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:677)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:211)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:128)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:117)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:113)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:105)
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:90)
+17279 [AWT-EventQueue-0] ERROR br.com.log.LogDinnamus  - Registro de Exceção detectada : Mon Nov 11 16:20:51 BRST 2013
+java.lang.NullPointerException
+	at ui.frmGerenciador.cbRepresentanteItemStateChanged(frmGerenciador.java:534)
+	at ui.frmGerenciador.access$200(frmGerenciador.java:27)
+	at ui.frmGerenciador$3.itemStateChanged(frmGerenciador.java:132)
+	at javax.swing.JComboBox.fireItemStateChanged(JComboBox.java:1225)
+	at javax.swing.JComboBox.selectedItemChanged(JComboBox.java:1282)
+	at javax.swing.JComboBox.contentsChanged(JComboBox.java:1329)
+	at javax.swing.AbstractListModel.fireContentsChanged(AbstractListModel.java:118)
+	at javax.swing.DefaultComboBoxModel.setSelectedItem(DefaultComboBoxModel.java:94)
+	at javax.swing.JComboBox.setSelectedItem(JComboBox.java:578)
+	at javax.swing.JComboBox.setSelectedIndex(JComboBox.java:624)
+	at javax.swing.plaf.basic.BasicComboPopup$Handler.mouseReleased(BasicComboPopup.java:835)
+	at java.awt.AWTEventMulticaster.mouseReleased(AWTEventMulticaster.java:290)
+	at java.awt.Component.processMouseEvent(Component.java:6504)
+	at javax.swing.JComponent.processMouseEvent(JComponent.java:3321)
+	at javax.swing.plaf.basic.BasicComboPopup$1.processMouseEvent(BasicComboPopup.java:499)
+	at java.awt.Component.processEvent(Component.java:6269)
+	at java.awt.Container.processEvent(Container.java:2229)
+	at java.awt.Component.dispatchEventImpl(Component.java:4860)
+	at java.awt.Container.dispatchEventImpl(Container.java:2287)
+	at java.awt.Component.dispatchEvent(Component.java:4686)
+	at java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4832)
+	at java.awt.LightweightDispatcher.processMouseEvent(Container.java:4492)
+	at java.awt.LightweightDispatcher.dispatchEvent(Container.java:4422)
+	at java.awt.Container.dispatchEventImpl(Container.java:2273)
+	at java.awt.Window.dispatchEventImpl(Window.java:2713)
+	at java.awt.Component.dispatchEvent(Component.java:4686)
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:707)
+	at java.awt.EventQueue.access$000(EventQueue.java:101)
+	at java.awt.EventQueue$3.run(EventQueue.java:666)
+	at java.awt.EventQueue$3.run(EventQueue.java:664)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(ProtectionDomain.java:76)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(ProtectionDomain.java:87)
+	at java.awt.EventQueue$4.run(EventQueue.java:680)
+	at java.awt.EventQueue$4.run(EventQueue.java:678)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(ProtectionDomain.java:76)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:677)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:211)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:128)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:117)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:113)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:105)
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:90)
+0 [main] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Mon Nov 11 16:21:00 BRST 2013
+76 [main] INFO br.com.log.LogDinnamus  - Abrindo conexao com o servidor
+397 [main] INFO br.com.log.LogDinnamus  - Abrindo conexao com o servidor
+0 [main] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Mon Nov 11 16:23:30 BRST 2013
+64 [main] INFO br.com.log.LogDinnamus  - Abrindo conexao com o servidor
+333 [main] INFO br.com.log.LogDinnamus  - Abrindo conexao com o servidor
+1 [main] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Mon Nov 11 16:23:45 BRST 2013
+77 [main] INFO br.com.log.LogDinnamus  - Abrindo conexao com o servidor
+377 [main] INFO br.com.log.LogDinnamus  - Abrindo conexao com o servidor
+1 [main] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Mon Nov 11 16:24:55 BRST 2013
+91 [main] INFO br.com.log.LogDinnamus  - Abrindo conexao com o servidor
+440 [main] INFO br.com.log.LogDinnamus  - Abrindo conexao com o servidor
+0 [main] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Mon Nov 11 16:26:30 BRST 2013
+95 [main] INFO br.com.log.LogDinnamus  - Abrindo conexao com o servidor
+432 [main] INFO br.com.log.LogDinnamus  - Abrindo conexao com o servidor
+0 [main] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Mon Nov 11 16:36:05 BRST 2013
+501 [main] INFO br.com.log.LogDinnamus  - Abrindo conexao com o servidor
+2468 [main] INFO br.com.log.LogDinnamus  - Abrindo conexao com o servidor

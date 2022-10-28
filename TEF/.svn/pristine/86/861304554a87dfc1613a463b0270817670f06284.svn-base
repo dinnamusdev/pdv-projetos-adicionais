@@ -1,0 +1,62 @@
+0 [main] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Fri Oct 18 14:58:48 BRT 2013
+0 [main] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Fri Oct 18 15:41:55 BRT 2013
+1 [main] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Fri Oct 18 15:42:28 BRT 2013
+0 [main] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Fri Oct 18 15:43:20 BRT 2013
+0 [main] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Fri Oct 18 21:13:05 BRT 2013
+695 [main] ERROR br.com.log.LogDinnamus  - Registro de Exceção detectada : Fri Oct 18 21:13:06 BRT 2013
+java.lang.NullPointerException
+	at br.manipulararquivos.ManipulacaoArquivo.Arquivo_Copiar(ManipulacaoArquivo.java:137)
+	at br.tef.Padrao.TefPadrao.TEF_CriarArquivo(TefPadrao.java:93)
+	at br.tef.Padrao.TefPadrao.IniciarVendaTEF(TefPadrao.java:44)
+	at br.tef.Padrao.TefPadrao.main(TefPadrao.java:113)
+1 [main] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Fri Oct 18 21:13:44 BRT 2013
+1 [main] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Fri Oct 18 21:14:16 BRT 2013
+0 [main] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Fri Oct 18 21:15:46 BRT 2013
+1 [main] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Fri Oct 18 21:16:32 BRT 2013
+0 [main] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Fri Oct 18 21:17:20 BRT 2013
+0 [main] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Fri Oct 18 21:19:38 BRT 2013
+0 [main] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Fri Oct 18 21:20:45 BRT 2013
+0 [main] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Fri Oct 18 21:34:25 BRT 2013
+0 [main] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Fri Oct 18 21:39:01 BRT 2013
+1 [main] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Fri Oct 18 21:47:53 BRT 2013
+0 [main] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Fri Oct 18 21:57:38 BRT 2013
+0 [main] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Fri Oct 18 21:58:16 BRT 2013
+0 [main] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Fri Oct 18 22:00:13 BRT 2013
+0 [main] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Fri Oct 18 22:00:18 BRT 2013
+1 [main] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Fri Oct 18 22:03:16 BRT 2013
+0 [main] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Fri Oct 18 22:03:47 BRT 2013
+0 [main] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Fri Oct 18 22:04:45 BRT 2013
+0 [main] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Fri Oct 18 22:05:05 BRT 2013
+0 [main] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Fri Oct 18 22:05:38 BRT 2013
+0 [main] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Fri Oct 18 22:06:37 BRT 2013
+1 [main] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Fri Oct 18 22:08:48 BRT 2013
+0 [main] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Fri Oct 18 22:14:56 BRT 2013
+0 [main] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Fri Oct 18 22:17:06 BRT 2013
+0 [main] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Fri Oct 18 22:17:37 BRT 2013
+0 [main] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Fri Oct 18 22:17:59 BRT 2013
+0 [main] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Fri Oct 18 22:18:33 BRT 2013
+1 [main] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Fri Oct 18 22:19:41 BRT 2013
+0 [main] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Fri Oct 18 22:22:03 BRT 2013
+31396 [main] ERROR br.com.log.LogDinnamus  - Registro de Exceção detectada : Fri Oct 18 22:22:35 BRT 2013
+java.io.FileNotFoundException: c:\tef_dial\resp\ativo.001 (O sistema não pode encontrar o arquivo especificado)
+	at java.io.FileInputStream.open(Native Method)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at br.manipulararquivos.ManipulacaoArquivo.LerArquivo(ManipulacaoArquivo.java:187)
+	at br.tef.Padrao.TEFValidarRetorno.VerificarArquivo_ATIVO_001(TEFValidarRetorno.java:23)
+	at br.tef.Padrao.TefPadrao.VerificarGP(TefPadrao.java:129)
+	at br.tef.Padrao.TefPadrao.IniciarVendaTEF(TefPadrao.java:38)
+	at br.tef.Padrao.TefPadrao.main(TefPadrao.java:91)
+31418 [main] ERROR br.com.log.LogDinnamus  - Registro de Exceção detectada : Fri Oct 18 22:22:35 BRT 2013
+java.lang.NullPointerException
+	at br.manipulararquivos.ManipulacaoArquivo.LerArquivo(ManipulacaoArquivo.java:203)
+	at br.tef.Padrao.TEFValidarRetorno.VerificarArquivo_ATIVO_001(TEFValidarRetorno.java:23)
+	at br.tef.Padrao.TefPadrao.VerificarGP(TefPadrao.java:129)
+	at br.tef.Padrao.TefPadrao.IniciarVendaTEF(TefPadrao.java:38)
+	at br.tef.Padrao.TefPadrao.main(TefPadrao.java:91)
+0 [main] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Fri Oct 18 22:23:47 BRT 2013
+0 [main] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Fri Oct 18 22:23:54 BRT 2013
+1 [main] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Fri Oct 18 22:27:50 BRT 2013
+0 [main] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Fri Oct 18 22:35:33 BRT 2013
+0 [main] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Fri Oct 18 22:37:30 BRT 2013
+0 [main] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Fri Oct 18 22:38:53 BRT 2013
+1 [main] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Fri Oct 18 22:39:42 BRT 2013

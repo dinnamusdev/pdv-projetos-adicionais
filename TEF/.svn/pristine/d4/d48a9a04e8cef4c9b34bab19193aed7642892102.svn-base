@@ -1,0 +1,69 @@
+/*
+ * To change this template, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package br.comum;
+
+import br.com.log.LogDinnamus;
+import br.manipulararquivos.ManipulacaoArquivo;
+import br.manipulararquivos.ManipulacaoArquivoGravar;
+import java.io.File;
+import java.util.ArrayList;
+
+/**
+ *
+ * @author Fernando
+ */
+public class MetodosComuns {
+        public static ArrayList<String> ExtrairDados(String cIndice,String cConteudoArquivo ){
+            ArrayList<String> Retorno =new ArrayList<>();
+            try {                
+                if(cConteudoArquivo.trim().length()>0){
+                    String[] Linhas = cConteudoArquivo.split(ManipulacaoArquivo.newline);
+                    for (int i = 0; i < Linhas.length; i++) {
+                        //Linhas[i].matches(cIndice + " =" + "[0-9]{3}");
+                        if(Linhas[i].length()>=7){
+                            String Registro = Linhas[i].substring(0, 7);
+                            if(Registro.matches(cIndice + "-[\\d]{3}")){
+                                Retorno.add(Linhas[i].substring(Linhas[i].indexOf("=")+1).trim().replace("\"", ""));
+                            }
+                        }
+                    }
+                }
+            } catch (Exception e) {
+                LogDinnamus.Log(e, true);
+                return null;
+            }
+            return Retorno;
+        }
+        public static String ConverterArrayListEmString(ArrayList<String> dados){
+            String Retorno ="";
+            try {
+                for (int i = 0; i < dados.size(); i++) {
+                    Retorno = Retorno + (Retorno.length()>0 ? "\n" : "") + dados.get(i);                    
+                }
+            } catch (Exception e) {
+                LogDinnamus.Log(e, true);
+            }
+            return Retorno;
+            
+        }
+        public static String CriarArquivo(String cNomeArquivo, String cDadosArquivo) {
+        
+        try {
+            if(ManipulacaoArquivo.ArquivoExiste(cNomeArquivo, false)){
+               ManipulacaoArquivo.ExcluirArquivo(cNomeArquivo);
+            }
+            ManipulacaoArquivoGravar  arquivo =new  ManipulacaoArquivoGravar();// .novaInstanciaFile(PastaPadrao_Req+"intpos.tmp");
+            if(arquivo.AbrirCanalGravar(new File(cNomeArquivo))){
+               arquivo.GravarLinha(cDadosArquivo);
+            }
+            arquivo.FecharCanalGravacao();
+        } catch (Exception e) {
+            LogDinnamus.Log(e, true);
+            return "";
+        }
+        
+        return cNomeArquivo;
+    }
+}

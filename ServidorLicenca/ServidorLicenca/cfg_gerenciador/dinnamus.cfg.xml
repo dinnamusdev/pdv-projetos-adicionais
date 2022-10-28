@@ -1,0 +1,10 @@
+<?xml version="1.0" ?>
+<DinnamuS2.0>
+
+<Servidor>
+<Host>notedti</Host>
+<Usuario>sa</Usuario>
+<Senha>sa</Senha>
+<Banco>gerenciador</Banco>
+<TipoInstalacao>GERENCIADOR</TipoInstalacao>
+</Servidor></DinnamuS2.0>

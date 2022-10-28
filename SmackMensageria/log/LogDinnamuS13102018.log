@@ -1,0 +1,9 @@
+0 [AWT-EventQueue-0] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Tue Nov 13 23:54:04 GMT-03:00 2018
+5 [AWT-EventQueue-0] ERROR br.com.log.LogDinnamus  - Registro de Exceção detectada : Tue Nov 13 23:54:04 GMT-03:00 2018
+org.jivesoftware.smack.sasl.SASLErrorException: SASLError using SCRAM-SHA-1: not-authorized
+	at org.jivesoftware.smack.SASLAuthentication.authenticationFailed(SASLAuthentication.java:365)
+	at org.jivesoftware.smack.tcp.XMPPTCPConnection$PacketReader.parsePackets(XMPPTCPConnection.java:1052)
+	at org.jivesoftware.smack.tcp.XMPPTCPConnection$PacketReader.access$300(XMPPTCPConnection.java:956)
+	at org.jivesoftware.smack.tcp.XMPPTCPConnection$PacketReader$1.run(XMPPTCPConnection.java:971)
+	at java.lang.Thread.run(Thread.java:748)
+0 [AWT-EventQueue-0] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Tue Nov 13 23:55:21 GMT-03:00 2018

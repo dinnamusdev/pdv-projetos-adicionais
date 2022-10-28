@@ -1,0 +1,173 @@
+0 [Thread-1] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Wed Jan 30 21:48:02 GMT-03:00 2019
+0 [Thread-1] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Wed Jan 30 22:20:13 GMT-03:00 2019
+0 [Thread-1] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Wed Jan 30 22:48:49 GMT-03:00 2019
+75367 [Smack-Cached Executor 1 (0)] ERROR br.com.log.LogDinnamus  - Registro de Exceção detectada : Wed Jan 30 22:50:05 GMT-03:00 2019
+java.lang.NullPointerException
+	at smack.config.frmChat.localizarMensagem(frmChat.java:1245)
+	at smack.config.frmChat.access$1600(frmChat.java:62)
+	at smack.config.frmChat$16.onReceiptReceived(frmChat.java:1267)
+	at org.jivesoftware.smackx.receipts.DeliveryReceiptManager$2.processPacket(DeliveryReceiptManager.java:142)
+	at org.jivesoftware.smack.AbstractXMPPConnection$3.run(AbstractXMPPConnection.java:1105)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+121963 [Smack-Cached Executor 1 (0)] ERROR br.com.log.LogDinnamus  - Registro de Exceção detectada : Wed Jan 30 22:50:51 GMT-03:00 2019
+java.lang.NullPointerException
+	at smack.config.frmChat.localizarMensagem(frmChat.java:1245)
+	at smack.config.frmChat.access$1600(frmChat.java:62)
+	at smack.config.frmChat$16.onReceiptReceived(frmChat.java:1267)
+	at org.jivesoftware.smackx.receipts.DeliveryReceiptManager$2.processPacket(DeliveryReceiptManager.java:142)
+	at org.jivesoftware.smack.AbstractXMPPConnection$3.run(AbstractXMPPConnection.java:1105)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+184224 [Smack-Cached Executor 1 (0)] ERROR br.com.log.LogDinnamus  - Registro de Exceção detectada : Wed Jan 30 22:51:54 GMT-03:00 2019
+java.lang.NullPointerException
+	at smack.config.frmChat.localizarMensagem(frmChat.java:1245)
+	at smack.config.frmChat.access$1600(frmChat.java:62)
+	at smack.config.frmChat$16.onReceiptReceived(frmChat.java:1267)
+	at org.jivesoftware.smackx.receipts.DeliveryReceiptManager$2.processPacket(DeliveryReceiptManager.java:142)
+	at org.jivesoftware.smack.AbstractXMPPConnection$3.run(AbstractXMPPConnection.java:1105)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+1 [Thread-1] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Wed Jan 30 23:05:14 GMT-03:00 2019
+21712 [Smack-Cached Executor 0 (0)] ERROR br.com.log.LogDinnamus  - Registro de Exceção detectada : Wed Jan 30 23:05:36 GMT-03:00 2019
+java.lang.NullPointerException
+	at smack.config.frmChat.localizarMensagem(frmChat.java:1247)
+	at smack.config.frmChat.access$1600(frmChat.java:64)
+	at smack.config.frmChat$16.onReceiptReceived(frmChat.java:1271)
+	at org.jivesoftware.smackx.receipts.DeliveryReceiptManager$2.processPacket(DeliveryReceiptManager.java:142)
+	at org.jivesoftware.smack.AbstractXMPPConnection$3.run(AbstractXMPPConnection.java:1105)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+0 [Thread-1] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Wed Jan 30 23:06:36 GMT-03:00 2019
+16043 [Smack-Cached Executor 0 (0)] ERROR br.com.log.LogDinnamus  - Registro de Exceção detectada : Wed Jan 30 23:06:52 GMT-03:00 2019
+java.lang.NullPointerException
+	at smack.config.frmChat.localizarMensagem(frmChat.java:1247)
+	at smack.config.frmChat.access$1600(frmChat.java:64)
+	at smack.config.frmChat$16.onReceiptReceived(frmChat.java:1271)
+	at org.jivesoftware.smackx.receipts.DeliveryReceiptManager$2.processPacket(DeliveryReceiptManager.java:142)
+	at org.jivesoftware.smack.AbstractXMPPConnection$3.run(AbstractXMPPConnection.java:1105)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+32103 [Smack-Cached Executor 1 (0)] ERROR br.com.log.LogDinnamus  - Registro de Exceção detectada : Wed Jan 30 23:07:08 GMT-03:00 2019
+java.lang.NullPointerException
+	at smack.config.frmChat.localizarMensagem(frmChat.java:1247)
+	at smack.config.frmChat.access$1600(frmChat.java:64)
+	at smack.config.frmChat$16.onReceiptReceived(frmChat.java:1271)
+	at org.jivesoftware.smackx.receipts.DeliveryReceiptManager$2.processPacket(DeliveryReceiptManager.java:142)
+	at org.jivesoftware.smack.AbstractXMPPConnection$3.run(AbstractXMPPConnection.java:1105)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+42238 [Smack-Cached Executor 2 (0)] ERROR br.com.log.LogDinnamus  - Registro de Exceção detectada : Wed Jan 30 23:07:18 GMT-03:00 2019
+java.lang.NullPointerException
+	at smack.config.frmChat.localizarMensagem(frmChat.java:1247)
+	at smack.config.frmChat.access$1600(frmChat.java:64)
+	at smack.config.frmChat$16.onReceiptReceived(frmChat.java:1271)
+	at org.jivesoftware.smackx.receipts.DeliveryReceiptManager$2.processPacket(DeliveryReceiptManager.java:142)
+	at org.jivesoftware.smack.AbstractXMPPConnection$3.run(AbstractXMPPConnection.java:1105)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+47005 [Smack-Cached Executor 3 (0)] ERROR br.com.log.LogDinnamus  - Registro de Exceção detectada : Wed Jan 30 23:07:23 GMT-03:00 2019
+java.lang.NullPointerException
+	at smack.config.frmChat.localizarMensagem(frmChat.java:1247)
+	at smack.config.frmChat.access$1600(frmChat.java:64)
+	at smack.config.frmChat$16.onReceiptReceived(frmChat.java:1271)
+	at org.jivesoftware.smackx.receipts.DeliveryReceiptManager$2.processPacket(DeliveryReceiptManager.java:142)
+	at org.jivesoftware.smack.AbstractXMPPConnection$3.run(AbstractXMPPConnection.java:1105)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+48681 [Smack-Cached Executor 4 (0)] ERROR br.com.log.LogDinnamus  - Registro de Exceção detectada : Wed Jan 30 23:07:25 GMT-03:00 2019
+java.lang.NullPointerException
+	at smack.config.frmChat.localizarMensagem(frmChat.java:1247)
+	at smack.config.frmChat.access$1600(frmChat.java:64)
+	at smack.config.frmChat$16.onReceiptReceived(frmChat.java:1271)
+	at org.jivesoftware.smackx.receipts.DeliveryReceiptManager$2.processPacket(DeliveryReceiptManager.java:142)
+	at org.jivesoftware.smack.AbstractXMPPConnection$3.run(AbstractXMPPConnection.java:1105)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+0 [Thread-1] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Wed Jan 30 23:07:47 GMT-03:00 2019
+21069 [Smack-Cached Executor 0 (0)] ERROR br.com.log.LogDinnamus  - Registro de Exceção detectada : Wed Jan 30 23:08:08 GMT-03:00 2019
+java.lang.NullPointerException
+	at smack.config.frmChat.localizarMensagem(frmChat.java:1247)
+	at smack.config.frmChat.access$1600(frmChat.java:64)
+	at smack.config.frmChat$16.onReceiptReceived(frmChat.java:1271)
+	at org.jivesoftware.smackx.receipts.DeliveryReceiptManager$2.processPacket(DeliveryReceiptManager.java:142)
+	at org.jivesoftware.smack.AbstractXMPPConnection$3.run(AbstractXMPPConnection.java:1105)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+47162 [Smack-Cached Executor 2 (0)] ERROR br.com.log.LogDinnamus  - Registro de Exceção detectada : Wed Jan 30 23:08:34 GMT-03:00 2019
+java.lang.NullPointerException
+	at smack.config.frmChat.localizarMensagem(frmChat.java:1247)
+	at smack.config.frmChat.access$1600(frmChat.java:64)
+	at smack.config.frmChat$16.onReceiptReceived(frmChat.java:1271)
+	at org.jivesoftware.smackx.receipts.DeliveryReceiptManager$2.processPacket(DeliveryReceiptManager.java:142)
+	at org.jivesoftware.smack.AbstractXMPPConnection$3.run(AbstractXMPPConnection.java:1105)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+0 [Thread-1] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Wed Jan 30 23:25:18 GMT-03:00 2019
+42211 [Smack-Cached Executor 7 (0)] ERROR br.com.log.LogDinnamus  - Registro de Exceção detectada : Wed Jan 30 23:26:01 GMT-03:00 2019
+java.lang.NullPointerException
+	at smack.config.frmChat.localizarMensagem(frmChat.java:1248)
+	at smack.config.frmChat.access$1600(frmChat.java:64)
+	at smack.config.frmChat$16.onReceiptReceived(frmChat.java:1272)
+	at org.jivesoftware.smackx.receipts.DeliveryReceiptManager$2.processPacket(DeliveryReceiptManager.java:142)
+	at org.jivesoftware.smack.AbstractXMPPConnection$3.run(AbstractXMPPConnection.java:1105)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+187286 [Smack-Cached Executor 3 (0)] ERROR br.com.log.LogDinnamus  - Registro de Exceção detectada : Wed Jan 30 23:28:26 GMT-03:00 2019
+java.lang.NullPointerException
+	at smack.config.frmChat.localizarMensagem(frmChat.java:1248)
+	at smack.config.frmChat.access$1600(frmChat.java:64)
+	at smack.config.frmChat$16.onReceiptReceived(frmChat.java:1272)
+	at org.jivesoftware.smackx.receipts.DeliveryReceiptManager$2.processPacket(DeliveryReceiptManager.java:142)
+	at org.jivesoftware.smack.AbstractXMPPConnection$3.run(AbstractXMPPConnection.java:1105)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+203465 [Smack-Cached Executor 5 (0)] ERROR br.com.log.LogDinnamus  - Registro de Exceção detectada : Wed Jan 30 23:28:42 GMT-03:00 2019
+java.lang.NullPointerException
+	at smack.config.frmChat.localizarMensagem(frmChat.java:1249)
+	at smack.config.frmChat.access$1600(frmChat.java:64)
+	at smack.config.frmChat$16.onReceiptReceived(frmChat.java:1272)
+	at org.jivesoftware.smackx.receipts.DeliveryReceiptManager$2.processPacket(DeliveryReceiptManager.java:142)
+	at org.jivesoftware.smack.AbstractXMPPConnection$3.run(AbstractXMPPConnection.java:1105)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+0 [Thread-1] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Wed Jan 30 23:28:58 GMT-03:00 2019
+31751 [Smack-Cached Executor 0 (0)] ERROR br.com.log.LogDinnamus  - Registro de Exceção detectada : Wed Jan 30 23:29:29 GMT-03:00 2019
+java.lang.NullPointerException
+	at smack.config.frmChat.localizarMensagem(frmChat.java:1249)
+	at smack.config.frmChat.access$1600(frmChat.java:64)
+	at smack.config.frmChat$16.onReceiptReceived(frmChat.java:1272)
+	at org.jivesoftware.smackx.receipts.DeliveryReceiptManager$2.processPacket(DeliveryReceiptManager.java:142)
+	at org.jivesoftware.smack.AbstractXMPPConnection$3.run(AbstractXMPPConnection.java:1105)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+58890 [Smack-Cached Executor 2 (0)] ERROR br.com.log.LogDinnamus  - Registro de Exceção detectada : Wed Jan 30 23:29:57 GMT-03:00 2019
+java.lang.NullPointerException
+	at smack.config.frmChat.localizarMensagem(frmChat.java:1249)
+	at smack.config.frmChat.access$1600(frmChat.java:64)
+	at smack.config.frmChat$16.onReceiptReceived(frmChat.java:1272)
+	at org.jivesoftware.smackx.receipts.DeliveryReceiptManager$2.processPacket(DeliveryReceiptManager.java:142)
+	at org.jivesoftware.smack.AbstractXMPPConnection$3.run(AbstractXMPPConnection.java:1105)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+0 [Thread-1] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Wed Jan 30 23:30:16 GMT-03:00 2019
+1 [Thread-1] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Wed Jan 30 23:33:19 GMT-03:00 2019
+0 [Thread-1] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Wed Jan 30 23:55:57 GMT-03:00 2019
+0 [Thread-1] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Wed Jan 30 23:57:20 GMT-03:00 2019
+0 [Thread-1] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Wed Jan 30 23:58:45 GMT-03:00 2019

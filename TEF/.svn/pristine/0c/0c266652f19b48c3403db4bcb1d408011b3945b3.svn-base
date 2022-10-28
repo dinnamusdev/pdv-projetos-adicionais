@@ -1,0 +1,158 @@
+0 [main] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Mon Oct 21 13:23:53 BRST 2013
+0 [main] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Mon Oct 21 13:24:16 BRST 2013
+0 [main] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Mon Oct 21 13:24:29 BRST 2013
+0 [main] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Mon Oct 21 13:25:44 BRST 2013
+0 [main] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Mon Oct 21 13:26:13 BRST 2013
+0 [main] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Mon Oct 21 13:26:42 BRST 2013
+1 [main] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Mon Oct 21 13:30:25 BRST 2013
+0 [main] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Mon Oct 21 13:30:43 BRST 2013
+0 [main] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Mon Oct 21 13:34:39 BRST 2013
+0 [main] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Mon Oct 21 13:36:10 BRST 2013
+0 [main] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Mon Oct 21 13:36:25 BRST 2013
+0 [main] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Mon Oct 21 13:36:51 BRST 2013
+0 [main] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Mon Oct 21 13:42:31 BRST 2013
+21252 [main] ERROR br.com.log.LogDinnamus  - Registro de Exceção detectada : Mon Oct 21 13:42:52 BRST 2013
+java.lang.StringIndexOutOfBoundsException: String index out of range: 7
+	at java.lang.String.substring(String.java:1955)
+	at br.comum.MetodosComuns.ExtrairDados(MetodosComuns.java:24)
+	at br.tef.Padrao.TefPadrao.TEF_Venda(TefPadrao.java:88)
+	at br.tef.Padrao.TefPadrao.IniciarVendaTEF(TefPadrao.java:49)
+	at br.tef.Padrao.TefPadrao.main(TefPadrao.java:145)
+22877 [main] ERROR br.com.log.LogDinnamus  - Registro de Exceção detectada : Mon Oct 21 13:42:53 BRST 2013
+java.lang.StringIndexOutOfBoundsException: String index out of range: 7
+	at java.lang.String.substring(String.java:1955)
+	at br.comum.MetodosComuns.ExtrairDados(MetodosComuns.java:24)
+	at br.tef.Padrao.TefPadrao.TEF_Venda(TefPadrao.java:89)
+	at br.tef.Padrao.TefPadrao.IniciarVendaTEF(TefPadrao.java:49)
+	at br.tef.Padrao.TefPadrao.main(TefPadrao.java:145)
+23863 [main] ERROR br.com.log.LogDinnamus  - Registro de Exceção detectada : Mon Oct 21 13:42:54 BRST 2013
+java.lang.StringIndexOutOfBoundsException: String index out of range: 7
+	at java.lang.String.substring(String.java:1955)
+	at br.comum.MetodosComuns.ExtrairDados(MetodosComuns.java:24)
+	at br.tef.Padrao.TefPadrao.TEF_Venda(TefPadrao.java:90)
+	at br.tef.Padrao.TefPadrao.IniciarVendaTEF(TefPadrao.java:49)
+	at br.tef.Padrao.TefPadrao.main(TefPadrao.java:145)
+26335 [main] ERROR br.com.log.LogDinnamus  - Registro de Exceção detectada : Mon Oct 21 13:42:57 BRST 2013
+java.lang.NullPointerException
+	at br.tef.Padrao.TefPadrao.TEF_Venda(TefPadrao.java:92)
+	at br.tef.Padrao.TefPadrao.IniciarVendaTEF(TefPadrao.java:49)
+	at br.tef.Padrao.TefPadrao.main(TefPadrao.java:145)
+0 [main] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Mon Oct 21 13:43:06 BRST 2013
+13562 [main] ERROR br.com.log.LogDinnamus  - Registro de Exceção detectada : Mon Oct 21 13:43:19 BRST 2013
+java.lang.StringIndexOutOfBoundsException: String index out of range: 7
+	at java.lang.String.substring(String.java:1955)
+	at br.comum.MetodosComuns.ExtrairDados(MetodosComuns.java:24)
+	at br.tef.Padrao.TefPadrao.TEF_Venda(TefPadrao.java:88)
+	at br.tef.Padrao.TefPadrao.IniciarVendaTEF(TefPadrao.java:49)
+	at br.tef.Padrao.TefPadrao.main(TefPadrao.java:145)
+14651 [main] ERROR br.com.log.LogDinnamus  - Registro de Exceção detectada : Mon Oct 21 13:43:20 BRST 2013
+java.lang.StringIndexOutOfBoundsException: String index out of range: 7
+	at java.lang.String.substring(String.java:1955)
+	at br.comum.MetodosComuns.ExtrairDados(MetodosComuns.java:24)
+	at br.tef.Padrao.TefPadrao.TEF_Venda(TefPadrao.java:89)
+	at br.tef.Padrao.TefPadrao.IniciarVendaTEF(TefPadrao.java:49)
+	at br.tef.Padrao.TefPadrao.main(TefPadrao.java:145)
+0 [main] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Mon Oct 21 13:44:05 BRST 2013
+0 [main] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Mon Oct 21 13:44:35 BRST 2013
+0 [main] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Mon Oct 21 13:45:16 BRST 2013
+0 [main] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Mon Oct 21 13:46:35 BRST 2013
+12111 [main] ERROR br.com.log.LogDinnamus  - Registro de Exceção detectada : Mon Oct 21 13:46:47 BRST 2013
+java.lang.StringIndexOutOfBoundsException: String index out of range: 7
+	at java.lang.String.substring(String.java:1955)
+	at br.comum.MetodosComuns.ExtrairDados(MetodosComuns.java:24)
+	at br.tef.Padrao.TefPadrao.TEF_Venda(TefPadrao.java:88)
+	at br.tef.Padrao.TefPadrao.IniciarVendaTEF(TefPadrao.java:49)
+	at br.tef.Padrao.TefPadrao.main(TefPadrao.java:145)
+13802 [main] ERROR br.com.log.LogDinnamus  - Registro de Exceção detectada : Mon Oct 21 13:46:49 BRST 2013
+java.lang.StringIndexOutOfBoundsException: String index out of range: 7
+	at java.lang.String.substring(String.java:1955)
+	at br.comum.MetodosComuns.ExtrairDados(MetodosComuns.java:24)
+	at br.tef.Padrao.TefPadrao.TEF_Venda(TefPadrao.java:89)
+	at br.tef.Padrao.TefPadrao.IniciarVendaTEF(TefPadrao.java:49)
+	at br.tef.Padrao.TefPadrao.main(TefPadrao.java:145)
+14544 [main] ERROR br.com.log.LogDinnamus  - Registro de Exceção detectada : Mon Oct 21 13:46:50 BRST 2013
+java.lang.StringIndexOutOfBoundsException: String index out of range: 7
+	at java.lang.String.substring(String.java:1955)
+	at br.comum.MetodosComuns.ExtrairDados(MetodosComuns.java:24)
+	at br.tef.Padrao.TefPadrao.TEF_Venda(TefPadrao.java:90)
+	at br.tef.Padrao.TefPadrao.IniciarVendaTEF(TefPadrao.java:49)
+	at br.tef.Padrao.TefPadrao.main(TefPadrao.java:145)
+0 [main] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Mon Oct 21 13:47:20 BRST 2013
+1 [main] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Mon Oct 21 13:47:50 BRST 2013
+0 [main] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Mon Oct 21 13:49:51 BRST 2013
+0 [main] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Mon Oct 21 13:50:51 BRST 2013
+0 [main] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Mon Oct 21 13:51:16 BRST 2013
+0 [main] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Mon Oct 21 13:53:31 BRST 2013
+1 [main] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Mon Oct 21 13:53:49 BRST 2013
+0 [main] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Mon Oct 21 13:55:35 BRST 2013
+0 [main] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Mon Oct 21 13:57:31 BRST 2013
+1 [main] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Mon Oct 21 13:57:49 BRST 2013
+0 [main] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Mon Oct 21 13:58:09 BRST 2013
+0 [main] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Mon Oct 21 13:58:45 BRST 2013
+1 [main] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Mon Oct 21 13:59:43 BRST 2013
+0 [main] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Mon Oct 21 13:59:54 BRST 2013
+0 [main] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Mon Oct 21 14:00:05 BRST 2013
+0 [main] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Mon Oct 21 14:00:18 BRST 2013
+0 [main] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Mon Oct 21 14:01:42 BRST 2013
+0 [main] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Mon Oct 21 14:06:21 BRST 2013
+0 [main] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Mon Oct 21 14:07:03 BRST 2013
+1 [main] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Mon Oct 21 14:11:53 BRST 2013
+0 [main] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Mon Oct 21 14:12:33 BRST 2013
+0 [main] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Mon Oct 21 14:12:48 BRST 2013
+0 [main] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Mon Oct 21 14:13:51 BRST 2013
+0 [main] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Mon Oct 21 14:14:14 BRST 2013
+0 [main] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Mon Oct 21 14:25:05 BRST 2013
+0 [main] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Mon Oct 21 18:57:05 BRST 2013
+0 [main] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Mon Oct 21 18:58:48 BRST 2013
+0 [main] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Mon Oct 21 19:00:13 BRST 2013
+1 [main] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Mon Oct 21 19:01:10 BRST 2013
+0 [main] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Mon Oct 21 19:01:42 BRST 2013
+0 [main] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Mon Oct 21 19:02:06 BRST 2013
+0 [main] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Mon Oct 21 19:03:02 BRST 2013
+11880 [main] ERROR br.com.log.LogDinnamus  - Registro de Exceção detectada : Mon Oct 21 19:03:14 BRST 2013
+java.lang.IndexOutOfBoundsException: Index: 4, Size: 2
+	at java.util.ArrayList.rangeCheck(ArrayList.java:604)
+	at java.util.ArrayList.get(ArrayList.java:382)
+	at br.tef.Padrao.TefPadrao.IniciarVendaTEF(TefPadrao.java:51)
+	at br.tef.Padrao.TefPadrao.main(TefPadrao.java:195)
+0 [main] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Mon Oct 21 19:06:31 BRST 2013
+14215 [main] ERROR br.com.log.LogDinnamus  - Registro de Exceção detectada : Mon Oct 21 19:06:45 BRST 2013
+java.lang.IndexOutOfBoundsException: Index: 4, Size: 2
+	at java.util.ArrayList.rangeCheck(ArrayList.java:604)
+	at java.util.ArrayList.get(ArrayList.java:382)
+	at br.tef.Padrao.TefPadrao.IniciarVendaTEF(TefPadrao.java:51)
+	at br.tef.Padrao.TefPadrao.main(TefPadrao.java:194)
+0 [main] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Mon Oct 21 19:14:52 BRST 2013
+0 [main] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Mon Oct 21 21:51:39 BRST 2013
+0 [main] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Mon Oct 21 21:56:03 BRST 2013
+0 [main] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Mon Oct 21 21:58:57 BRST 2013
+14105 [main] ERROR br.com.log.LogDinnamus  - Registro de Exceção detectada : Mon Oct 21 21:59:11 BRST 2013
+java.lang.IndexOutOfBoundsException: Index: 4, Size: 2
+	at java.util.ArrayList.rangeCheck(ArrayList.java:604)
+	at java.util.ArrayList.get(ArrayList.java:382)
+	at br.tef.Padrao.TefPadrao.IniciarVendaTEF(TefPadrao.java:51)
+	at br.tef.Padrao.TefPadrao.main(TefPadrao.java:195)
+0 [main] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Mon Oct 21 21:59:44 BRST 2013
+0 [main] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Mon Oct 21 22:02:55 BRST 2013
+0 [main] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Mon Oct 21 22:04:03 BRST 2013
+16563 [main] ERROR br.com.log.LogDinnamus  - Registro de Exceção detectada : Mon Oct 21 22:04:19 BRST 2013
+java.lang.IndexOutOfBoundsException: Index: 4, Size: 2
+	at java.util.ArrayList.rangeCheck(ArrayList.java:604)
+	at java.util.ArrayList.get(ArrayList.java:382)
+	at br.tef.Padrao.TefPadrao.IniciarVendaTEF(TefPadrao.java:51)
+	at br.tef.Padrao.TefPadrao.main(TefPadrao.java:195)
+0 [main] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Mon Oct 21 22:12:35 BRST 2013
+5285 [main] ERROR br.com.log.LogDinnamus  - Registro de Exceção detectada : Mon Oct 21 22:12:40 BRST 2013
+java.lang.IndexOutOfBoundsException: Index: 4, Size: 2
+	at java.util.ArrayList.rangeCheck(ArrayList.java:604)
+	at java.util.ArrayList.get(ArrayList.java:382)
+	at br.tef.Padrao.TefPadrao.IniciarVendaTEF(TefPadrao.java:51)
+	at br.tef.Padrao.TefPadrao.main(TefPadrao.java:194)
+0 [main] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Mon Oct 21 22:12:50 BRST 2013
+1 [main] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Mon Oct 21 22:13:07 BRST 2013
+0 [main] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Mon Oct 21 22:28:26 BRST 2013
+0 [main] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Mon Oct 21 22:47:05 BRST 2013
+0 [main] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Mon Oct 21 22:48:39 BRST 2013
+0 [main] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Mon Oct 21 22:49:02 BRST 2013
+0 [main] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Mon Oct 21 22:52:41 BRST 2013
+0 [main] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Mon Oct 21 22:53:47 BRST 2013

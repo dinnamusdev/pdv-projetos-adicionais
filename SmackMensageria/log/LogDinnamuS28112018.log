@@ -1,0 +1,409 @@
+0 [Thread-1] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Fri Dec 28 09:39:55 GMT-03:00 2018
+0 [Thread-1] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Fri Dec 28 09:47:54 GMT-03:00 2018
+57954 [AWT-EventQueue-0] ERROR br.com.log.LogDinnamus  - Registro de Exceção detectada : Fri Dec 28 09:48:52 GMT-03:00 2018
+java.lang.NullPointerException
+	at smack.config.frmChat.processarMensagemEnviada(frmChat.java:955)
+	at smack.config.frmChat.btEnviarActionPerformed(frmChat.java:548)
+	at smack.config.frmChat.access$500(frmChat.java:51)
+	at smack.config.frmChat$6.actionPerformed(frmChat.java:257)
+	at javax.swing.AbstractButton.fireActionPerformed(AbstractButton.java:2022)
+	at javax.swing.AbstractButton$Handler.actionPerformed(AbstractButton.java:2348)
+	at javax.swing.DefaultButtonModel.fireActionPerformed(DefaultButtonModel.java:402)
+	at javax.swing.DefaultButtonModel.setPressed(DefaultButtonModel.java:259)
+	at javax.swing.plaf.basic.BasicButtonListener.mouseReleased(BasicButtonListener.java:252)
+	at java.awt.Component.processMouseEvent(Component.java:6539)
+	at javax.swing.JComponent.processMouseEvent(JComponent.java:3324)
+	at java.awt.Component.processEvent(Component.java:6304)
+	at java.awt.Container.processEvent(Container.java:2239)
+	at java.awt.Component.dispatchEventImpl(Component.java:4889)
+	at java.awt.Container.dispatchEventImpl(Container.java:2297)
+	at java.awt.Component.dispatchEvent(Component.java:4711)
+	at java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4904)
+	at java.awt.LightweightDispatcher.processMouseEvent(Container.java:4535)
+	at java.awt.LightweightDispatcher.dispatchEvent(Container.java:4476)
+	at java.awt.Container.dispatchEventImpl(Container.java:2283)
+	at java.awt.Window.dispatchEventImpl(Window.java:2746)
+	at java.awt.Component.dispatchEvent(Component.java:4711)
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:760)
+	at java.awt.EventQueue.access$500(EventQueue.java:97)
+	at java.awt.EventQueue$3.run(EventQueue.java:709)
+	at java.awt.EventQueue$3.run(EventQueue.java:703)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:74)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:84)
+	at java.awt.EventQueue$4.run(EventQueue.java:733)
+	at java.awt.EventQueue$4.run(EventQueue.java:731)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:74)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:730)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:205)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:116)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:105)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:93)
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:82)
+68458 [AWT-EventQueue-0] ERROR br.com.log.LogDinnamus  - Registro de Exceção detectada : Fri Dec 28 09:49:02 GMT-03:00 2018
+java.lang.NullPointerException
+	at smack.config.frmChat.processarMensagemEnviada(frmChat.java:955)
+	at smack.config.frmChat.btEnviarActionPerformed(frmChat.java:548)
+	at smack.config.frmChat.access$500(frmChat.java:51)
+	at smack.config.frmChat$6.actionPerformed(frmChat.java:257)
+	at javax.swing.AbstractButton.fireActionPerformed(AbstractButton.java:2022)
+	at javax.swing.AbstractButton$Handler.actionPerformed(AbstractButton.java:2348)
+	at javax.swing.DefaultButtonModel.fireActionPerformed(DefaultButtonModel.java:402)
+	at javax.swing.DefaultButtonModel.setPressed(DefaultButtonModel.java:259)
+	at javax.swing.plaf.basic.BasicButtonListener.mouseReleased(BasicButtonListener.java:252)
+	at java.awt.Component.processMouseEvent(Component.java:6539)
+	at javax.swing.JComponent.processMouseEvent(JComponent.java:3324)
+	at java.awt.Component.processEvent(Component.java:6304)
+	at java.awt.Container.processEvent(Container.java:2239)
+	at java.awt.Component.dispatchEventImpl(Component.java:4889)
+	at java.awt.Container.dispatchEventImpl(Container.java:2297)
+	at java.awt.Component.dispatchEvent(Component.java:4711)
+	at java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4904)
+	at java.awt.LightweightDispatcher.processMouseEvent(Container.java:4535)
+	at java.awt.LightweightDispatcher.dispatchEvent(Container.java:4476)
+	at java.awt.Container.dispatchEventImpl(Container.java:2283)
+	at java.awt.Window.dispatchEventImpl(Window.java:2746)
+	at java.awt.Component.dispatchEvent(Component.java:4711)
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:760)
+	at java.awt.EventQueue.access$500(EventQueue.java:97)
+	at java.awt.EventQueue$3.run(EventQueue.java:709)
+	at java.awt.EventQueue$3.run(EventQueue.java:703)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:74)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:84)
+	at java.awt.EventQueue$4.run(EventQueue.java:733)
+	at java.awt.EventQueue$4.run(EventQueue.java:731)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:74)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:730)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:205)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:116)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:105)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:93)
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:82)
+122008 [AWT-EventQueue-0] ERROR br.com.log.LogDinnamus  - Registro de Exceção detectada : Fri Dec 28 09:49:56 GMT-03:00 2018
+java.lang.NullPointerException
+	at smack.config.frmChat.processarMensagemEnviada(frmChat.java:955)
+	at smack.config.frmChat.btEnviarActionPerformed(frmChat.java:548)
+	at smack.config.frmChat.access$500(frmChat.java:51)
+	at smack.config.frmChat$6.actionPerformed(frmChat.java:257)
+	at javax.swing.AbstractButton.fireActionPerformed(AbstractButton.java:2022)
+	at javax.swing.AbstractButton$Handler.actionPerformed(AbstractButton.java:2348)
+	at javax.swing.DefaultButtonModel.fireActionPerformed(DefaultButtonModel.java:402)
+	at javax.swing.DefaultButtonModel.setPressed(DefaultButtonModel.java:259)
+	at javax.swing.plaf.basic.BasicButtonListener.mouseReleased(BasicButtonListener.java:252)
+	at java.awt.Component.processMouseEvent(Component.java:6539)
+	at javax.swing.JComponent.processMouseEvent(JComponent.java:3324)
+	at java.awt.Component.processEvent(Component.java:6304)
+	at java.awt.Container.processEvent(Container.java:2239)
+	at java.awt.Component.dispatchEventImpl(Component.java:4889)
+	at java.awt.Container.dispatchEventImpl(Container.java:2297)
+	at java.awt.Component.dispatchEvent(Component.java:4711)
+	at java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4904)
+	at java.awt.LightweightDispatcher.processMouseEvent(Container.java:4535)
+	at java.awt.LightweightDispatcher.dispatchEvent(Container.java:4476)
+	at java.awt.Container.dispatchEventImpl(Container.java:2283)
+	at java.awt.Window.dispatchEventImpl(Window.java:2746)
+	at java.awt.Component.dispatchEvent(Component.java:4711)
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:760)
+	at java.awt.EventQueue.access$500(EventQueue.java:97)
+	at java.awt.EventQueue$3.run(EventQueue.java:709)
+	at java.awt.EventQueue$3.run(EventQueue.java:703)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:74)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:84)
+	at java.awt.EventQueue$4.run(EventQueue.java:733)
+	at java.awt.EventQueue$4.run(EventQueue.java:731)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:74)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:730)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:205)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:116)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:105)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:93)
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:82)
+0 [Thread-1] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Fri Dec 28 09:50:15 GMT-03:00 2018
+0 [Thread-1] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Fri Dec 28 09:52:12 GMT-03:00 2018
+63107 [Smack-Single Threaded Executor 0 (0)] ERROR br.com.log.LogDinnamus  - Registro de Exceção detectada : Fri Dec 28 09:53:15 GMT-03:00 2018
+java.lang.NullPointerException
+	at smack.config.frmChat.atualizarJlUsuarios(frmChat.java:845)
+	at smack.config.frmChat.listarUsuario(frmChat.java:889)
+	at smack.config.frmChat.access$1200(frmChat.java:51)
+	at smack.config.frmChat$13.presenceChanged(frmChat.java:814)
+	at org.jivesoftware.smack.roster.Roster.fireRosterPresenceEvent(Roster.java:1024)
+	at org.jivesoftware.smack.roster.Roster.access$1100(Roster.java:79)
+	at org.jivesoftware.smack.roster.Roster$PresencePacketListener.processPacket(Roster.java:1255)
+	at org.jivesoftware.smack.AbstractXMPPConnection$4.run(AbstractXMPPConnection.java:1135)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+0 [Thread-1] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Fri Dec 28 09:53:51 GMT-03:00 2018
+122560 [AWT-EventQueue-0] ERROR br.com.log.LogDinnamus  - Registro de Exceção detectada : Fri Dec 28 09:55:54 GMT-03:00 2018
+java.lang.NullPointerException
+	at java.awt.Toolkit.createImage(Toolkit.java:1111)
+	at javax.swing.ImageIcon.<init>(ImageIcon.java:286)
+	at smack.config.frmChatCadastrarUsuario.atualizarFoto(frmChatCadastrarUsuario.java:347)
+	at smack.config.frmChat.btDadosUsuarioActionPerformed(frmChat.java:573)
+	at smack.config.frmChat.access$1000(frmChat.java:51)
+	at smack.config.frmChat$11.actionPerformed(frmChat.java:406)
+	at javax.swing.AbstractButton.fireActionPerformed(AbstractButton.java:2022)
+	at javax.swing.AbstractButton$Handler.actionPerformed(AbstractButton.java:2348)
+	at javax.swing.DefaultButtonModel.fireActionPerformed(DefaultButtonModel.java:402)
+	at javax.swing.DefaultButtonModel.setPressed(DefaultButtonModel.java:259)
+	at javax.swing.plaf.basic.BasicButtonListener.mouseReleased(BasicButtonListener.java:252)
+	at java.awt.Component.processMouseEvent(Component.java:6539)
+	at javax.swing.JComponent.processMouseEvent(JComponent.java:3324)
+	at java.awt.Component.processEvent(Component.java:6304)
+	at java.awt.Container.processEvent(Container.java:2239)
+	at java.awt.Component.dispatchEventImpl(Component.java:4889)
+	at java.awt.Container.dispatchEventImpl(Container.java:2297)
+	at java.awt.Component.dispatchEvent(Component.java:4711)
+	at java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4904)
+	at java.awt.LightweightDispatcher.processMouseEvent(Container.java:4535)
+	at java.awt.LightweightDispatcher.dispatchEvent(Container.java:4476)
+	at java.awt.Container.dispatchEventImpl(Container.java:2283)
+	at java.awt.Window.dispatchEventImpl(Window.java:2746)
+	at java.awt.Component.dispatchEvent(Component.java:4711)
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:760)
+	at java.awt.EventQueue.access$500(EventQueue.java:97)
+	at java.awt.EventQueue$3.run(EventQueue.java:709)
+	at java.awt.EventQueue$3.run(EventQueue.java:703)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:74)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:84)
+	at java.awt.EventQueue$4.run(EventQueue.java:733)
+	at java.awt.EventQueue$4.run(EventQueue.java:731)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:74)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:730)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:205)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:116)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:105)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:93)
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:82)
+129968 [Smack-Single Threaded Executor 0 (0)] ERROR br.com.log.LogDinnamus  - Registro de Exceção detectada : Fri Dec 28 09:56:01 GMT-03:00 2018
+java.lang.NullPointerException
+	at smack.config.frmChat.atualizarJlUsuarios(frmChat.java:845)
+	at smack.config.frmChat.listarUsuario(frmChat.java:889)
+	at smack.config.frmChat.access$1200(frmChat.java:51)
+	at smack.config.frmChat$13.presenceChanged(frmChat.java:814)
+	at org.jivesoftware.smack.roster.Roster.fireRosterPresenceEvent(Roster.java:1024)
+	at org.jivesoftware.smack.roster.Roster.access$1100(Roster.java:79)
+	at org.jivesoftware.smack.roster.Roster$PresencePacketListener.processPacket(Roster.java:1255)
+	at org.jivesoftware.smack.AbstractXMPPConnection$4.run(AbstractXMPPConnection.java:1135)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+0 [Thread-1] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Fri Dec 28 09:56:25 GMT-03:00 2018
+25445 [AWT-EventQueue-0] ERROR br.com.log.LogDinnamus  - Registro de Exceção detectada : Fri Dec 28 09:56:50 GMT-03:00 2018
+java.lang.NullPointerException
+	at java.awt.Toolkit.createImage(Toolkit.java:1111)
+	at javax.swing.ImageIcon.<init>(ImageIcon.java:286)
+	at smack.config.frmChatCadastrarUsuario.atualizarFoto(frmChatCadastrarUsuario.java:347)
+	at smack.config.frmChat.btDadosUsuarioActionPerformed(frmChat.java:573)
+	at smack.config.frmChat.access$1000(frmChat.java:51)
+	at smack.config.frmChat$11.actionPerformed(frmChat.java:406)
+	at javax.swing.AbstractButton.fireActionPerformed(AbstractButton.java:2022)
+	at javax.swing.AbstractButton$Handler.actionPerformed(AbstractButton.java:2348)
+	at javax.swing.DefaultButtonModel.fireActionPerformed(DefaultButtonModel.java:402)
+	at javax.swing.DefaultButtonModel.setPressed(DefaultButtonModel.java:259)
+	at javax.swing.plaf.basic.BasicButtonListener.mouseReleased(BasicButtonListener.java:252)
+	at java.awt.Component.processMouseEvent(Component.java:6539)
+	at javax.swing.JComponent.processMouseEvent(JComponent.java:3324)
+	at java.awt.Component.processEvent(Component.java:6304)
+	at java.awt.Container.processEvent(Container.java:2239)
+	at java.awt.Component.dispatchEventImpl(Component.java:4889)
+	at java.awt.Container.dispatchEventImpl(Container.java:2297)
+	at java.awt.Component.dispatchEvent(Component.java:4711)
+	at java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4904)
+	at java.awt.LightweightDispatcher.processMouseEvent(Container.java:4535)
+	at java.awt.LightweightDispatcher.dispatchEvent(Container.java:4476)
+	at java.awt.Container.dispatchEventImpl(Container.java:2283)
+	at java.awt.Window.dispatchEventImpl(Window.java:2746)
+	at java.awt.Component.dispatchEvent(Component.java:4711)
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:760)
+	at java.awt.EventQueue.access$500(EventQueue.java:97)
+	at java.awt.EventQueue$3.run(EventQueue.java:709)
+	at java.awt.EventQueue$3.run(EventQueue.java:703)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:74)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:84)
+	at java.awt.EventQueue$4.run(EventQueue.java:733)
+	at java.awt.EventQueue$4.run(EventQueue.java:731)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:74)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:730)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:205)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:116)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:105)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:93)
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:82)
+0 [Thread-1] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Fri Dec 28 10:01:06 GMT-03:00 2018
+0 [Thread-1] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Fri Dec 28 10:09:56 GMT-03:00 2018
+0 [Thread-1] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Fri Dec 28 10:11:48 GMT-03:00 2018
+0 [Thread-1] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Fri Dec 28 10:12:26 GMT-03:00 2018
+0 [Thread-1] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Fri Dec 28 10:12:46 GMT-03:00 2018
+0 [Thread-1] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Fri Dec 28 10:20:39 GMT-03:00 2018
+0 [Thread-1] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Fri Dec 28 10:26:14 GMT-03:00 2018
+0 [Thread-1] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Fri Dec 28 10:29:24 GMT-03:00 2018
+0 [Thread-1] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Fri Dec 28 10:46:14 GMT-03:00 2018
+0 [Thread-1] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Fri Dec 28 10:56:13 GMT-03:00 2018
+0 [Thread-1] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Fri Dec 28 10:58:40 GMT-03:00 2018
+0 [Thread-1] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Fri Dec 28 11:00:31 GMT-03:00 2018
+0 [Thread-1] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Fri Dec 28 11:02:03 GMT-03:00 2018
+0 [Thread-1] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Fri Dec 28 11:04:29 GMT-03:00 2018
+0 [Thread-1] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Fri Dec 28 11:15:12 GMT-03:00 2018
+0 [Thread-1] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Fri Dec 28 11:15:31 GMT-03:00 2018
+0 [Thread-1] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Fri Dec 28 11:16:32 GMT-03:00 2018
+0 [Thread-1] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Fri Dec 28 11:17:24 GMT-03:00 2018
+0 [Thread-1] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Fri Dec 28 11:18:30 GMT-03:00 2018
+0 [Thread-1] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Fri Dec 28 11:19:11 GMT-03:00 2018
+0 [Thread-1] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Fri Dec 28 11:20:04 GMT-03:00 2018
+0 [Thread-1] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Fri Dec 28 11:35:02 GMT-03:00 2018
+0 [Thread-1] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Fri Dec 28 11:40:01 GMT-03:00 2018
+9801 [Thread-1] ERROR br.com.log.LogDinnamus  - Registro de Exceção detectada : Fri Dec 28 11:40:11 GMT-03:00 2018
+java.lang.NullPointerException
+	at smack.config.frmChat$16.run(frmChat.java:1252)
+	at java.lang.Thread.run(Thread.java:748)
+0 [Thread-1] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Fri Dec 28 11:40:35 GMT-03:00 2018
+0 [Thread-1] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Fri Dec 28 11:40:44 GMT-03:00 2018
+0 [Thread-1] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Fri Dec 28 11:41:27 GMT-03:00 2018
+0 [Thread-1] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Fri Dec 28 11:42:25 GMT-03:00 2018
+0 [Thread-1] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Fri Dec 28 11:44:08 GMT-03:00 2018
+85542 [Smack-Single Threaded Executor 0 (0)] ERROR br.com.log.LogDinnamus  - Registro de Exceção detectada : Fri Dec 28 11:45:34 GMT-03:00 2018
+java.lang.NullPointerException
+	at smack.config.frmChat.atualizarJlUsuarios(frmChat.java:863)
+	at smack.config.frmChat.listarUsuario(frmChat.java:906)
+	at smack.config.frmChat.access$1200(frmChat.java:51)
+	at smack.config.frmChat$13.presenceChanged(frmChat.java:817)
+	at org.jivesoftware.smack.roster.Roster.fireRosterPresenceEvent(Roster.java:1024)
+	at org.jivesoftware.smack.roster.Roster.access$1100(Roster.java:79)
+	at org.jivesoftware.smack.roster.Roster$PresencePacketListener.processPacket(Roster.java:1255)
+	at org.jivesoftware.smack.AbstractXMPPConnection$4.run(AbstractXMPPConnection.java:1135)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+0 [Thread-1] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Fri Dec 28 11:49:58 GMT-03:00 2018
+0 [Thread-1] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Fri Dec 28 11:50:42 GMT-03:00 2018
+0 [Thread-1] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Fri Dec 28 11:59:21 GMT-03:00 2018
+0 [Thread-1] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Fri Dec 28 12:01:04 GMT-03:00 2018
+0 [Thread-1] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Fri Dec 28 12:01:42 GMT-03:00 2018
+0 [Thread-1] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Fri Dec 28 12:03:36 GMT-03:00 2018
+0 [Thread-1] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Fri Dec 28 12:05:09 GMT-03:00 2018
+0 [Thread-1] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Fri Dec 28 12:06:01 GMT-03:00 2018
+0 [Thread-1] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Fri Dec 28 12:32:32 GMT-03:00 2018
+0 [Thread-1] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Fri Dec 28 12:34:44 GMT-03:00 2018
+0 [Thread-1] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Fri Dec 28 12:40:51 GMT-03:00 2018
+0 [Thread-1] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Fri Dec 28 12:41:29 GMT-03:00 2018
+0 [Thread-1] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Fri Dec 28 12:44:58 GMT-03:00 2018
+0 [Thread-1] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Fri Dec 28 14:02:01 GMT-03:00 2018
+0 [Thread-1] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Fri Dec 28 22:56:49 GMT-03:00 2018
+0 [Thread-1] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Fri Dec 28 22:57:15 GMT-03:00 2018
+0 [Thread-1] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Fri Dec 28 23:23:07 GMT-03:00 2018
+160 [Thread-1] ERROR br.com.log.LogDinnamus  - Registro de Exceção detectada : Fri Dec 28 23:23:07 GMT-03:00 2018
+java.lang.NullPointerException
+	at javax.swing.ImageIcon.<init>(ImageIcon.java:217)
+	at smack.config.frmChat.initComponents(frmChat.java:231)
+	at smack.config.frmChat.<init>(frmChat.java:86)
+	at smack.config.frmChat$18.run(frmChat.java:1377)
+	at java.lang.Thread.run(Thread.java:748)
+0 [Thread-1] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Fri Dec 28 23:23:51 GMT-03:00 2018
+0 [Thread-1] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Fri Dec 28 23:28:58 GMT-03:00 2018
+0 [Thread-1] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Fri Dec 28 23:30:51 GMT-03:00 2018
+814 [Thread-1] ERROR br.com.log.LogDinnamus  - Registro de Exceção detectada : Fri Dec 28 23:30:52 GMT-03:00 2018
+org.jivesoftware.smack.SmackException$ConnectionException: The following addresses failed: 'ip193.ip-142-44-146.net:5222' failed because java.net.UnknownHostException: ip193.ip-142-44-146.net
+	at org.jivesoftware.smack.SmackException$ConnectionException.from(SmackException.java:255)
+	at org.jivesoftware.smack.tcp.XMPPTCPConnection.connectUsingConfiguration(XMPPTCPConnection.java:613)
+	at org.jivesoftware.smack.tcp.XMPPTCPConnection.connectInternal(XMPPTCPConnection.java:851)
+	at org.jivesoftware.smack.AbstractXMPPConnection.connect(AbstractXMPPConnection.java:364)
+	at smack.config.SmackMensageria.conectarServidor(SmackMensageria.java:396)
+	at smack.config.frmChat.conectarServidor(frmChat.java:1224)
+	at smack.config.frmChat.btConectarActionPerformed(frmChat.java:491)
+	at smack.config.frmChat.iniciarUI(frmChat.java:1404)
+	at smack.config.frmChat.<init>(frmChat.java:102)
+	at smack.config.frmChat$18.run(frmChat.java:1377)
+	at java.lang.Thread.run(Thread.java:748)
+0 [Thread-1] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Fri Dec 28 23:31:36 GMT-03:00 2018
+37405 [Thread-1] ERROR br.com.log.LogDinnamus  - Registro de Exceção detectada : Fri Dec 28 23:32:13 GMT-03:00 2018
+org.jivesoftware.smack.SmackException$NoResponseException: No response received within reply timeout. Timeout was 30000ms (~30s). Used filter: IQReplyFilter: iqAndIdFilter (AndFilter: (OrFilter: (IQTypeFilter: type=error, IQTypeFilter: type=result), StanzaIdFilter: id=uPjWU-20)), : fromFilter (OrFilter: (FromMatchesFilter (full): null, FromMatchesFilter (bare): fernando@ip193.ip-142-44-146.net, FromMatchesFilter (full): ip193.ip-142-44-146.net)).
+	at org.jivesoftware.smack.SmackException$NoResponseException.newWith(SmackException.java:106)
+	at org.jivesoftware.smack.SmackException$NoResponseException.newWith(SmackException.java:90)
+	at org.jivesoftware.smack.PacketCollector.nextResultOrThrow(PacketCollector.java:229)
+	at org.jivesoftware.smack.PacketCollector.nextResultOrThrow(PacketCollector.java:213)
+	at org.jivesoftware.smackx.vcardtemp.VCardManager.loadVCard(VCardManager.java:125)
+	at org.jivesoftware.smackx.vcardtemp.VCardManager.loadVCard(VCardManager.java:112)
+	at smack.config.SmackMensageria.getVCard(SmackMensageria.java:227)
+	at smack.config.SmackMensageria.getVCard(SmackMensageria.java:217)
+	at smack.config.frmChat.conectarServidor(frmChat.java:1265)
+	at smack.config.frmChat.btConectarActionPerformed(frmChat.java:491)
+	at smack.config.frmChat.iniciarUI(frmChat.java:1404)
+	at smack.config.frmChat.<init>(frmChat.java:102)
+	at smack.config.frmChat$18.run(frmChat.java:1377)
+	at java.lang.Thread.run(Thread.java:748)
+63906 [Thread-1] ERROR br.com.log.LogDinnamus  - Registro de Exceção detectada : Fri Dec 28 23:32:40 GMT-03:00 2018
+java.lang.NullPointerException
+	at smack.config.frmChat.conectarServidor(frmChat.java:1266)
+	at smack.config.frmChat.btConectarActionPerformed(frmChat.java:491)
+	at smack.config.frmChat.iniciarUI(frmChat.java:1404)
+	at smack.config.frmChat.<init>(frmChat.java:102)
+	at smack.config.frmChat$18.run(frmChat.java:1377)
+	at java.lang.Thread.run(Thread.java:748)
+0 [Thread-1] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Fri Dec 28 23:32:53 GMT-03:00 2018
+37727 [Thread-1] ERROR br.com.log.LogDinnamus  - Registro de Exceção detectada : Fri Dec 28 23:33:31 GMT-03:00 2018
+org.jivesoftware.smack.SmackException$NoResponseException: No response received within reply timeout. Timeout was 30000ms (~30s). Used filter: IQReplyFilter: iqAndIdFilter (AndFilter: (OrFilter: (IQTypeFilter: type=error, IQTypeFilter: type=result), StanzaIdFilter: id=Q7Meg-20)), : fromFilter (OrFilter: (FromMatchesFilter (full): null, FromMatchesFilter (bare): fernando@ip193.ip-142-44-146.net, FromMatchesFilter (full): ip193.ip-142-44-146.net)).
+	at org.jivesoftware.smack.SmackException$NoResponseException.newWith(SmackException.java:106)
+	at org.jivesoftware.smack.SmackException$NoResponseException.newWith(SmackException.java:90)
+	at org.jivesoftware.smack.PacketCollector.nextResultOrThrow(PacketCollector.java:229)
+	at org.jivesoftware.smack.PacketCollector.nextResultOrThrow(PacketCollector.java:213)
+	at org.jivesoftware.smackx.vcardtemp.VCardManager.loadVCard(VCardManager.java:125)
+	at org.jivesoftware.smackx.vcardtemp.VCardManager.loadVCard(VCardManager.java:112)
+	at smack.config.SmackMensageria.getVCard(SmackMensageria.java:227)
+	at smack.config.SmackMensageria.getVCard(SmackMensageria.java:217)
+	at smack.config.frmChat.conectarServidor(frmChat.java:1265)
+	at smack.config.frmChat.btConectarActionPerformed(frmChat.java:491)
+	at smack.config.frmChat.iniciarUI(frmChat.java:1404)
+	at smack.config.frmChat.<init>(frmChat.java:102)
+	at smack.config.frmChat$18.run(frmChat.java:1377)
+	at java.lang.Thread.run(Thread.java:748)
+58202 [Thread-1] ERROR br.com.log.LogDinnamus  - Registro de Exceção detectada : Fri Dec 28 23:33:51 GMT-03:00 2018
+java.lang.NullPointerException
+	at smack.config.frmChat.conectarServidor(frmChat.java:1266)
+	at smack.config.frmChat.btConectarActionPerformed(frmChat.java:491)
+	at smack.config.frmChat.iniciarUI(frmChat.java:1404)
+	at smack.config.frmChat.<init>(frmChat.java:102)
+	at smack.config.frmChat$18.run(frmChat.java:1377)
+	at java.lang.Thread.run(Thread.java:748)
+0 [Thread-1] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Fri Dec 28 23:34:14 GMT-03:00 2018
+45168 [Thread-1] ERROR br.com.log.LogDinnamus  - Registro de Exceção detectada : Fri Dec 28 23:35:00 GMT-03:00 2018
+org.jivesoftware.smack.SmackException$NoResponseException: No response received within reply timeout. Timeout was 30000ms (~30s). Used filter: IQReplyFilter: iqAndIdFilter (AndFilter: (OrFilter: (IQTypeFilter: type=error, IQTypeFilter: type=result), StanzaIdFilter: id=20czW-20)), : fromFilter (OrFilter: (FromMatchesFilter (full): null, FromMatchesFilter (bare): fernando@ip193.ip-142-44-146.net, FromMatchesFilter (full): ip193.ip-142-44-146.net)).
+	at org.jivesoftware.smack.SmackException$NoResponseException.newWith(SmackException.java:106)
+	at org.jivesoftware.smack.SmackException$NoResponseException.newWith(SmackException.java:90)
+	at org.jivesoftware.smack.PacketCollector.nextResultOrThrow(PacketCollector.java:229)
+	at org.jivesoftware.smack.PacketCollector.nextResultOrThrow(PacketCollector.java:213)
+	at org.jivesoftware.smackx.vcardtemp.VCardManager.loadVCard(VCardManager.java:125)
+	at org.jivesoftware.smackx.vcardtemp.VCardManager.loadVCard(VCardManager.java:112)
+	at smack.config.SmackMensageria.getVCard(SmackMensageria.java:227)
+	at smack.config.SmackMensageria.getVCard(SmackMensageria.java:217)
+	at smack.config.frmChat.conectarServidor(frmChat.java:1265)
+	at smack.config.frmChat.btConectarActionPerformed(frmChat.java:491)
+	at smack.config.frmChat.iniciarUI(frmChat.java:1404)
+	at smack.config.frmChat.<init>(frmChat.java:102)
+	at smack.config.frmChat$18.run(frmChat.java:1377)
+	at java.lang.Thread.run(Thread.java:748)
+51422 [Thread-1] ERROR br.com.log.LogDinnamus  - Registro de Exceção detectada : Fri Dec 28 23:35:06 GMT-03:00 2018
+java.lang.NullPointerException
+	at smack.config.frmChat.conectarServidor(frmChat.java:1266)
+	at smack.config.frmChat.btConectarActionPerformed(frmChat.java:491)
+	at smack.config.frmChat.iniciarUI(frmChat.java:1404)
+	at smack.config.frmChat.<init>(frmChat.java:102)
+	at smack.config.frmChat$18.run(frmChat.java:1377)
+	at java.lang.Thread.run(Thread.java:748)
+0 [Thread-1] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Fri Dec 28 23:36:12 GMT-03:00 2018
+0 [Thread-1] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Fri Dec 28 23:40:34 GMT-03:00 2018
+0 [Thread-1] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Fri Dec 28 23:47:28 GMT-03:00 2018

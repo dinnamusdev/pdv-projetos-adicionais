@@ -1,0 +1,58 @@
+0 [main] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Wed Oct 23 14:22:43 BRST 2013
+0 [main] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Wed Oct 23 14:24:18 BRST 2013
+0 [main] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Wed Oct 23 14:27:00 BRST 2013
+0 [main] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Wed Oct 23 16:38:03 BRST 2013
+0 [main] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Wed Oct 23 16:43:00 BRST 2013
+0 [main] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Wed Oct 23 17:03:08 BRST 2013
+39846 [main] ERROR br.com.log.LogDinnamus  - Registro de Exceção detectada : Wed Oct 23 17:03:48 BRST 2013
+java.lang.NullPointerException
+	at br.tef.Padrao.TefPadrao.IniciarVendaTEF(TefPadrao.java:95)
+	at br.tef.Padrao.TefPadrao.main(TefPadrao.java:338)
+0 [main] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Wed Oct 23 17:04:19 BRST 2013
+21471 [main] ERROR br.com.log.LogDinnamus  - Registro de Exceção detectada : Wed Oct 23 17:04:40 BRST 2013
+java.lang.NullPointerException
+	at br.tef.Padrao.TefPadrao.IniciarVendaTEF(TefPadrao.java:95)
+	at br.tef.Padrao.TefPadrao.main(TefPadrao.java:338)
+0 [main] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Wed Oct 23 17:07:46 BRST 2013
+0 [main] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Wed Oct 23 17:08:46 BRST 2013
+0 [main] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Wed Oct 23 17:12:55 BRST 2013
+0 [main] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Wed Oct 23 17:17:35 BRST 2013
+0 [main] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Wed Oct 23 17:36:03 BRST 2013
+18471 [main] ERROR br.com.log.LogDinnamus  - Registro de Exceção detectada : Wed Oct 23 17:36:21 BRST 2013
+java.lang.ArrayIndexOutOfBoundsException: 0
+	at br.tef.Padrao.TefPadrao.main(TefPadrao.java:351)
+0 [main] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Wed Oct 23 17:36:33 BRST 2013
+1 [main] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Wed Oct 23 17:37:19 BRST 2013
+1 [main] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Wed Oct 23 17:52:39 BRST 2013
+126231 [main] ERROR br.com.log.LogDinnamus  - Registro de Exceção detectada : Wed Oct 23 17:54:45 BRST 2013
+java.lang.ClassCastException: java.lang.Float cannot be cast to java.lang.String
+	at br.tef.Padrao.TefPadrao.main(TefPadrao.java:393)
+0 [main] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Wed Oct 23 17:57:11 BRST 2013
+0 [main] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Wed Oct 23 18:02:19 BRST 2013
+0 [main] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Wed Oct 23 18:03:02 BRST 2013
+112498 [main] ERROR br.com.log.LogDinnamus  - Registro de Exceção detectada : Wed Oct 23 18:04:54 BRST 2013
+java.lang.ClassCastException: java.lang.Float cannot be cast to java.lang.String
+	at br.tef.Padrao.TefPadrao.main(TefPadrao.java:417)
+0 [main] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Wed Oct 23 18:13:19 BRST 2013
+0 [main] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Wed Oct 23 18:14:01 BRST 2013
+1 [main] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Wed Oct 23 18:16:40 BRST 2013
+0 [main] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Wed Oct 23 18:22:35 BRST 2013
+0 [main] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Wed Oct 23 18:23:03 BRST 2013
+0 [main] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Wed Oct 23 18:36:39 BRST 2013
+0 [main] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Wed Oct 23 18:36:51 BRST 2013
+0 [main] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Wed Oct 23 19:01:56 BRST 2013
+0 [main] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Wed Oct 23 19:03:51 BRST 2013
+0 [main] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Wed Oct 23 19:04:43 BRST 2013
+0 [main] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Wed Oct 23 19:05:13 BRST 2013
+0 [main] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Wed Oct 23 19:06:10 BRST 2013
+0 [main] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Wed Oct 23 19:06:18 BRST 2013
+0 [main] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Wed Oct 23 19:06:45 BRST 2013
+0 [main] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Wed Oct 23 19:07:37 BRST 2013
+0 [main] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Wed Oct 23 19:18:34 BRST 2013
+0 [main] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Wed Oct 23 19:20:37 BRST 2013
+0 [main] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Wed Oct 23 19:22:23 BRST 2013
+0 [main] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Wed Oct 23 19:25:53 BRST 2013
+0 [main] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Wed Oct 23 19:37:28 BRST 2013
+0 [main] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Wed Oct 23 19:38:57 BRST 2013
+0 [main] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Wed Oct 23 19:39:09 BRST 2013
+1 [main] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Wed Oct 23 19:40:51 BRST 2013

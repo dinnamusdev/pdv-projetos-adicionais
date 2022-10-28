@@ -1,0 +1,19 @@
+0 [main] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Mon Jul 27 10:28:49 BRT 2015
+2978 [main] INFO br.com.log.LogDinnamus  - Carregando Dll ECF [ BemaFi32] - Mon Jul 27 10:28:52 BRT 2015
+0 [main] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Mon Jul 27 10:30:19 BRT 2015
+4709 [main] INFO br.com.log.LogDinnamus  - Carregando Dll ECF [ BemaFi32] - Mon Jul 27 10:30:23 BRT 2015
+18632 [main] INFO br.com.log.LogDinnamus  - Dll ECF[ BemaFi32 ] carregada com sucesso - Mon Jul 27 10:30:37 BRT 2015
+1 [main] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Mon Jul 27 10:31:29 BRT 2015
+2700 [main] INFO br.com.log.LogDinnamus  - Carregando Dll ECF [ BemaFi32] - Mon Jul 27 10:31:32 BRT 2015
+91854 [main] INFO br.com.log.LogDinnamus  - Dll ECF[ BemaFi32 ] carregada com sucesso - Mon Jul 27 10:33:01 BRT 2015
+0 [main] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Mon Jul 27 10:34:59 BRT 2015
+4853 [main] INFO br.com.log.LogDinnamus  - Carregando Dll ECF [ BemaFi32] - Mon Jul 27 10:35:04 BRT 2015
+0 [main] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Mon Jul 27 10:39:46 BRT 2015
+4381 [main] INFO br.com.log.LogDinnamus  - Carregando Dll ECF [ c:\windows\syswow64\BemaFi32] - Mon Jul 27 10:39:50 BRT 2015
+124701 [main] INFO br.com.log.LogDinnamus  - Dll ECF[ c:\windows\syswow64\BemaFi32 ] carregada com sucesso - Mon Jul 27 10:41:50 BRT 2015
+0 [main] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Mon Jul 27 10:43:23 BRT 2015
+52 [main] INFO br.com.log.LogDinnamus  - Carregando Dll ECF [ CONVECF] - Mon Jul 27 10:43:23 BRT 2015
+0 [main] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Mon Jul 27 10:46:54 BRT 2015
+38 [main] INFO br.com.log.LogDinnamus  - Carregando Dll ECF [ BemaFi32] - Mon Jul 27 10:46:54 BRT 2015
+209149 [main] INFO br.com.log.LogDinnamus  - Dll ECF[ BemaFi32 ] carregada com sucesso - Mon Jul 27 10:50:23 BRT 2015
+0 [main] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Mon Jul 27 10:54:56 BRT 2015

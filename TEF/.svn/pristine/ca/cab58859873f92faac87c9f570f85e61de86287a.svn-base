@@ -1,0 +1,63 @@
+0 [main] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Wed Nov 13 10:21:47 BRST 2013
+0 [main] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Wed Nov 13 10:30:30 BRST 2013
+0 [main] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Wed Nov 13 10:31:29 BRST 2013
+0 [main] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Wed Nov 13 10:32:28 BRST 2013
+0 [main] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Wed Nov 13 10:35:47 BRST 2013
+0 [main] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Wed Nov 13 10:36:13 BRST 2013
+0 [main] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Wed Nov 13 10:36:36 BRST 2013
+0 [main] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Wed Nov 13 10:47:40 BRST 2013
+0 [main] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Wed Nov 13 10:48:58 BRST 2013
+0 [main] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Wed Nov 13 10:54:08 BRST 2013
+0 [main] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Wed Nov 13 10:57:29 BRST 2013
+0 [main] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Wed Nov 13 11:01:22 BRST 2013
+16392 [main] ERROR br.com.log.LogDinnamus  - Registro de Exceção detectada : Wed Nov 13 11:01:39 BRST 2013
+java.lang.IllegalArgumentException: Unsupported argument type br.com.ecf.bematech.BemaInteger at parameter 0 of function Bematech_FI_FlagsFiscais
+	at com.sun.jna.Function.convertArgument(Function.java:552)
+	at com.sun.jna.Function.invoke(Function.java:258)
+	at com.sun.jna.Library$Handler.invoke(Library.java:216)
+	at $Proxy0.Bematech_FI_FlagsFiscais(Unknown Source)
+	at br.com.ecf.bematech.BematechMetodosECFComplementares.StatusECF(BematechMetodosECFComplementares.java:111)
+	at br.com.ecf.bematech.BematechMetodosECFComplementares.CupomFiscalAberto(BematechMetodosECFComplementares.java:42)
+	at br.com.ecf.ECF.VerificarStatusCupomAberto(ECF.java:630)
+	at br.tef.Padrao.TefPadrao.main(TefPadrao.java:315)
+0 [main] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Wed Nov 13 11:12:22 BRST 2013
+0 [main] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Wed Nov 13 11:12:34 BRST 2013
+0 [main] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Wed Nov 13 11:13:35 BRST 2013
+0 [main] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Wed Nov 13 11:18:25 BRST 2013
+0 [main] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Wed Nov 13 11:25:06 BRST 2013
+50010 [main] ERROR br.com.log.LogDinnamus  - Registro de Exceção detectada : Wed Nov 13 11:25:56 BRST 2013
+java.lang.IllegalArgumentException: Unsupported argument type br.com.ecf.bematech.BemaString at parameter 0 of function Bematech_FI_NumeroCupom
+	at com.sun.jna.Function.convertArgument(Function.java:552)
+	at com.sun.jna.Function.invoke(Function.java:258)
+	at com.sun.jna.Library$Handler.invoke(Library.java:216)
+	at $Proxy0.Bematech_FI_NumeroCupom(Unknown Source)
+	at br.com.ecf.ECF.UltimoCupom(ECF.java:248)
+	at br.tef.Padrao.TefPadrao.main(TefPadrao.java:332)
+0 [main] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Wed Nov 13 11:28:13 BRST 2013
+0 [main] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Wed Nov 13 11:29:47 BRST 2013
+0 [main] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Wed Nov 13 11:30:51 BRST 2013
+0 [main] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Wed Nov 13 12:04:23 BRST 2013
+0 [main] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Wed Nov 13 12:06:29 BRST 2013
+0 [main] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Wed Nov 13 12:27:51 BRST 2013
+0 [main] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Wed Nov 13 12:28:28 BRST 2013
+0 [main] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Wed Nov 13 12:29:47 BRST 2013
+0 [main] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Wed Nov 13 12:30:32 BRST 2013
+0 [main] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Wed Nov 13 12:31:57 BRST 2013
+0 [main] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Wed Nov 13 12:34:01 BRST 2013
+0 [main] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Wed Nov 13 12:34:58 BRST 2013
+0 [main] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Wed Nov 13 12:35:20 BRST 2013
+0 [main] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Wed Nov 13 12:35:47 BRST 2013
+0 [main] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Wed Nov 13 12:36:04 BRST 2013
+0 [main] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Wed Nov 13 12:41:48 BRST 2013
+0 [main] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Wed Nov 13 12:42:25 BRST 2013
+0 [main] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Wed Nov 13 12:47:28 BRST 2013
+0 [main] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Wed Nov 13 12:48:20 BRST 2013
+0 [main] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Wed Nov 13 12:50:05 BRST 2013
+10 [main] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Wed Nov 13 12:50:34 BRST 2013
+0 [main] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Wed Nov 13 12:52:13 BRST 2013
+0 [main] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Wed Nov 13 12:54:12 BRST 2013
+0 [main] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Wed Nov 13 12:56:37 BRST 2013
+0 [main] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Wed Nov 13 12:58:31 BRST 2013
+0 [main] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Wed Nov 13 13:00:04 BRST 2013
+0 [main] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Wed Nov 13 13:00:22 BRST 2013
+0 [main] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Wed Nov 13 13:05:33 BRST 2013

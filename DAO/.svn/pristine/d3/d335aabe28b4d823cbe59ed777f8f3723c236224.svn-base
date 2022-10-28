@@ -1,0 +1,94 @@
+/*
+ * To change this template, choose Tools | Templates
+ * and open the template in the editor.
+ */
+
+package br.com.util;
+
+import br.com.log.LogDinnamus;
+import br.com.repositorio.DAO_RepositorioLocal;
+import br.com.servidor.Dao_Jdbc;
+import java.util.GregorianCalendar;
+
+
+/**
+ *
+ * @author dti
+ */
+public class ExecutarComTransacao {
+/*
+    public static boolean AbrirTransacaoMultiBanco(boolean isOnline){
+
+        return AbrirTransacaoMultiBanco(false,isOnline);
+    }*/
+    private static boolean SQLSvrOnline;
+    public static boolean isSQLSvrOnline(){
+        return SQLSvrOnline;
+    }
+    public static boolean AbrirTransacaoMultiBanco(boolean  bForcaModoOff, boolean isOnline)
+    {
+          boolean bRet=false;
+           try {
+                
+                SQLSvrOnline=true;
+                String cNomePontoSalvamento=String.valueOf( GregorianCalendar.getInstance().getTime().getTime());
+                if(!bForcaModoOff){
+                   if(isOnline)
+                    {
+                        //setTransactionIsolation
+                        try {
+                            Dao_Jdbc.getConexao().getCNX().setAutoCommit(false);
+                            Dao_Jdbc.getConexao().setPontoDeSalvamento(cNomePontoSalvamento);
+                        } catch (Exception e) {
+                            SQLSvrOnline=false;
+                        }
+                        
+                    }
+                }
+                DAO_RepositorioLocal.setPontoDeSalvamento(cNomePontoSalvamento);
+                
+                bRet=true;
+            } catch (Exception e) {
+                LogDinnamus.Log(e);
+            }
+            return bRet;
+    }
+    public static boolean FecharTransacaoMultiBanco(boolean bRetFuncao, boolean isOnline){
+        return FecharTransacaoMultiBanco(bRetFuncao,false,isOnline);
+    }
+    public static boolean FecharTransacaoMultiBanco(boolean bRetFuncao, boolean  bForcaModoOff, boolean isOnline)
+    {
+          boolean bRet=false;
+           try {
+
+                if(bRetFuncao)
+                {
+                    if(!bForcaModoOff){
+                       if(isOnline)
+                        {
+                            Dao_Jdbc.getConexao().Commitar_Statment();
+                            Dao_Jdbc.getConexao().getCNX().commit();
+                            
+                       }
+                    }
+                   DAO_RepositorioLocal.Commitar_Statment();
+                }
+                else
+                {
+                    if(!bForcaModoOff){
+                       // if(Sistema.isOnline())
+                        //{
+                            Dao_Jdbc.getConexao().RollBack_Statment();
+                        //}
+                    }
+                    DAO_RepositorioLocal.RollBack_Statment();
+                }
+                bRet=true;
+
+            } catch (Exception e) {
+                LogDinnamus.Log(e);
+            }
+            return bRet;
+    }
+
+}

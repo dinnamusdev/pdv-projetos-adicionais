@@ -1,0 +1,348 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="LISTAGEM DE LIBERACOES" language="groovy" pageWidth="595" pageHeight="842" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="926d3e13-f140-4b03-8f86-3ad739119642">
+	<property name="ireport.zoom" value="1.5"/>
+	<property name="ireport.x" value="5"/>
+	<property name="ireport.y" value="0"/>
+	<parameter name="DATAINICIAL" class="java.util.Date">
+		<defaultValueExpression><![CDATA[new java.util.Date(2001,01,01)]]></defaultValueExpression>
+	</parameter>
+	<parameter name="DATAFINAL" class="java.util.Date">
+		<defaultValueExpression><![CDATA[new java.util.Date(2013,12,31)]]></defaultValueExpression>
+	</parameter>
+	<parameter name="IDREPRESENTANTE" class="java.lang.Integer"/>
+	<queryString>
+		<![CDATA[SELECT DISTINCT
+     LICENCA_LIBERACAO."IDLIBERACAO" AS LICENCA_LIBERACAO_IDLIBERACAO,
+     LICENCA_LIBERACAO."IDCONTRATO" AS LICENCA_LIBERACAO_IDCONTRATO,
+     LICENCA_LIBERACAO."DATA_EXPIRAR" AS LICENCA_LIBERACAO_DATA_EXPIRAR,
+     LICENCA_LIBERACAO."LIBERACAO" AS LICENCA_LIBERACAO_LIBERACAO,
+     LICENCA_LIBERACAO."ENVIADO" AS LICENCA_LIBERACAO_ENVIADO,
+     LICENCA_LIBERACAO."ATIVADO" AS LICENCA_LIBERACAO_ATIVADO,
+     LICENCA_DADOS_CONTRATANTE."IDCONTRATANTE" AS LICENCA_DADOS_CONTRATANTE_IDCONTRATANTE,
+     LICENCA_DADOS_CONTRATANTE."CNPJ" AS LICENCA_DADOS_CONTRATANTE_CNPJ,
+     LICENCA_DADOS_CONTRATANTE."RAZAO" AS LICENCA_DADOS_CONTRATANTE_RAZAO,
+     LICENCA_DADOS_CONTRATANTE."ENDERECO" AS LICENCA_DADOS_CONTRATANTE_ENDERECO,
+     LICENCA_DADOS_CONTRATANTE."NUMERO" AS LICENCA_DADOS_CONTRATANTE_NUMERO,
+     LICENCA_DADOS_CONTRATANTE."BAIRRO" AS LICENCA_DADOS_CONTRATANTE_BAIRRO,
+     LICENCA_DADOS_CONTRATANTE."MUNICIPIO" AS LICENCA_DADOS_CONTRATANTE_MUNICIPIO,
+     LICENCA_DADOS_CONTRATANTE."CODMUNICIPIO" AS LICENCA_DADOS_CONTRATANTE_CODMUNICIPIO,
+     LICENCA_DADOS_CONTRATANTE."CEP" AS LICENCA_DADOS_CONTRATANTE_CEP,
+     LICENCA_DADOS_CONTRATANTE."DATA" AS LICENCA_DADOS_CONTRATANTE_DATA,
+     LICENCA_DADOS_CONTRATANTE."STATUS" AS LICENCA_DADOS_CONTRATANTE_STATUS,
+     LICENCA_DADOS_CONTRATANTE."UF" AS LICENCA_DADOS_CONTRATANTE_UF,
+     LICENCA_DADOS_CONTRATANTE."NOMEFANTASIA" AS LICENCA_DADOS_CONTRATANTE_NOMEFANTASIA,
+     LICENCA_REPRESENTANTE."IDREPRESENTANTE" AS LICENCA_REPRESENTANTE_IDREPRESENTANTE,
+     LICENCA_REPRESENTANTE."CNPJ" AS LICENCA_REPRESENTANTE_CNPJ,
+     LICENCA_REPRESENTANTE."RG" AS LICENCA_REPRESENTANTE_RG,
+     LICENCA_REPRESENTANTE."RAZAO" AS LICENCA_REPRESENTANTE_RAZAO,
+     LICENCA_REPRESENTANTE."ENDERECO" AS LICENCA_REPRESENTANTE_ENDERECO,
+     LICENCA_REPRESENTANTE."NUMERO" AS LICENCA_REPRESENTANTE_NUMERO,
+     LICENCA_REPRESENTANTE."BAIRRO" AS LICENCA_REPRESENTANTE_BAIRRO,
+     LICENCA_REPRESENTANTE."MUNICIPIO" AS LICENCA_REPRESENTANTE_MUNICIPIO,
+     LICENCA_REPRESENTANTE."CODMUNICIPIO" AS LICENCA_REPRESENTANTE_CODMUNICIPIO,
+     LICENCA_REPRESENTANTE."CEP" AS LICENCA_REPRESENTANTE_CEP,
+     LICENCA_REPRESENTANTE."UF" AS LICENCA_REPRESENTANTE_UF,
+     LICENCA_REPRESENTANTE."COMISSAO" AS LICENCA_REPRESENTANTE_COMISSAO,
+     LICENCA_REPRESENTANTE."OBS" AS LICENCA_REPRESENTANTE_OBS,
+     LICENCA_REPRESENTANTE."EMAIL" AS LICENCA_REPRESENTANTE_EMAIL,
+     LICENCA_REPRESENTANTE."DTCADASTRO" AS LICENCA_REPRESENTANTE_DTCADASTRO,
+     LICENCA_REPRESENTANTE."STATUS" AS LICENCA_REPRESENTANTE_STATUS,
+     LICENCA_DADOS_CONTRATO."IDCONTRATO" AS LICENCA_DADOS_CONTRATO_IDCONTRATO,
+     LICENCA_DADOS_CONTRATO."IDCONTRATANTE" AS LICENCA_DADOS_CONTRATO_IDCONTRATANTE,
+     LICENCA_DADOS_CONTRATO."LICRET" AS LICENCA_DADOS_CONTRATO_LICRET,
+     LICENCA_DADOS_CONTRATO."LICPDV" AS LICENCA_DADOS_CONTRATO_LICPDV,
+     LICENCA_DADOS_CONTRATO."LICPRE" AS LICENCA_DADOS_CONTRATO_LICPRE,
+     LICENCA_DADOS_CONTRATO."INICIOCONTRATO" AS LICENCA_DADOS_CONTRATO_INICIOCONTRATO,
+     LICENCA_DADOS_CONTRATO."TERMIMNOCONTRATO" AS LICENCA_DADOS_CONTRATO_TERMIMNOCONTRATO,
+     LICENCA_DADOS_CONTRATO."PERIODICIDADELIB" AS LICENCA_DADOS_CONTRATO_PERIODICIDADELIB,
+     LICENCA_DADOS_CONTRATO."PRAZOEXPIRARLIC" AS LICENCA_DADOS_CONTRATO_PRAZOEXPIRARLIC,
+     LICENCA_DADOS_CONTRATO."DATAEMISSAO" AS LICENCA_DADOS_CONTRATO_DATAEMISSAO,
+     LICENCA_DADOS_CONTRATO."IDREPRESENTANTE" AS LICENCA_DADOS_CONTRATO_IDREPRESENTANTE,
+     LICENCA_DADOS_CONTRATO."VALORCONTRATO" AS LICENCA_DADOS_CONTRATO_VALORCONTRATO,
+     LICENCA_DADOS_CONTRATO."STATUS" AS LICENCA_DADOS_CONTRATO_STATUS,
+     LICENCA_DADOS_CONTRATO."VENCIMENTO" AS LICENCA_DADOS_CONTRATO_VENCIMENTO,
+     LICENCA_DADOS_CONTRATO."PRIMEIROVENCIMENTO" AS LICENCA_DADOS_CONTRATO_PRIMEIROVENCIMENTO,
+     LICENCA_DADOS_CONTRATO."NUMEROPARCELAS" AS LICENCA_DADOS_CONTRATO_NUMEROPARCELAS,
+( 
+	SELECT COUNT(*)
+		FROM "dbo"."LICENCA_DADOS_CONTRATO_FINANCEIRO" LICENCA_DADOS_CONTRATO_FINANCEIRO
+	WHERE  LICENCA_DADOS_CONTRATO."IDCONTRATO" = LICENCA_DADOS_CONTRATO_FINANCEIRO."IDCONTRATO"
+		AND DATEADD(MONTH,1, LICENCA_DADOS_CONTRATO_FINANCEIRO.VENCIMENTO) < LICENCA_LIBERACAO."DATA_EXPIRAR" 
+		AND LICENCA_DADOS_CONTRATO_FINANCEIRO.STATUS='ATIVO'	
+		AND ISNULL( LICENCA_DADOS_CONTRATO_FINANCEIRO.VALORPAGO,0)=0
+	) AS EM_ABERTO	
+
+FROM
+     "dbo"."LICENCA_DADOS_CONTRATO" LICENCA_DADOS_CONTRATO INNER JOIN "dbo"."LICENCA_LIBERACAO" LICENCA_LIBERACAO ON LICENCA_DADOS_CONTRATO."IDCONTRATO" = LICENCA_LIBERACAO."IDCONTRATO"
+     INNER JOIN "dbo"."LICENCA_DADOS_CONTRATANTE" LICENCA_DADOS_CONTRATANTE ON LICENCA_DADOS_CONTRATO."IDCONTRATANTE" = LICENCA_DADOS_CONTRATANTE."IDCONTRATANTE"
+     INNER JOIN "dbo"."LICENCA_REPRESENTANTE" LICENCA_REPRESENTANTE ON LICENCA_DADOS_CONTRATO."IDREPRESENTANTE" = LICENCA_REPRESENTANTE."IDREPRESENTANTE"
+where     LICENCA_LIBERACAO."DATA_EXPIRAR"  >=$P{DATAINICIAL}  and
+LICENCA_LIBERACAO."DATA_EXPIRAR"  <=$P{DATAFINAL} 
+	and LICENCA_DADOS_CONTRATO."IDREPRESENTANTE" =  CASE WHEN $P{IDREPRESENTANTE} =0 THEN LICENCA_DADOS_CONTRATO."IDREPRESENTANTE" ELSE $P{IDREPRESENTANTE} END and
+		 
+   LICENCA_DADOS_CONTRATO."STATUS"='ATIVO']]>
+	</queryString>
+	<field name="LICENCA_LIBERACAO_IDLIBERACAO" class="java.lang.Integer"/>
+	<field name="LICENCA_LIBERACAO_IDCONTRATO" class="java.lang.Integer"/>
+	<field name="LICENCA_LIBERACAO_DATA_EXPIRAR" class="java.sql.Timestamp"/>
+	<field name="LICENCA_LIBERACAO_LIBERACAO" class="java.lang.String"/>
+	<field name="LICENCA_LIBERACAO_ENVIADO" class="java.lang.Boolean"/>
+	<field name="LICENCA_LIBERACAO_ATIVADO" class="java.lang.Boolean"/>
+	<field name="LICENCA_DADOS_CONTRATANTE_IDCONTRATANTE" class="java.lang.Integer"/>
+	<field name="LICENCA_DADOS_CONTRATANTE_CNPJ" class="java.lang.String"/>
+	<field name="LICENCA_DADOS_CONTRATANTE_RAZAO" class="java.lang.String"/>
+	<field name="LICENCA_DADOS_CONTRATANTE_ENDERECO" class="java.lang.String"/>
+	<field name="LICENCA_DADOS_CONTRATANTE_NUMERO" class="java.lang.String"/>
+	<field name="LICENCA_DADOS_CONTRATANTE_BAIRRO" class="java.lang.String"/>
+	<field name="LICENCA_DADOS_CONTRATANTE_MUNICIPIO" class="java.lang.String"/>
+	<field name="LICENCA_DADOS_CONTRATANTE_CODMUNICIPIO" class="java.lang.String"/>
+	<field name="LICENCA_DADOS_CONTRATANTE_CEP" class="java.lang.String"/>
+	<field name="LICENCA_DADOS_CONTRATANTE_DATA" class="java.sql.Timestamp"/>
+	<field name="LICENCA_DADOS_CONTRATANTE_STATUS" class="java.lang.String"/>
+	<field name="LICENCA_DADOS_CONTRATANTE_UF" class="java.lang.String"/>
+	<field name="LICENCA_DADOS_CONTRATANTE_NOMEFANTASIA" class="java.lang.String"/>
+	<field name="LICENCA_REPRESENTANTE_IDREPRESENTANTE" class="java.lang.Integer"/>
+	<field name="LICENCA_REPRESENTANTE_CNPJ" class="java.lang.String"/>
+	<field name="LICENCA_REPRESENTANTE_RG" class="java.lang.String"/>
+	<field name="LICENCA_REPRESENTANTE_RAZAO" class="java.lang.String"/>
+	<field name="LICENCA_REPRESENTANTE_ENDERECO" class="java.lang.String"/>
+	<field name="LICENCA_REPRESENTANTE_NUMERO" class="java.lang.String"/>
+	<field name="LICENCA_REPRESENTANTE_BAIRRO" class="java.lang.String"/>
+	<field name="LICENCA_REPRESENTANTE_MUNICIPIO" class="java.lang.String"/>
+	<field name="LICENCA_REPRESENTANTE_CODMUNICIPIO" class="java.lang.String"/>
+	<field name="LICENCA_REPRESENTANTE_CEP" class="java.lang.String"/>
+	<field name="LICENCA_REPRESENTANTE_UF" class="java.lang.String"/>
+	<field name="LICENCA_REPRESENTANTE_COMISSAO" class="java.math.BigDecimal"/>
+	<field name="LICENCA_REPRESENTANTE_OBS" class="java.lang.String"/>
+	<field name="LICENCA_REPRESENTANTE_EMAIL" class="java.lang.String"/>
+	<field name="LICENCA_REPRESENTANTE_DTCADASTRO" class="java.sql.Timestamp"/>
+	<field name="LICENCA_REPRESENTANTE_STATUS" class="java.lang.String"/>
+	<field name="LICENCA_DADOS_CONTRATO_IDCONTRATO" class="java.lang.Integer"/>
+	<field name="LICENCA_DADOS_CONTRATO_IDCONTRATANTE" class="java.lang.Integer"/>
+	<field name="LICENCA_DADOS_CONTRATO_LICRET" class="java.lang.Integer"/>
+	<field name="LICENCA_DADOS_CONTRATO_LICPDV" class="java.lang.Integer"/>
+	<field name="LICENCA_DADOS_CONTRATO_LICPRE" class="java.lang.Integer"/>
+	<field name="LICENCA_DADOS_CONTRATO_INICIOCONTRATO" class="java.sql.Timestamp"/>
+	<field name="LICENCA_DADOS_CONTRATO_TERMIMNOCONTRATO" class="java.sql.Timestamp"/>
+	<field name="LICENCA_DADOS_CONTRATO_PERIODICIDADELIB" class="java.lang.Integer"/>
+	<field name="LICENCA_DADOS_CONTRATO_PRAZOEXPIRARLIC" class="java.lang.Integer"/>
+	<field name="LICENCA_DADOS_CONTRATO_DATAEMISSAO" class="java.sql.Timestamp"/>
+	<field name="LICENCA_DADOS_CONTRATO_IDREPRESENTANTE" class="java.lang.Integer"/>
+	<field name="LICENCA_DADOS_CONTRATO_VALORCONTRATO" class="java.math.BigDecimal"/>
+	<field name="LICENCA_DADOS_CONTRATO_STATUS" class="java.lang.String"/>
+	<field name="LICENCA_DADOS_CONTRATO_VENCIMENTO" class="java.lang.Integer"/>
+	<field name="LICENCA_DADOS_CONTRATO_PRIMEIROVENCIMENTO" class="java.sql.Timestamp"/>
+	<field name="LICENCA_DADOS_CONTRATO_NUMEROPARCELAS" class="java.lang.Integer"/>
+	<field name="EM_ABERTO" class="java.lang.Integer"/>
+	<variable name="LIBERACAO" class="java.lang.String"/>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<title>
+		<band splitType="Stretch"/>
+	</title>
+	<pageHeader>
+		<band height="65" splitType="Stretch">
+			<staticText>
+				<reportElement uuid="9377a67d-27e5-4141-b424-b1870b06ee30" x="0" y="25" width="196" height="20"/>
+				<textElement>
+					<font size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[RELAÇÃO DE LIBERAÇÕES ]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="9377a67d-27e5-4141-b424-b1870b06ee30" x="0" y="5" width="205" height="20"/>
+				<textElement>
+					<font size="14" isBold="true"/>
+				</textElement>
+				<text><![CDATA[DINNAMUS TECNOLOGIA]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="d7df1196-0820-4001-81d7-996364e4ffdd" x="205" y="25" width="78" height="20"/>
+				<textElement/>
+				<text><![CDATA[PERÍODO DE:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="d7df1196-0820-4001-81d7-996364e4ffdd" x="376" y="25" width="44" height="20"/>
+				<textElement textAlignment="Center"/>
+				<text><![CDATA[ATÉ]]></text>
+			</staticText>
+			<textField pattern="dd/MM/yyyy">
+				<reportElement uuid="b20bfcbd-a84d-4393-91c6-8e7b556beb94" x="294" y="25" width="72" height="20"/>
+				<textElement/>
+				<textFieldExpression><![CDATA[$P{DATAINICIAL}]]></textFieldExpression>
+			</textField>
+			<textField pattern="dd/MM/yyyy">
+				<reportElement uuid="b20bfcbd-a84d-4393-91c6-8e7b556beb94" x="430" y="25" width="100" height="20"/>
+				<textElement/>
+				<textFieldExpression><![CDATA[$P{DATAFINAL}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement uuid="7eac9614-eb14-42aa-afbd-d6bbe3bbbe32" x="0" y="45" width="283" height="20"/>
+				<textElement/>
+				<textFieldExpression><![CDATA[$F{LICENCA_REPRESENTANTE_RAZAO}]]></textFieldExpression>
+			</textField>
+		</band>
+	</pageHeader>
+	<columnHeader>
+		<band height="30" splitType="Stretch">
+			<staticText>
+				<reportElement uuid="6b5ac060-5ba1-4a52-87ba-e4ee13f50fbd" x="0" y="5" width="29" height="15"/>
+				<textElement>
+					<font size="8"/>
+				</textElement>
+				<text><![CDATA[COD]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="6b5ac060-5ba1-4a52-87ba-e4ee13f50fbd" x="29" y="5" width="142" height="15"/>
+				<textElement>
+					<font size="8"/>
+				</textElement>
+				<text><![CDATA[RAZÃO SOCIAL]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="6b5ac060-5ba1-4a52-87ba-e4ee13f50fbd" x="405" y="5" width="34" height="15"/>
+				<textElement>
+					<font size="8"/>
+				</textElement>
+				<text><![CDATA[LIBER.]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="6b5ac060-5ba1-4a52-87ba-e4ee13f50fbd" x="439" y="5" width="46" height="15"/>
+				<textElement>
+					<font size="8"/>
+				</textElement>
+				<text><![CDATA[EXPIRAR]]></text>
+			</staticText>
+			<line>
+				<reportElement uuid="69418e78-e4bf-4bbb-bdca-a04e27aff320" x="0" y="0" width="555" height="5"/>
+			</line>
+			<line>
+				<reportElement uuid="69418e78-e4bf-4bbb-bdca-a04e27aff320" x="0" y="25" width="555" height="5"/>
+			</line>
+			<staticText>
+				<reportElement uuid="6b5ac060-5ba1-4a52-87ba-e4ee13f50fbd" x="490" y="5" width="62" height="15"/>
+				<textElement>
+					<font size="8"/>
+				</textElement>
+				<text><![CDATA[FIM CONTRATO]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="6b5ac060-5ba1-4a52-87ba-e4ee13f50fbd" x="322" y="5" width="83" height="15"/>
+				<textElement>
+					<font size="8"/>
+				</textElement>
+				<text><![CDATA[CNPJ]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="6b5ac060-5ba1-4a52-87ba-e4ee13f50fbd" x="182" y="5" width="112" height="15"/>
+				<textElement>
+					<font size="8"/>
+				</textElement>
+				<text><![CDATA[FANTASIA]]></text>
+			</staticText>
+		</band>
+	</columnHeader>
+	<detail>
+		<band height="16" splitType="Stretch">
+			<textField>
+				<reportElement uuid="8172c282-3c6e-44a4-9a9d-69b0b1112798" x="0" y="0" width="29" height="11"/>
+				<textElement>
+					<font size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{LICENCA_DADOS_CONTRATO_IDCONTRATO}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement uuid="e4b1496f-937e-4002-85c6-7c67d6047f9c" x="29" y="0" width="142" height="11"/>
+				<textElement>
+					<font size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{LICENCA_DADOS_CONTRATANTE_RAZAO}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement uuid="22ce757a-49f8-4937-a7f2-7644ebc38bdc" x="322" y="0" width="83" height="11"/>
+				<textElement>
+					<font size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{LICENCA_DADOS_CONTRATANTE_CNPJ}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement uuid="306d79a5-88e2-4ce2-9d82-9f75bd146fc7" x="405" y="0" width="34" height="11"/>
+				<textElement>
+					<font size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{LICENCA_LIBERACAO_LIBERACAO}.substring( 0, 3 )
++
+$F{LICENCA_LIBERACAO_LIBERACAO}.substring($F{LICENCA_LIBERACAO_LIBERACAO}.length()-3, $F{LICENCA_LIBERACAO_LIBERACAO}.length() )]]></textFieldExpression>
+			</textField>
+			<textField pattern="dd/MM/yyyy">
+				<reportElement uuid="78731296-4e5f-4f2a-9013-91917820a9cb" x="439" y="0" width="46" height="11"/>
+				<textElement>
+					<font size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{LICENCA_LIBERACAO_DATA_EXPIRAR}]]></textFieldExpression>
+			</textField>
+			<textField pattern="dd/MM/yyyy">
+				<reportElement uuid="2ac11ba7-ab90-4621-a4a5-e0955de644a6" x="490" y="0" width="62" height="11"/>
+				<textElement>
+					<font size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{LICENCA_DADOS_CONTRATO_TERMIMNOCONTRATO}]]></textFieldExpression>
+			</textField>
+			<textField isBlankWhenNull="true">
+				<reportElement uuid="3bd64b35-6d98-4387-b3ef-fa7c5f6e9709" x="182" y="0" width="140" height="11"/>
+				<textElement>
+					<font size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{LICENCA_DADOS_CONTRATANTE_NOMEFANTASIA}]]></textFieldExpression>
+			</textField>
+		</band>
+	</detail>
+	<columnFooter>
+		<band splitType="Stretch"/>
+	</columnFooter>
+	<pageFooter>
+		<band height="32" splitType="Stretch">
+			<line>
+				<reportElement uuid="69418e78-e4bf-4bbb-bdca-a04e27aff320" x="0" y="2" width="555" height="5"/>
+			</line>
+			<textField>
+				<reportElement uuid="f07cca15-1aed-4731-9d4b-8e9487a83cea" x="430" y="7" width="80" height="20"/>
+				<textElement textAlignment="Right"/>
+				<textFieldExpression><![CDATA["Page "+$V{PAGE_NUMBER}+" of"]]></textFieldExpression>
+			</textField>
+			<textField evaluationTime="Report">
+				<reportElement uuid="8d159ec9-27c3-4d2a-8750-5cd6f8d9f6d5" x="512" y="7" width="40" height="20"/>
+				<textElement/>
+				<textFieldExpression><![CDATA[" " + $V{PAGE_NUMBER}]]></textFieldExpression>
+			</textField>
+			<textField pattern="dd/MM/yyyy hh:mm:ss">
+				<reportElement uuid="d31d65f0-dd0c-45fc-b032-91ddec85a4d6" x="88" y="2" width="147" height="20"/>
+				<textElement/>
+				<textFieldExpression><![CDATA[new java.util.Date()]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement uuid="6b5ac060-5ba1-4a52-87ba-e4ee13f50fbd" x="0" y="2" width="88" height="15"/>
+				<textElement/>
+				<text><![CDATA[IMPRESSO EM:]]></text>
+			</staticText>
+		</band>
+	</pageFooter>
+	<summary>
+		<band height="31" splitType="Stretch">
+			<staticText>
+				<reportElement uuid="6b5ac060-5ba1-4a52-87ba-e4ee13f50fbd" x="0" y="5" width="125" height="15"/>
+				<textElement/>
+				<text><![CDATA[TOTAL DE REGISTROS]]></text>
+			</staticText>
+			<line>
+				<reportElement uuid="69418e78-e4bf-4bbb-bdca-a04e27aff320" x="0" y="0" width="555" height="5"/>
+			</line>
+			<textField>
+				<reportElement uuid="12b48c4f-0e80-4581-a45c-db9ad0130021" x="125" y="5" width="57" height="20"/>
+				<textElement/>
+				<textFieldExpression><![CDATA[$V{REPORT_COUNT}]]></textFieldExpression>
+			</textField>
+		</band>
+	</summary>
+</jasperReport>

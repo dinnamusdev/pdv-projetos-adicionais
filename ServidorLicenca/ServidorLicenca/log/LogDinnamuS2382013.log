@@ -1,0 +1,3 @@
+0 [main] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Mon Sep 23 14:02:02 BRT 2013
+522 [main] INFO br.com.log.LogDinnamus  - Abrindo conexao com o servidor
+1036 [main] INFO br.com.log.LogDinnamus  - Abrindo conexao com o servidor

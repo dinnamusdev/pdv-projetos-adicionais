@@ -1,0 +1,18 @@
+0 [main] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Tue Oct 22 11:41:20 BRST 2013
+5943 [main] ERROR br.com.log.LogDinnamus  - Registro de Exceção detectada : Tue Oct 22 11:41:26 BRST 2013
+java.lang.IllegalArgumentException: Malformed pattern "#.###0,0"
+	at java.text.DecimalFormat.applyPattern(DecimalFormat.java:2610)
+	at java.text.DecimalFormat.<init>(DecimalFormat.java:435)
+	at br.valor.formatar.FormatarNumero.FormatarNumero(FormatarNumero.java:90)
+	at br.tef.Padrao.TefPadrao.IniciarVendaTEF_MultiplosCartoes(TefPadrao.java:43)
+	at br.tef.Padrao.TefPadrao.main(TefPadrao.java:267)
+0 [main] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Tue Oct 22 11:43:29 BRST 2013
+0 [main] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Tue Oct 22 11:46:15 BRST 2013
+0 [main] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Tue Oct 22 11:47:07 BRST 2013
+1 [main] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Tue Oct 22 11:48:48 BRST 2013
+1 [main] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Tue Oct 22 12:09:22 BRST 2013
+0 [main] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Tue Oct 22 12:10:00 BRST 2013
+0 [main] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Tue Oct 22 12:49:13 BRST 2013
+0 [main] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Tue Oct 22 12:50:19 BRST 2013
+1 [main] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Tue Oct 22 12:52:01 BRST 2013
+0 [main] INFO br.com.log.LogDinnamus  - Iniciando o sistema de LogDinnamus - Tue Oct 22 12:53:12 BRST 2013

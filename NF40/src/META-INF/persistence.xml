@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.1" xmlns="http://xmlns.jcp.org/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd">
+  <persistence-unit name="NF40PU" transaction-type="RESOURCE_LOCAL">
+    <provider>org.eclipse.persistence.jpa.PersistenceProvider</provider>
+    <class>main.java.com.fincatto.documentofiscal.OffNfcePdvNotas</class>
+    <class>main.java.com.fincatto.documentofiscal.OffNfeCartacorrecao</class>
+    <class>main.java.com.fincatto.documentofiscal.OffNfeIdeTotais</class>
+    <class>main.java.com.fincatto.documentofiscal.OffNfeProd</class>
+    <class>main.java.com.fincatto.documentofiscal.OffNfeVol</class>
+    <class>main.java.com.fincatto.documentofiscal.OffNfeEmit</class>
+    <class>main.java.com.fincatto.documentofiscal.OffNfcePdv</class>
+    <class>main.java.com.fincatto.documentofiscal.OffNfceConfig</class>
+    <class>main.java.com.fincatto.documentofiscal.OffNfeCancelamento</class>
+    <class>main.java.com.fincatto.documentofiscal.OffNfeTransp</class>
+    <class>main.java.com.fincatto.documentofiscal.OffNfeDocFiscalRef</class>
+    <class>main.java.com.fincatto.documentofiscal.OffNfeDest</class>
+    <properties>
+      <property name="javax.persistence.jdbc.url" value="jdbc:derby:C:\DTI\DinnamuS_2\app\DinnamuS\dinnamus"/>
+      <property name="javax.persistence.jdbc.user" value=""/>
+      <property name="javax.persistence.jdbc.driver" value="org.apache.derby.jdbc.EmbeddedDriver"/>
+      <property name="javax.persistence.jdbc.password" value=""/>
+    </properties>
+  </persistence-unit>
+</persistence>
